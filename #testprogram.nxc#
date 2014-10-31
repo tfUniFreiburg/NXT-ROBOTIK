@@ -1,0 +1,15 @@
+task main()
+{
+	SetSensorLight(IN_1);
+	ClearScreen();
+	NumOut(60, LCD_LINE1, Sensor(IN_1));
+}
+
+
+task main()
+{
+	SetSensorTouch(IN_2);
+	(60, LCD_LINE1, Sensor(IN_1));
+}
+
+
