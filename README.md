@@ -6,7 +6,7 @@ http://en.wikipedia.org/wiki/Lego_Mindstorms_NXT
 Software für das Roboter challenge 
 
 
-Dieser Readme ist dafuer da um leute zu informieren worum es geht und was sie mit diese Projekt anfangen koennen!
+Dieses Readme ist dafür da um Leute zu informieren um was es geht und was sie mit diesem Projekt anfangen können.
 
 A useful parameter for commiting, (instead of commit -a)
 git commit -m "This is the first commit"
@@ -39,4 +39,3 @@ http://stackoverflow.com/questions/13399916/how-to-cross-compile-gcc-with-armv7-
 
 http://stackoverflow.com/questions/13399916/how-to-cross-compile-gcc-with-armv7-target
 
-(Test)
