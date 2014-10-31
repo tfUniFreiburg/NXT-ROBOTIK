@@ -1,5 +1,7 @@
-NXT-ROBOTIK   http://en.wikipedia.org/wiki/Lego_Mindstorms_NXT
+NXT-ROBOTIK 
 ===========
+http://en.wikipedia.org/wiki/Lego_Mindstorms_NXT
+
 
 Software für das Roboter challenge
 
