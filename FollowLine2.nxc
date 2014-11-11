@@ -1,0 +1,93 @@
+#define SpeedSlow 50
+#define SpeedFast 100
+
+int SV;
+int LoopCount;
+
+#define GetRawValue(port, v) \
+  asm { \
+  getin v, port, RawValue \
+  }
+
+#define SetMotorSpeed(port, cc, thresh, fast, slow) \
+  asm { \
+  set theSpeed, fast \
+  brcmp cc, EndIfOut__I__, SV, thresh \
+  set theSpeed, slow \
+EndIfOut__I__: \
+  OnFwd(port, theSpeed) \
+  __IncI__ \
+  }
+  
+#define DisplayNum(v) \
+  asm { \
+  dseg segment \
+    dtArgs__I__ TDrawText \
+  dseg ends \
+  numtostr dtArgs__I__.Text, v \
+  syscall DrawText, dtArgs__I__ \
+  __IncI__ \
+  }
+
+#define Inc(v) \
+  asm { \
+    add v, v, 1 \
+  }
+
+sub FollowLine(int loopTime)
+{
+  int Threshold1=600;
+  int Threshold2=630;
+  int theSpeed;
+  long t;
+
+  // set sensor type and mode
+  SetSensorType(IN_3, IN_TYPE_LIGHT_ACTIVE);
+  SetSensorMode(IN_3, IN_MODE_RAW);
+
+  // start looping
+  t = CurrentTick() + loopTime;
+  while (t > CurrentTick())
+  {
+    // read the light sensor value
+    GetRawValue(IN_3, SV);
+
+    // set speed for motor 1
+    SetMotorSpeed(OUT_A, LT, Threshold2, SpeedFast, SpeedSlow);
+
+    // set speed for motor 2
+    SetMotorSpeed(OUT_B, GT, Threshold1, SpeedFast, SpeedSlow);
+
+    // display sensor value
+    DisplayNum(SV);
+
+    // increment loop count
+    Inc(LoopCount);
+  }
+
+  // 10 second loop is done
+  return
+}
+
+task main()
+{
+  string lcStr;
+  string svStr;
+  string msg;
+  
+  // call subroutine
+  FollowLine(10000);
+  
+  // output results
+  lcStr = NumToStr(LoopCount);
+  svStr = NumToStr(SV);
+  msg = svStr + " - " + lcStr;
+  TextOut(0, LCD_LINE1, msg);
+  
+  // stop both motors
+  Off(OUT_AB);
+  
+  // let user see the last message
+  Wait(10000);
+}
+

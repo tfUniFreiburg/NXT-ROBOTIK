@@ -1,0 +1,107 @@
+/*
+So, I made a simple line following program in NXT-G. It ran through
+the loop a little over 400 times in 10 seconds. It followed the the
+line just fine.
+
+Then, I made a "line following" block for NXT-G using the toolkit
+and ran it in a loop. It looped a bit over 1000 times in 10 seconds.
+(about 2.5 times as fast; not bad)
+
+Tonight, I wrote a program in Lua using the same logic. Turns out,
+in 10,000 ms (10 seconds) the program looped over 23,000 times. That's
+about 57 times faster than a program in the standard firmware.
+
+I'm sure this program can be improved. [...] By taking out the
+display in the loop, the loop count goes up to 51000.
+*/
+dseg segment
+  // global variables shared by FollowLine and main
+  LoopCount dword 0
+  SV word
+  dtArgs TDrawText
+  BothMotors byte[] OUT_A, OUT_B
+dseg ends
+
+#define SpeedSlow 50
+#define SpeedFast 100
+
+subroutine FollowLine
+  dseg segment
+    Threshold1 word 600
+    Threshold2 word 630
+    TheSpeed word
+    then dword
+    now dword
+    bCmp byte
+  dseg ends
+  
+  // set sensor type and mode
+  set InputIOType(IN_3), IN_TYPE_LIGHT_ACTIVE
+  set InputIOInputMode(IN_3), IN_MODE_RAW
+
+  // set the motor mode
+  setout BothMotors, OutputMode, OUT_MODE_MOTORON+OUT_MODE_BRAKE, UpdateFlags, UF_UPDATE_MODE
+
+  // start looping
+  gettick now
+  add then, now, 10000
+WhileLoop:
+  // read the light sensor value
+  getin SV, IN_3, RawValue
+  
+  // set speed for motor 1
+  set TheSpeed, SpeedFast
+  brcmp LT, EndIfOutA, SV, Threshold2
+  set TheSpeed, SpeedSlow
+EndIfOutA:
+  setout OUT_A, Power, TheSpeed, RunState, OUT_RUNSTATE_RUNNING, UpdateFlags, UF_UPDATE_SPEED
+
+  // set speed for motor 2
+  set TheSpeed, SpeedFast
+  brcmp GT, EndIfOutB, SV, Threshold1
+  set TheSpeed, SpeedSlow
+EndIfOutB:
+  setout OUT_B, Power, TheSpeed, RunState, OUT_RUNSTATE_RUNNING, UpdateFlags, UF_UPDATE_SPEED
+
+  // display sensor value
+  numtostr dtArgs.Text, SV
+  syscall DrawText, dtArgs
+  
+  // increment loop count
+  add LoopCount, LoopCount, 1
+  
+  // check whether to terminate the loop
+  gettick now
+  brcmp LT, WhileLoop, now, then
+  // 10 second loop is done
+  return
+ends
+
+thread main
+  dseg segment
+    svStr byte[]
+    lcStr byte[]
+  dseg ends
+
+  // configuring drawing parameters
+  set dtArgs.Location.X, 0
+  set dtArgs.Location.Y, LCD_LINE1
+  set dtArgs.Options, FALSE
+  
+  // call the subroutine
+  call FollowLine
+
+  // output results
+  numtostr lcStr, LoopCount
+  numtostr svStr, SV
+  strcat dtArgs.Text, svStr, ' - ', lcStr
+  syscall DrawText, dtArgs
+
+  // stop both motors
+  setout BothMotors, Power, 0, OutputMode, OUT_MODE_MOTORON+OUT_MODE_BRAKE, RunState, OUT_RUNSTATE_RUNNING, UpdateFlags, UF_UPDATE_SPEED+UF_UPDATE_MODE
+
+  // let user see the last message
+  wait 10000
+  exit
+endt
+
