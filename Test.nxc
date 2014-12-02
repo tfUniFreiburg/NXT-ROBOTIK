@@ -1,0 +1,93 @@
+task main ()
+{
+ SetSensorLight(IN_1);
+ SetSensorLight(IN_4);
+ SetSensorLight(IN_2);
+ SetSensorTouch(IN_3);
+
+ //OnFwd(OUT_AC, 100);
+ //until (Sensor(IN_3) == 1 );
+ //Off(OUT_A);
+
+
+ //OnFwd(OUT_AC, 100);
+
+bool state=false;
+int BFR, WFR, BFL, WFL, BB, WB;
+int FRC=0, FLC=0, MC=0;
+BFR=WFR=BFL=WFL=BB=WB=NULL;
+
+ while(TRUE)
+ {
+    while(state==false){
+    if(BFR&&WFR&&BFL&&WFL&&BB&&WB!=NULL){
+    state=true;
+    }
+    TextOut(10,LCD_LINE1, "SVR:");
+    TextOut(10,LCD_LINE2, "WVR:");
+    TextOut(10,LCD_LINE4, "SVL:");
+    TextOut(10,LCD_LINE5, "WVL:");
+    TextOut(10,LCD_LINE7, "SM:");
+    TextOut(10,LCD_LINE8, "WM:");
+    NumOut(60,LCD_LINE1, Sensor(IN_1));
+    NumOut(60,LCD_LINE2, Sensor(IN_1));
+    NumOut(60,LCD_LINE4, Sensor(IN_4));
+    NumOut(60,LCD_LINE5, Sensor(IN_4));
+    NumOut(60,LCD_LINE7, Sensor(IN_2));
+    NumOut(60,LCD_LINE8, Sensor(IN_2));
+
+    if(ButtonState(BTNLEFT)){
+        if(FRC==0){
+            BFR=Sensor(IN_1);
+            FRC++;
+            PlaySound("Attention");
+
+
+        }else if(FRC==1){
+            WFR=Sensor(IN_1);
+            FRC++;
+            PlaySound("Attention");
+            PlaySound("Attention");
+        }
+        }
+
+    if(ButtonState(BTNRIGHT)){
+        if(FLC==0){
+            BFL=Sensor(IN_4);
+            FLC++;
+            PlaySound("Attention");
+
+        }else if(FLC==1){
+            WFL=Sensor(IN_4);
+            FLC++;
+            PlaySound("Attention");
+            PlaySound("Attention");
+    }
+    }
+
+    if(ButtonState(BTNCENTER)){
+        if(MC==0){
+            BB=Sensor(IN_2);
+            MC++;
+            PlaySound("Attention");
+
+    }   else if(MC==1){
+            WB=Sensor(IN_2);
+            MC++;
+            PlaySound("Attention");
+PlaySound("Attention");
+    }
+    }
+    }
+    while(TRUE){
+    NumOut(60,LCD_LINE1, BFR);
+    NumOut(60,LCD_LINE2, WFR);
+    NumOut(60,LCD_LINE4, BFL);
+    NumOut(60,LCD_LINE5, WFL);
+    NumOut(60,LCD_LINE7, BB);
+    NumOut(60,LCD_LINE8, WB);
+    }
+
+ }
+ }
+
