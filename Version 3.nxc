@@ -1,0 +1,243 @@
+//# define task drive(int BFR, int WFR, int BFL, int WFL, int BB, int WB);
+
+
+task main ()
+{
+
+    SetSensorLight(IN_1);
+    SetSensorLight(IN_4);
+    SetSensorLight(IN_2);
+    SetSensorTouch(IN_3);
+
+
+    //OnFwd(OUT_AC, 100);
+    //until (Sensor(IN_3) == 1 );
+    //Off(OUT_A);
+
+
+    //OnFwd(OUT_AC, 100);
+
+    bool state=false;
+    int BFR, WFR, FR, BFL, WFL, FL, BB, WB, B;
+    int FRC=0, FLC=0, i=1000, MC=0, countR=0, countL=0, l=1, w=1;
+    float vc=50, va=vc;
+    int BCR=0, BCL=0;
+    BFR=WFR=BFL=WFL=BB=WB=NULL;
+
+    while(TRUE)
+    {
+        while(state==false){
+            if(BFR&&WFR&&BFL&&WFL&&BB&&WB!=NULL){
+            state=true;
+            }
+        TextOut(10,LCD_LINE1, "SVR:");
+        TextOut(10,LCD_LINE2, "WVR:");
+        TextOut(10,LCD_LINE4, "SVL:");
+        TextOut(10,LCD_LINE5, "WVL:");
+        TextOut(10,LCD_LINE7, "SM:");
+        TextOut(10,LCD_LINE8, "WM:");
+        NumOut(60,LCD_LINE1, Sensor(IN_1));
+        NumOut(60,LCD_LINE2, Sensor(IN_1));
+        NumOut(60,LCD_LINE4, Sensor(IN_4));
+        NumOut(60,LCD_LINE5, Sensor(IN_4));
+        NumOut(60,LCD_LINE7, Sensor(IN_2));
+        NumOut(60,LCD_LINE8, Sensor(IN_2));
+
+        if(ButtonState(BTNLEFT)){
+            if(FRC==0){
+                BFR=Sensor(IN_1);
+                FRC++;
+                //Wait(1000);
+                PlaySound("Startup.");
+
+
+            }else if(FRC==1){
+                WFR=Sensor(IN_1);
+                FRC++;
+                //Wait(1000);
+                PlaySound("Startup");
+                PlaySound("Startup");
+            }
+        }
+
+        if(ButtonState(BTNRIGHT)){
+            if(FLC==0){
+                BFL=Sensor(IN_4);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+
+            }else if(FLC==1){
+                WFL=Sensor(IN_4);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+                PlaySound("Click");
+            }
+        }
+
+        if(ButtonState(BTNCENTER)){
+            if(MC==0){
+                BB=Sensor(IN_2);
+                MC++;
+                //Wait(1000);
+                PlaySound("Attention");
+
+            }else if(MC==1){
+                WB=Sensor(IN_2);
+                MC++;
+                //Wait(1000);
+                PlaySound("Attention");
+                PlaySound("Attention");
+            }
+        }
+
+        }
+        if(ButtonState(BTNCENTER)){
+        PlaySound("Click");
+        while(TRUE){
+
+
+
+
+
+//         drive(BFR, WFR, BFL, WFL, BB, WB);
+
+           FR=((BFR+WFR)/2);
+           FL=((BFL+WFL)/2);
+           B=((BB+WB)/2);
+
+        NumOut(60,LCD_LINE1, Sensor(IN_1));
+        NumOut(60,LCD_LINE2, Sensor(IN_1));
+        NumOut(60,LCD_LINE4, Sensor(IN_4));
+        NumOut(60,LCD_LINE5, Sensor(IN_4));
+        NumOut(60,LCD_LINE7, Sensor(IN_2));
+        NumOut(60,LCD_LINE8, Sensor(IN_2));
+            
+            NumOut(20,LCD_LINE3, FL);
+            NumOut(50,LCD_LINE3, FR);
+            NumOut(80,LCD_LINE3, B);
+
+
+
+
+
+           //if(Sensor(IN_1)>FR) PlaySound("Woops");
+           //if(Sensor(IN_4)>FL) PlaySound("Woops");
+           //if(Sensor(IN_2)<B) PlaySound("Woops");
+
+          while(Sensor(IN_1)>FR && Sensor(IN_4)>FL && Sensor(IN_2)<B){
+          OnRev(OUT_A, va);
+          Wait(w);
+          OnRev(OUT_C, va);
+          Wait(w);
+          }
+          
+          while(Sensor(IN_1)>FR && Sensor(IN_4)<FL && Sensor(IN_2)<B){
+          if(Sensor(IN_1)>FR) countR=0;
+          if(Sensor(IN_4)>FL) countL=0;
+          if(Sensor(IN_1)<FR) countR += (va * (l/10000));
+          if(Sensor(IN_4)<FL) countL += (va * (l/10000));
+          if(countR>va) countR=va;
+          if(countL>va) countL=va;
+
+          BCL++;
+          BCR=0;
+
+          OnRev(OUT_A, va);
+          Wait(w);
+          OnRev(OUT_C, countL-va);
+          //Off(OUT_C);
+          Wait(w);
+          }
+          
+          while(Sensor(IN_1)<FR && Sensor(IN_4)>FL && Sensor(IN_2)<B){
+          if(Sensor(IN_1)>FR) countR=0;
+          if(Sensor(IN_4)>FL) countL=0;
+          if(Sensor(IN_1)<FR) countR += (va * (l/10000));
+          if(Sensor(IN_4)<FL) countL += (va * (l/10000));
+          if(countR>va) countR=va;
+          if(countL>va) countL=va;
+
+          BCL=0;
+          BCR++;
+          
+          OnRev(OUT_A, countR-va);
+          //Off(OUT_A);
+          Wait(w);
+          OnRev(OUT_C, va);
+          Wait(w);
+          }
+
+          if(Sensor(IN_1)<FR && Sensor(IN_4)<FL){
+          if(BCR<BCL){
+          while(Sensor(IN_2)<B){
+          OnRev(OUT_AC, va);
+          Wait(w);
+          }
+          
+          while(Sensor(IN_1)>FR){
+          OnRev(OUT_A, va);
+          Wait(w);
+          Off(OUT_C);
+          }
+          OnFwd(OUT_A,100);
+          Wait(100);
+          Off(OUT_A);
+          OnRev(OUT_C, 100);
+          Wait(300);
+          Off(OUT_C);
+
+          
+          } else if(BCR>BCL){
+          while(Sensor(IN_2)<B){
+          OnRev(OUT_AC, va);
+          Wait(w);
+          }
+          
+          while(Sensor(IN_4)>FL){
+          OnRev(OUT_C, va);
+          Wait(w);
+          Off(OUT_A);
+          }
+
+          OnFwd(OUT_C, 100);
+          Wait(100);
+          Off(OUT_C);
+          OnRev(OUT_A, 100);
+          Wait(300);
+          Off(OUT_A);
+          }
+          }
+
+          while(Sensor(IN_2)>B && !((Sensor(IN_4)<FL)&&(Sensor(IN_1)<FR))){
+          if(Sensor(IN_4)<FL||Sensor(IN_1)<FR){
+
+          if(Sensor(IN_4)<FL){
+          OnFwd(OUT_C, va);
+          Wait(w);
+          }
+
+          if(Sensor(IN_1)<FR){
+          OnFwd(OUT_A, va);
+          Wait(w);
+          }
+
+          } else{
+          OnFwd(OUT_A, va);
+          Wait(w);
+          OnFwd(OUT_C, va/2);
+          Wait(w);
+          }
+          }
+
+
+            }
+            }
+        }
+        
+}
+
+
+
+

@@ -1,0 +1,89 @@
+ //# define task drive(int BFR, int WFR, int BFL, int WFL, int BB, int WB);
+
+
+task main ()
+{
+
+    //SetSensorLight(IN_1);
+    SetSensorLight(IN_4);
+    //SetSensorLight(IN_2);
+    SetSensorTouch(IN_3);
+
+
+    //OnFwd(OUT_AC, 100);
+    //until (Sensor(IN_3) == 1 );
+    //Off(OUT_A);
+
+
+    //OnFwd(OUT_AC, 100);
+
+    bool state=false;
+    int BFL, WFL, FL;
+    int FRC=0, FLC=0, i=1000, MC=0, countR=0, countL=0, l=1, w=1;
+    float vc=75, va=vc;
+    int BCR=0, BCL=0;
+    BFL=WFL=NULL;
+
+    while(TRUE)
+    {
+        while(state==false){
+            if(BFL&&WFL!=NULL){
+            state=true;
+            }
+
+        TextOut(10,LCD_LINE4, "SVL:");
+        TextOut(10,LCD_LINE5, "WVL:");
+        NumOut(60,LCD_LINE4, Sensor(IN_4));
+        NumOut(60,LCD_LINE5, Sensor(IN_4));
+
+
+        if(ButtonState(BTNRIGHT)){
+            if(FLC==0){
+                BFL=Sensor(IN_4);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+
+            }else if(FLC==1){
+                WFL=Sensor(IN_4);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+                PlaySound("Click");
+            }
+        }
+
+
+
+        }
+        if(ButtonState(BTNCENTER)){
+        PlaySound("Click");
+           FL=((BFL+WFL)/2);
+
+        while(TRUE){
+
+
+
+
+
+//         drive(BFR, WFR, BFL, WFL, BB, WB);
+
+
+
+
+        NumOut(60,LCD_LINE4, Sensor(IN_4));
+        NumOut(60,LCD_LINE5, Sensor(IN_4));
+
+            NumOut(20,LCD_LINE3, FL);
+
+            if(Sensor(IN_4)>FL){
+            OnRev(OUT_A, va);
+            Wait(w);
+            Off(OUT_A);
+            } else {
+            OnRev(OUT_C, va);
+            Wait(w);
+            Off(OUT_C);
+            }
+            
+}}}}

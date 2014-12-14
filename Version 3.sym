@@ -1,0 +1,2545 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__signed_stack_002main	6	1	0	4	64
+1	__signed_stack_001main	6	1	4	4	140
+2	__signed_stack_003main	6	1	8	4	2
+3	__float_stack_001main	10	1	12	4	8
+4	__unsigned_stack_001main	5	1	16	4	2
+5	__DU0SetSensorLight_inline_main	5	1	20	4	6
+6	__D0PlaySound	6	1	24	4	48
+7	__DF0main	10	1	28	4	28
+8	__D0main	6	1	32	4	235
+9	__D0SetSensorLight_inline_main	6	1	36	4	9
+10	__SPTArgsMutex	9	0	40	4	14
+11	__signed_stack_001PlaySound	6	1	44	4	38
+12	__signed_stack_003PlaySound	6	1	48	4	14
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	36
+14	__main_7qG2_va_7qG2_000	10	1	56	4	35
+15	__signed_stack_002PlaySound	6	1	60	4	14
+16	__main_7qG2_WFL_7qG2_000	4	1	64	2	4
+17	__constVal500	4	0	66	2	1
+18	__main_7qG2_BFR_7qG2_000	4	1	68	2	4
+19	__main_7qG2_WFR_7qG2_000	4	1	70	2	4
+20	__main_7qG2_FR_7qG2_000	4	1	72	2	14
+21	__PlaySound_7qG2_aCode_7qG2_000	4	1	74	2	16
+22	__main_7qG2_BFL_7qG2_000	4	1	76	2	4
+23	__PlaySound_7qG2_i_7qG2_001	4	1	78	2	15
+24	__constVal150	4	0	80	2	1
+25	__main_7qG2_l_7qG2_000	4	1	82	2	5
+26	__main_7qG2_w_7qG2_000	4	1	84	2	15
+27	__main_7qG2_countR_7qG2_000	4	1	86	2	12
+28	__main_7qG2_countL_7qG2_000	4	1	88	2	12
+29	__constVal10000	4	0	90	2	4
+30	__constVal523	4	0	92	2	3
+31	__main_7qG2_BCR_7qG2_000	4	1	94	2	6
+32	__main_7qG2_BCL_7qG2_000	4	1	96	2	6
+33	__main_7qG2_WB_7qG2_000	4	1	98	2	4
+34	__main_7qG2_B_7qG2_000	4	1	100	2	8
+35	__main_7qG2_BB_7qG2_000	4	1	102	2	4
+36	__main_7qG2_FL_7qG2_000	4	1	104	2	14
+37	__main_7qG2_MC_7qG2_000	4	1	106	2	7
+38	__main_7qG2_FLC_7qG2_000	4	1	108	2	7
+39	__constVal200	4	0	110	2	1
+40	__main_7qG2_FRC_7qG2_000	4	1	112	2	7
+41	__main_7qG2_state_7qG2_000	1	1	114	1	3
+42	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	115	1	6
+43	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	116	1	3
+44	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	117	1	4
+45	__constVal33	2	0	118	1	1
+46	__constVal34	2	0	119	1	1
+47	__constVal35	2	0	120	1	2
+48	__constVal63	2	0	121	1	24
+49	__constVal96	2	0	122	1	24
+50	____ResetSensorSubroutine_return	1	1	123	1	6
+51	__ResetSensorTmp	1	1	124	1	2
+52	__ResetSensorPort	1	1	125	1	6
+53	__constVal100	2	0	126	1	4
+54	__IOMRUnflattenErr	1	1	127	1	4
+55	__constVal2	2	0	128	1	15
+56	__constVal4	2	0	129	1	3
+57	__constVal1	2	0	130	1	28
+58	__constVal32	2	0	131	1	73
+59	__OnRev_Tmp	2	1	132	1	24
+60	__constVal3	2	0	133	1	42
+61	__constVal50	2	0	134	1	2
+62	__constVal0	2	1	135	1	114
+63	__PFTmp	1	1	136	1	1
+64	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	137	1	6
+65	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	6
+66	__zfSetSensorLight_inline_main	1	1	139	1	6
+67	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	140	1	6
+68	__PlaySound_return	1	1	141	1	12
+69	____initialize_global_data_return	1	1	142	1	3
+70	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	143	1	15
+71	__zfPlaySound	1	1	144	1	27
+72	__zfmain	1	1	145	1	182
+73	__tmpsbytemain	2	1	146	1	12
+74	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	147	1	6
+75	__SPTArgs	8	0	5	8	42
+76	__SPTArgs.Result	2	1	148	1	42
+77	__SPTArgs.Frequency	3	1	150	2	42
+78	__SPTArgs.Duration	3	1	152	2	42
+79	__SPTArgs.Loop	1	1	154	1	42
+80	__SPTArgs.Volume	1	1	155	1	42
+81	__TextOutArgs	8	0	4	16	107
+82	__TextOutArgs.Result	2	1	156	1	107
+83	__TextOutArgs.Location	8	0	2	4	107
+84	__TextOutArgs.Location.X	4	1	160	2	107
+85	__TextOutArgs.Location.Y	4	1	162	2	107
+86	__TextOutArgs.Text	7	0	164	4	107
+87	__TextOutArgs.Text.Text_type	1	0	0	1	0
+88	__TextOutArgs.Options	5	1	168	4	107
+89	__IOMRArgs	8	0	5	16	20
+90	__IOMRArgs.Result	2	1	172	1	20
+91	__IOMRArgs.ModuleName	7	0	174	4	20
+92	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
+93	__IOMRArgs.Offset	3	1	176	2	20
+94	__IOMRArgs.Count	3	1	178	2	20
+95	__IOMRArgs.Buffer	7	0	180	4	20
+96	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
+97	__constStr0017	7	0	182	4	2
+98	__constStr0017.__constStr0017_type	1	1	0	1	0
+99	__OUT_AC	7	0	184	4	2
+100	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+101	__constStr0019	7	0	186	4	3
+102	__constStr0019.__constStr0019_type	1	1	0	1	0
+103	__constStr0018	7	0	188	4	4
+104	__constStr0018.__constStr0018_type	1	1	0	1	0
+105	__constStr0010	7	0	190	4	1
+106	__constStr0010.__constStr0010_type	1	1	0	1	0
+107	__constStr0011	7	0	192	4	1
+108	__constStr0011.__constStr0011_type	1	1	0	1	0
+109	__constStr0009	7	0	194	4	1
+110	__constStr0009.__constStr0009_type	1	1	0	1	0
+111	__IOMRUnflattenBuf	7	0	196	4	8
+112	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+113	__strbufmain	7	0	198	4	22
+114	__strbufmain.__strbufmain_type	1	0	0	1	0
+115	__constStr0015	7	0	200	4	4
+116	__constStr0015.__constStr0015_type	1	1	0	1	0
+117	__constStr0016	7	0	202	4	1
+118	__constStr0016.__constStr0016_type	1	1	0	1	0
+119	__constStr0014	7	0	204	4	1
+120	__constStr0014.__constStr0014_type	1	1	0	1	0
+121	__constStr0012	7	0	206	4	1
+122	__constStr0012.__constStr0012_type	1	1	0	1	0
+123	__constStr0013	7	0	208	4	1
+124	__constStr0013.__constStr0013_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	6	0	#line 6 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	6	2	#line 6 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	6	2	#line 6 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	6	5	#line 6 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7	5	#line 7 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	8	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3732	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	42	#line 3731 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3697	46	#line 3697 "NXCDefs.h"
+0	3694	46	#line 3694 "NXCDefs.h"
+0	3732	46	#line 3732 "NXCDefs.h"
+0	7	46	#line 7 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7	46	#line 7 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	8	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 3
+0	7	49	#line 7 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	8	49	#line 8 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	9	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	51	#line 3729 "NXCDefs.h"
+0	3730	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3730	53		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	55	#line 3729 "NXCDefs.h"
+0	3730	55		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	58	#line 3729 "NXCDefs.h"
+0	3730	58		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	61	#line 3729 "NXCDefs.h"
+0	3730	61		set __D0SetSensorLight_inline_main, 5
+0	3729	64	#line 3729 "NXCDefs.h"
+0	3730	64		jmp __002__NXC_Label_5
+0	3729	66	#line 3729 "NXCDefs.h"
+0	3730	66		set __D0SetSensorLight_inline_main, 6
+0	3729	69	#line 3729 "NXCDefs.h"
+0	3730	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	71	#line 3663 "NXCDefs.h"
+0	3664	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	75	#line 3663 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3731	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3731	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	80	#line 3730 "NXCDefs.h"
+0	3676	80	#line 3676 "NXCDefs.h"
+0	3677	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	84	#line 3676 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3732	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	86	#line 3731 "NXCDefs.h"
+0	3694	86	#line 3694 "NXCDefs.h"
+0	3695	86	#pragma macro 4
+0	3695	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3764	90	#line 3764 "NXCDefs.h"
+0	3694	90	#line 3694 "NXCDefs.h"
+0	3732	90	#line 3732 "NXCDefs.h"
+0	8	90	#line 8 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	8	90	#line 8 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	9	90		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	8	93	#line 8 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	9	93	#line 9 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	10	93		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	95	#line 3729 "NXCDefs.h"
+0	3730	95		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	97	#line 3729 "NXCDefs.h"
+0	3729	97	#line 3729 "NXCDefs.h"
+0	3730	97		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	99	#line 3729 "NXCDefs.h"
+0	3730	99		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	102	#line 3729 "NXCDefs.h"
+0	3730	102		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	105	#line 3729 "NXCDefs.h"
+0	3730	105		set __D0SetSensorLight_inline_main, 5
+0	3729	108	#line 3729 "NXCDefs.h"
+0	3730	108		jmp __003__NXC_Label_5
+0	3729	110	#line 3729 "NXCDefs.h"
+0	3730	110		set __D0SetSensorLight_inline_main, 6
+0	3729	113	#line 3729 "NXCDefs.h"
+0	3730	113		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	115	#line 3663 "NXCDefs.h"
+0	3664	115		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	119	#line 3663 "NXCDefs.h"
+0	3730	119	#line 3730 "NXCDefs.h"
+0	3730	119	#line 3730 "NXCDefs.h"
+0	3731	119		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	121	#line 3730 "NXCDefs.h"
+0	3730	121	#line 3730 "NXCDefs.h"
+0	3731	121		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	124	#line 3730 "NXCDefs.h"
+0	3676	124	#line 3676 "NXCDefs.h"
+0	3677	124		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	128	#line 3676 "NXCDefs.h"
+0	3731	128	#line 3731 "NXCDefs.h"
+0	3731	128	#line 3731 "NXCDefs.h"
+0	3732	128		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	130	#line 3731 "NXCDefs.h"
+0	3694	130	#line 3694 "NXCDefs.h"
+0	3695	130	#pragma macro 4
+0	3695	130		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	132		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3831	134	#line 3831 "NXCDefs.h"
+0	3694	134	#line 3694 "NXCDefs.h"
+0	3732	134	#line 3732 "NXCDefs.h"
+0	9	134	#line 9 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	9	134	#line 9 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	10	134		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
+0	9	137	#line 9 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	3718	137	#line 3718 "NXCDefs.h"
+0	3719	137	#pragma macro 6
+0	3719	137		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	141		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	145		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	147		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	3846	149	#line 3846 "NXCDefs.h"
+0	3718	149	#line 3718 "NXCDefs.h"
+0	19	149	#line 19 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	20	149	#line 20 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	149		set __main_7qG2_state_7qG2_000, 0
+0	20	152	#line 20 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	152	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	152		set __main_7qG2_FRC_7qG2_000, 0
+0	21	155	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	155	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	155		set __main_7qG2_FLC_7qG2_000, 0
+0	21	158	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	158	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	158	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	158	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	158		set __main_7qG2_MC_7qG2_000, 0
+0	21	161	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	161	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	161		set __main_7qG2_countR_7qG2_000, 0
+0	21	164	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	164	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	164		set __main_7qG2_countL_7qG2_000, 0
+0	21	167	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	21	167	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	167		set __main_7qG2_l_7qG2_000, 1
+0	21	170	#line 21 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	170	#line 22 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	23	170		set __main_7qG2_w_7qG2_000, 1
+0	22	173	#line 22 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	173	#line 22 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	22	173	#line 22 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	23	173	#line 23 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	24	173		mov __main_7qG2_va_7qG2_000, __constVal50
+0	23	175	#line 23 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	23	175	#line 23 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	24	175		mov __main_7qG2_BCR_7qG2_000, __constVal0
+0	23	177	#line 23 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	24	177	#line 24 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	25	177		mov __main_7qG2_BCL_7qG2_000, __constVal0
+0	24	179	#line 24 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	179	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	179		set __main_7qG2_WB_7qG2_000, 0
+0	26	182	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	182	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	182		mov __main_7qG2_BB_7qG2_000, __constVal0
+0	26	184	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	184	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	184		mov __main_7qG2_WFL_7qG2_000, __constVal0
+0	26	186	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	186	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	186		mov __main_7qG2_BFL_7qG2_000, __constVal0
+0	26	188	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	188	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	188		mov __main_7qG2_WFR_7qG2_000, __constVal0
+0	26	190	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	190	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	190		mov __main_7qG2_BFR_7qG2_000, __constVal0
+0	26	192	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	26	192	#line 26 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	27	192	#line 27 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	28	192		set __D0main, 1
+0	28	195	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	195		tst 5, __zfmain, __D0main
+0	28	198	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	198		brtst 4, __NXC_Label_536, __zfmain
+0	28	201	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	201		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	28	203	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	28	203	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	203		set __D0main, 0
+0	28	206	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	206		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	28	210	#line 28 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	210		mov __D0main, __zfmain
+0	29	212	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	212		brtst 4, __NXC_Label_540, __zfmain
+0	29	215	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	215		mov __D0main, __main_7qG2_BFR_7qG2_000
+0	29	217	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	217		tst 5, __zfmain, __D0main
+0	29	220	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	220		mov __D0main, __zfmain
+0	29	222	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	222		brtst 4, __NXC_Label_544, __zfmain
+0	29	225	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	225		mov __signed_stack_001main, __D0main
+0	29	227	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	227		mov __D0main, __main_7qG2_WFR_7qG2_000
+0	29	229	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	229		tst 5, __zfmain, __D0main
+0	29	232	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	232	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	232		and __D0main, __signed_stack_001main, __zfmain
+0	29	236	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	236		tst 5, __zfmain, __D0main
+0	29	239	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	239		mov __D0main, __zfmain
+0	29	241	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	241		brtst 4, __NXC_Label_544, __zfmain
+0	29	244	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	244		mov __signed_stack_001main, __D0main
+0	29	246	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	246		mov __D0main, __main_7qG2_BFL_7qG2_000
+0	29	248	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	248		tst 5, __zfmain, __D0main
+0	29	251	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	251	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	251		and __D0main, __signed_stack_001main, __zfmain
+0	29	255	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	255		tst 5, __zfmain, __D0main
+0	29	258	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	258		mov __D0main, __zfmain
+0	29	260	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	260		brtst 4, __NXC_Label_544, __zfmain
+0	29	263	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	263		mov __signed_stack_001main, __D0main
+0	29	265	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	265		mov __D0main, __main_7qG2_WFL_7qG2_000
+0	29	267	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	267		tst 5, __zfmain, __D0main
+0	29	270	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	270	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	270		and __D0main, __signed_stack_001main, __zfmain
+0	29	274	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	274		tst 5, __zfmain, __D0main
+0	29	277	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	277		mov __D0main, __zfmain
+0	29	279	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	279		brtst 4, __NXC_Label_544, __zfmain
+0	29	282	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	282		mov __signed_stack_001main, __D0main
+0	29	284	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	284		mov __D0main, __main_7qG2_BB_7qG2_000
+0	29	286	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	286		tst 5, __zfmain, __D0main
+0	29	289	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	289	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	289		and __D0main, __signed_stack_001main, __zfmain
+0	29	293	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	293		tst 5, __zfmain, __D0main
+0	29	296	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	296		mov __D0main, __zfmain
+0	29	298	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	298		brtst 4, __NXC_Label_544, __zfmain
+0	29	301	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	301		mov __signed_stack_001main, __D0main
+0	29	303	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	303		mov __signed_stack_002main, __main_7qG2_WB_7qG2_000
+0	29	305	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	305	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	305		set __D0main, 0
+0	29	308	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	308		cmp 5, __zfmain, __signed_stack_002main, __D0main
+0	29	312	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	29	312	#line 29 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	30	312		and __D0main, __signed_stack_001main, __zfmain
+0	30	316	#line 30 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	31	316		tst 5, __zfmain, __D0main
+0	30	319	#line 30 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	31	319		brtst 4, __NXC_Label_545, __zfmain
+0	31	322	#line 31 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	32	322		set __main_7qG2_state_7qG2_000, 1
+0	31	325	#line 31 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	31	325	#line 31 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	32	325	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	32	325	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	325		set __signed_stack_001main, 10
+0	32	328	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	32	328	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	328		set __signed_stack_002main, 56
+0	32	331	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	32	331	#line 32 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	331		strcat __strbufmain, __constStr0009
+0	33	335	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	335	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	335		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	33	337	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	337		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	33	339	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	339		set __TextOutArgs.Options, 0
+0	33	342	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	342		mov __TextOutArgs.Text, __strbufmain
+0	33	344	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	344		syscall 13, __TextOutArgs
+0	33	347	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	347	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	347	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	347	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	347		set __signed_stack_001main, 10
+0	33	350	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	350	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	350		set __signed_stack_002main, 48
+0	33	353	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	33	353	#line 33 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	353		strcat __strbufmain, __constStr0010
+0	34	357	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	357	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	357		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	34	359	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	359		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	34	361	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	361		set __TextOutArgs.Options, 0
+0	34	364	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	364		mov __TextOutArgs.Text, __strbufmain
+0	34	366	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	366		syscall 13, __TextOutArgs
+0	34	369	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	369	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	369	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	369	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	369		set __signed_stack_001main, 10
+0	34	372	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	372	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	372		set __signed_stack_002main, 32
+0	34	375	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	34	375	#line 34 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	375		strcat __strbufmain, __constStr0011
+0	35	379	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	379	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	379		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	35	381	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	381		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	35	383	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	383		set __TextOutArgs.Options, 0
+0	35	386	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	386		mov __TextOutArgs.Text, __strbufmain
+0	35	388	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	388		syscall 13, __TextOutArgs
+0	35	391	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	391	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	391	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	391	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	391		set __signed_stack_001main, 10
+0	35	394	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	394	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	394		set __signed_stack_002main, 24
+0	35	397	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	35	397	#line 35 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	397		strcat __strbufmain, __constStr0012
+0	36	401	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	401	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	401		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	36	403	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	403		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	36	405	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	405		set __TextOutArgs.Options, 0
+0	36	408	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	408		mov __TextOutArgs.Text, __strbufmain
+0	36	410	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	410		syscall 13, __TextOutArgs
+0	36	413	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	413	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	413	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	413	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	413		set __signed_stack_001main, 10
+0	36	416	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	416	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	416		set __signed_stack_002main, 8
+0	36	419	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	36	419	#line 36 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	419		strcat __strbufmain, __constStr0013
+0	37	423	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	423	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	423		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	37	425	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	425		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	37	427	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	427		set __TextOutArgs.Options, 0
+0	37	430	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	430		mov __TextOutArgs.Text, __strbufmain
+0	37	432	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	432		syscall 13, __TextOutArgs
+0	37	435	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	435	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	435	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	435	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	435		set __signed_stack_001main, 10
+0	37	438	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	438	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	438		set __signed_stack_002main, 0
+0	37	441	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	37	441	#line 37 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	441		strcat __strbufmain, __constStr0014
+0	38	445	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	445	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	445		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	38	447	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	447		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	38	449	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	449		set __TextOutArgs.Options, 0
+0	38	452	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	452		mov __TextOutArgs.Text, __strbufmain
+0	38	454	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	454		syscall 13, __TextOutArgs
+0	38	457	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	457	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	457	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	457	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	457		set __signed_stack_001main, 60
+0	38	460	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	460	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	460		set __signed_stack_002main, 56
+0	38	463	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	38	463	#line 38 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	463		getin __D0main, __constVal0, 4
+0	39	467	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	467	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	467		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	39	469	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	469		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	39	471	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	471		set __TextOutArgs.Options, 0
+0	39	474	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	474		numtostr __TextOutArgs.Text, __D0main
+0	39	477	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	477		syscall 13, __TextOutArgs
+0	39	480	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	480	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	480	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	480	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	480	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	480		set __signed_stack_001main, 60
+0	39	483	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	483	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	483		set __signed_stack_002main, 48
+0	39	486	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	39	486	#line 39 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	486		getin __D0main, __constVal0, 4
+0	40	490	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	490	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	490		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	40	492	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	492		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	40	494	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	494		set __TextOutArgs.Options, 0
+0	40	497	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	497		numtostr __TextOutArgs.Text, __D0main
+0	40	500	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	500		syscall 13, __TextOutArgs
+0	40	503	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	503	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	503	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	503	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	503	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	503		set __signed_stack_001main, 60
+0	40	506	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	506	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	506		set __signed_stack_002main, 32
+0	40	509	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	40	509	#line 40 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	509		getin __D0main, __constVal3, 4
+0	41	513	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	513	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	513		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	41	515	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	515		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	41	517	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	517		set __TextOutArgs.Options, 0
+0	41	520	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	520		numtostr __TextOutArgs.Text, __D0main
+0	41	523	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	523		syscall 13, __TextOutArgs
+0	41	526	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	526	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	526	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	526	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	526	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	526		set __signed_stack_001main, 60
+0	41	529	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	529	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	529		set __signed_stack_002main, 24
+0	41	532	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	41	532	#line 41 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	532		getin __D0main, __constVal3, 4
+0	42	536	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	536	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	536		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	42	538	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	538		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	42	540	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	540		set __TextOutArgs.Options, 0
+0	42	543	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	543		numtostr __TextOutArgs.Text, __D0main
+0	42	546	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	546		syscall 13, __TextOutArgs
+0	42	549	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	549	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	549	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	549	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	549	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	549		set __signed_stack_001main, 60
+0	42	552	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	552	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	552		set __signed_stack_002main, 8
+0	42	555	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	42	555	#line 42 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	555		getin __D0main, __constVal1, 4
+0	43	559	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	559	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	559		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	43	561	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	561		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	43	563	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	563		set __TextOutArgs.Options, 0
+0	43	566	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	566		numtostr __TextOutArgs.Text, __D0main
+0	43	569	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	569		syscall 13, __TextOutArgs
+0	43	572	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	572	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	572	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	572	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	572	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	572		set __signed_stack_001main, 60
+0	43	575	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	575	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	575		set __signed_stack_002main, 0
+0	43	578	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	43	578	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	44	578		getin __D0main, __constVal1, 4
+0	45	582	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	45	582	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	582		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	45	584	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	584		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	45	586	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	586		set __TextOutArgs.Options, 0
+0	45	589	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	589		numtostr __TextOutArgs.Text, __D0main
+0	45	592	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	592		syscall 13, __TextOutArgs
+0	45	595	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	595		mov __D0main, __TextOutArgs.Result
+0	45	597	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	45	597	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	45	597	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	45	597	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	597	#pragma macro 2
+0	46	597	#pragma macro 25
+0	46	597		mov __IOMRArgs.ModuleName, __constStr0015
+0	46	599		mov __IOMRArgs.Offset, __constVal34
+0	46	601		set __IOMRArgs.Count, 1
+0	46	604		syscall 32, __IOMRArgs
+0	46	607		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+0	46	610		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	4569	615	#line 4569 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	4570	615		mov __D0main, __tmpsbytemain
+0	45	617	#line 45 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	617	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	617		tst 5, __zfmain, __D0main
+0	46	620	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	620		brtst 4, __NXC_Label_610, __zfmain
+0	46	623	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	623		mov __signed_stack_001main, __main_7qG2_FRC_7qG2_000
+0	46	625	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	46	625	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	625		set __D0main, 0
+0	46	628	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	628		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	46	632	#line 46 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	632		mov __D0main, __zfmain
+0	47	634	#line 47 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	48	634		brtst 4, __NXC_Label_613, __zfmain
+0	47	637	#line 47 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	48	637		getin __main_7qG2_BFR_7qG2_000, __constVal0, 4
+0	47	641	#line 47 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	641	#line 47 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	47	641	#line 47 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	50	641	#line 50 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	51	641		add __main_7qG2_FRC_7qG2_000, __main_7qG2_FRC_7qG2_000, __constVal1
+0	50	645	#line 50 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	50	645	#line 50 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	51	645		strcat __strbufmain, __constStr0016
+0	50	649	#line 50 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	51	649		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	50	652	#line 50 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	53	652	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	652		subcall PlaySound, __PlaySound_return
+0	53	654	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	53	654	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	654		jmp __NXC_Label_618
+0	53	656	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	656		mov __signed_stack_001main, __main_7qG2_FRC_7qG2_000
+0	53	658	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	53	658	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	658		set __D0main, 1
+0	53	661	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	661		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	53	665	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	665		mov __D0main, __zfmain
+0	54	667	#line 54 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	55	667		brtst 4, __NXC_Label_621, __zfmain
+0	54	670	#line 54 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	55	670		getin __main_7qG2_WFR_7qG2_000, __constVal0, 4
+0	54	674	#line 54 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	674	#line 54 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	54	674	#line 54 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	57	674	#line 57 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	58	674		add __main_7qG2_FRC_7qG2_000, __main_7qG2_FRC_7qG2_000, __constVal1
+0	57	678	#line 57 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	57	678	#line 57 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	58	678		strcat __strbufmain, __constStr0017
+0	57	682	#line 57 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	58	682		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	57	685	#line 57 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	58	685	#line 58 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	59	685		subcall PlaySound, __PlaySound_return
+0	58	687	#line 58 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	58	687	#line 58 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	59	687		strcat __strbufmain, __constStr0017
+0	58	691	#line 58 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	59	691		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	58	694	#line 58 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	59	694	#line 59 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	60	694		subcall PlaySound, __PlaySound_return
+0	59	696	#line 59 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	62	696	#line 62 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	62	696	#line 62 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	62	696	#line 62 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	62	696	#line 62 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	63	696	#pragma macro 2
+0	63	696	#pragma macro 25
+0	63	696		mov __IOMRArgs.ModuleName, __constStr0015
+0	63	698		mov __IOMRArgs.Offset, __constVal33
+0	63	700		set __IOMRArgs.Count, 1
+0	63	703		syscall 32, __IOMRArgs
+0	63	706		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+0	63	709		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	4672	714	#line 4672 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	4673	714		mov __D0main, __tmpsbytemain
+0	62	716	#line 62 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	63	716	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	716		tst 5, __zfmain, __D0main
+0	63	719	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	719		brtst 4, __NXC_Label_630, __zfmain
+0	63	722	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	722		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	63	724	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	63	724	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	724		set __D0main, 0
+0	63	727	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	727		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	63	731	#line 63 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	731		mov __D0main, __zfmain
+0	64	733	#line 64 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	65	733		brtst 4, __NXC_Label_633, __zfmain
+0	64	736	#line 64 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	65	736		getin __main_7qG2_BFL_7qG2_000, __constVal3, 4
+0	64	740	#line 64 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	740	#line 64 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	64	740	#line 64 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	67	740	#line 67 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	68	740		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	67	744	#line 67 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	67	744	#line 67 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	68	744		strcat __strbufmain, __constStr0018
+0	67	748	#line 67 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	68	748		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	67	751	#line 67 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	69	751	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	751		subcall PlaySound, __PlaySound_return
+0	69	753	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	69	753	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	753		jmp __NXC_Label_638
+0	69	755	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	755		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	69	757	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	69	757	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	757		set __D0main, 1
+0	69	760	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	760		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	69	764	#line 69 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	764		mov __D0main, __zfmain
+0	70	766	#line 70 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	71	766		brtst 4, __NXC_Label_641, __zfmain
+0	70	769	#line 70 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	71	769		getin __main_7qG2_WFL_7qG2_000, __constVal3, 4
+0	70	773	#line 70 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	773	#line 70 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	70	773	#line 70 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	73	773	#line 73 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	74	773		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	73	777	#line 73 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	73	777	#line 73 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	74	777		strcat __strbufmain, __constStr0018
+0	73	781	#line 73 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	74	781		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	73	784	#line 73 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	74	784	#line 74 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	75	784		subcall PlaySound, __PlaySound_return
+0	74	786	#line 74 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	74	786	#line 74 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	75	786		strcat __strbufmain, __constStr0018
+0	74	790	#line 74 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	75	790		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	74	793	#line 74 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	75	793	#line 75 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	76	793		subcall PlaySound, __PlaySound_return
+0	75	795	#line 75 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	78	795	#line 78 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	78	795	#line 78 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	78	795	#line 78 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	78	795	#line 78 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	79	795	#pragma macro 2
+0	79	795	#pragma macro 25
+0	79	795		mov __IOMRArgs.ModuleName, __constStr0015
+0	79	797		mov __IOMRArgs.Offset, __constVal35
+0	79	799		set __IOMRArgs.Count, 1
+0	79	802		syscall 32, __IOMRArgs
+0	79	805		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+0	79	808		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	4775	813	#line 4775 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	4776	813		mov __D0main, __tmpsbytemain
+0	78	815	#line 78 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	79	815	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	815		tst 5, __zfmain, __D0main
+0	79	818	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	818		brtst 4, __NXC_Label_650, __zfmain
+0	79	821	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	821		mov __signed_stack_001main, __main_7qG2_MC_7qG2_000
+0	79	823	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	79	823	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	823		set __D0main, 0
+0	79	826	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	826		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	79	830	#line 79 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	830		mov __D0main, __zfmain
+0	80	832	#line 80 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	81	832		brtst 4, __NXC_Label_653, __zfmain
+0	80	835	#line 80 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	81	835		getin __main_7qG2_BB_7qG2_000, __constVal1, 4
+0	80	839	#line 80 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	839	#line 80 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	80	839	#line 80 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	83	839	#line 83 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	84	839		add __main_7qG2_MC_7qG2_000, __main_7qG2_MC_7qG2_000, __constVal1
+0	83	843	#line 83 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	83	843	#line 83 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	84	843		strcat __strbufmain, __constStr0019
+0	83	847	#line 83 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	84	847		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	83	850	#line 83 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	85	850	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	850		subcall PlaySound, __PlaySound_return
+0	85	852	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	85	852	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	852		jmp __NXC_Label_658
+0	85	854	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	854		mov __signed_stack_001main, __main_7qG2_MC_7qG2_000
+0	85	856	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	85	856	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	856		set __D0main, 1
+0	85	859	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	859		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	85	863	#line 85 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	863		mov __D0main, __zfmain
+0	86	865	#line 86 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	87	865		brtst 4, __NXC_Label_661, __zfmain
+0	86	868	#line 86 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	87	868		getin __main_7qG2_WB_7qG2_000, __constVal1, 4
+0	86	872	#line 86 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	872	#line 86 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	86	872	#line 86 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	89	872	#line 89 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	90	872		add __main_7qG2_MC_7qG2_000, __main_7qG2_MC_7qG2_000, __constVal1
+0	89	876	#line 89 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	89	876	#line 89 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	90	876		strcat __strbufmain, __constStr0019
+0	89	880	#line 89 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	90	880		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	89	883	#line 89 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	90	883	#line 90 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	91	883		subcall PlaySound, __PlaySound_return
+0	90	885	#line 90 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	90	885	#line 90 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	91	885		strcat __strbufmain, __constStr0019
+0	90	889	#line 90 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	91	889		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	90	892	#line 90 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	91	892	#line 91 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	92	892		subcall PlaySound, __PlaySound_return
+0	91	894	#line 91 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	94	894	#line 94 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	94	894	#line 94 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	95	894	#line 95 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	95	894	#line 95 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	96	894		jmp __NXC_Label_539
+0	95	896	#line 95 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	95	896	#line 95 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	96	896	#pragma macro 2
+0	96	896	#pragma macro 25
+0	96	896		mov __IOMRArgs.ModuleName, __constStr0015
+0	96	898		mov __IOMRArgs.Offset, __constVal35
+0	96	900		set __IOMRArgs.Count, 1
+0	96	903		syscall 32, __IOMRArgs
+0	96	906		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
+0	96	909		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	4882	914	#line 4882 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	4883	914		mov __D0main, __tmpsbytemain
+0	95	916	#line 95 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	96	916	#line 96 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	916		tst 5, __zfmain, __D0main
+0	96	919	#line 96 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	919		brtst 4, __NXC_Label_670, __zfmain
+0	96	922	#line 96 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	922		strcat __strbufmain, __constStr0018
+0	96	926	#line 96 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	926		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	96	929	#line 96 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	929	#line 97 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	98	929		subcall PlaySound, __PlaySound_return
+0	97	931	#line 97 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	97	931	#line 97 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	98	931		set __D0main, 1
+0	105	934	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	934		tst 5, __zfmain, __D0main
+0	105	937	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	937		brtst 4, __NXC_Label_674, __zfmain
+0	105	940	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	105	940	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	105	940	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	105	940	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	940		add __signed_stack_001main, __main_7qG2_BFR_7qG2_000, __main_7qG2_WFR_7qG2_000
+0	105	944	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	105	944	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	105	944	#line 105 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	944		div __main_7qG2_FR_7qG2_000, __signed_stack_001main, __constVal2
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	948	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	948		add __signed_stack_001main, __main_7qG2_BFL_7qG2_000, __main_7qG2_WFL_7qG2_000
+0	106	952	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	952	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	106	952	#line 106 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	952		div __main_7qG2_FL_7qG2_000, __signed_stack_001main, __constVal2
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	956	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	108	956		add __signed_stack_001main, __main_7qG2_BB_7qG2_000, __main_7qG2_WB_7qG2_000
+0	107	960	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	960	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	107	960	#line 107 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	108	960		div __main_7qG2_B_7qG2_000, __signed_stack_001main, __constVal2
+0	109	964	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	109	964	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	109	964	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	964		set __signed_stack_001main, 60
+0	109	967	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	109	967	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	967		set __signed_stack_002main, 56
+0	109	970	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	109	970	#line 109 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	970		getin __D0main, __constVal0, 4
+0	110	974	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	974	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	974		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	110	976	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	976		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	110	978	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	978		set __TextOutArgs.Options, 0
+0	110	981	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	981		numtostr __TextOutArgs.Text, __D0main
+0	110	984	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	984		syscall 13, __TextOutArgs
+0	110	987	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	987	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	987	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	987	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	987	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	987		set __signed_stack_001main, 60
+0	110	990	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	990	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	990		set __signed_stack_002main, 48
+0	110	993	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	110	993	#line 110 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	993		getin __D0main, __constVal0, 4
+0	111	997	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	997	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	997		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	111	999	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	999		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	111	1001	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1001		set __TextOutArgs.Options, 0
+0	111	1004	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1004		numtostr __TextOutArgs.Text, __D0main
+0	111	1007	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1007		syscall 13, __TextOutArgs
+0	111	1010	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1010	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1010	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1010	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1010	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1010		set __signed_stack_001main, 60
+0	111	1013	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1013	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1013		set __signed_stack_002main, 32
+0	111	1016	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	111	1016	#line 111 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1016		getin __D0main, __constVal3, 4
+0	112	1020	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1020	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1020		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	112	1022	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1022		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	112	1024	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1024		set __TextOutArgs.Options, 0
+0	112	1027	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1027		numtostr __TextOutArgs.Text, __D0main
+0	112	1030	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1030		syscall 13, __TextOutArgs
+0	112	1033	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1033	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1033	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1033	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1033	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1033		set __signed_stack_001main, 60
+0	112	1036	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1036	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1036		set __signed_stack_002main, 24
+0	112	1039	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	112	1039	#line 112 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1039		getin __D0main, __constVal3, 4
+0	113	1043	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1043	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1043		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	113	1045	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1045		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	113	1047	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1047		set __TextOutArgs.Options, 0
+0	113	1050	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1050		numtostr __TextOutArgs.Text, __D0main
+0	113	1053	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1053		syscall 13, __TextOutArgs
+0	113	1056	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1056	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1056	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1056	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1056	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1056		set __signed_stack_001main, 60
+0	113	1059	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1059	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1059		set __signed_stack_002main, 8
+0	113	1062	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	113	1062	#line 113 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1062		getin __D0main, __constVal1, 4
+0	114	1066	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1066	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1066		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	114	1068	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1068		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	114	1070	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1070		set __TextOutArgs.Options, 0
+0	114	1073	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1073		numtostr __TextOutArgs.Text, __D0main
+0	114	1076	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1076		syscall 13, __TextOutArgs
+0	114	1079	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1079	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1079	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1079	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1079	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1079		set __signed_stack_001main, 60
+0	114	1082	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1082	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1082		set __signed_stack_002main, 0
+0	114	1085	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	114	1085	#line 114 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	115	1085		getin __D0main, __constVal1, 4
+0	116	1089	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1089	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1089		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	116	1091	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1091		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	116	1093	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1093		set __TextOutArgs.Options, 0
+0	116	1096	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1096		numtostr __TextOutArgs.Text, __D0main
+0	116	1099	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1099		syscall 13, __TextOutArgs
+0	116	1102	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1102	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1102	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1102	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1102	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1102		set __signed_stack_001main, 20
+0	116	1105	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1105	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1105		set __signed_stack_002main, 40
+0	116	1108	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	116	1108	#line 116 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1108		mov __D0main, __main_7qG2_FL_7qG2_000
+0	117	1110	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1110	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1110		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	117	1112	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1112		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	117	1114	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1114		set __TextOutArgs.Options, 0
+0	117	1117	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1117		numtostr __TextOutArgs.Text, __D0main
+0	117	1120	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1120		syscall 13, __TextOutArgs
+0	117	1123	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1123	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1123	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1123	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1123		set __signed_stack_001main, 50
+0	117	1126	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1126	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1126		set __signed_stack_002main, 40
+0	117	1129	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	117	1129	#line 117 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1129		mov __D0main, __main_7qG2_FR_7qG2_000
+0	118	1131	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1131	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1131		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	118	1133	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1133		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	118	1135	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1135		set __TextOutArgs.Options, 0
+0	118	1138	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1138		numtostr __TextOutArgs.Text, __D0main
+0	118	1141	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1141		syscall 13, __TextOutArgs
+0	118	1144	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1144	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1144	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1144	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1144		set __signed_stack_001main, 80
+0	118	1147	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1147	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1147		set __signed_stack_002main, 40
+0	118	1150	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	118	1150	#line 118 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	119	1150		mov __D0main, __main_7qG2_B_7qG2_000
+0	128	1152	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1152	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1152		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	128	1154	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1154		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	128	1156	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1156		set __TextOutArgs.Options, 0
+0	128	1159	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1159		numtostr __TextOutArgs.Text, __D0main
+0	128	1162	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1162		syscall 13, __TextOutArgs
+0	128	1165	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1165		mov __D0main, __TextOutArgs.Result
+0	128	1167	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1167	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1167	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1167		getin __signed_stack_001main, __constVal0, 4
+0	128	1171	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1171	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1171		mov __D0main, __main_7qG2_FR_7qG2_000
+0	128	1173	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1173		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	128	1177	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1177		mov __D0main, __zfmain
+0	128	1179	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1179		brtst 4, __NXC_Label_752, __zfmain
+0	128	1182	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1182		mov __signed_stack_001main, __D0main
+0	128	1184	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1184		getin __signed_stack_002main, __constVal3, 4
+0	128	1188	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1188	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1188		mov __D0main, __main_7qG2_FL_7qG2_000
+0	128	1190	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1190		cmp 1, __zfmain, __signed_stack_002main, __D0main
+0	128	1194	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1194	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1194		and __D0main, __signed_stack_001main, __zfmain
+0	128	1198	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1198		tst 5, __zfmain, __D0main
+0	128	1201	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1201		mov __D0main, __zfmain
+0	128	1203	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1203		brtst 4, __NXC_Label_752, __zfmain
+0	128	1206	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1206		mov __signed_stack_001main, __D0main
+0	128	1208	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1208		getin __signed_stack_002main, __constVal1, 4
+0	128	1212	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1212	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1212		mov __D0main, __main_7qG2_B_7qG2_000
+0	128	1214	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1214		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	128	1218	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	128	1218	#line 128 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	129	1218		and __D0main, __signed_stack_001main, __zfmain
+0	129	1222	#line 129 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	130	1222		tst 5, __zfmain, __D0main
+0	129	1225	#line 129 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	130	1225		brtst 4, __NXC_Label_750, __zfmain
+0	129	1228	#line 129 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	130	1228	#line 130 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	131	1228	#pragma macro 10
+0	131	1228		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	131	1231		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5341	1254	#line 5341 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	130	1254	#line 130 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	130	1254	#line 130 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	131	1254		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	130	1256	#line 130 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1256	#line 7921 "NXCDefs.h"
+0	7922	1256		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1259	#line 7921 "NXCDefs.h"
+0	131	1259	#line 131 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	131	1259	#line 131 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	132	1259	#line 132 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	133	1259	#pragma macro 10
+0	133	1259		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	133	1262		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5362	1285	#line 5362 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	132	1285	#line 132 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	132	1285	#line 132 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	133	1285		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	132	1287	#line 132 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1287	#line 7921 "NXCDefs.h"
+0	7922	1287		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1290	#line 7921 "NXCDefs.h"
+0	133	1290	#line 133 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1290	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1290		jmp __NXC_Label_749
+0	135	1292	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1292	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1292		getin __signed_stack_001main, __constVal0, 4
+0	135	1296	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1296	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1296		mov __D0main, __main_7qG2_FR_7qG2_000
+0	135	1298	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1298		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	135	1302	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1302		mov __D0main, __zfmain
+0	135	1304	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1304		brtst 4, __NXC_Label_764, __zfmain
+0	135	1307	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1307		mov __signed_stack_001main, __D0main
+0	135	1309	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1309		getin __signed_stack_002main, __constVal3, 4
+0	135	1313	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1313	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1313		mov __D0main, __main_7qG2_FL_7qG2_000
+0	135	1315	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1315		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	135	1319	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1319	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1319		and __D0main, __signed_stack_001main, __zfmain
+0	135	1323	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1323		tst 5, __zfmain, __D0main
+0	135	1326	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1326		mov __D0main, __zfmain
+0	135	1328	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1328		brtst 4, __NXC_Label_764, __zfmain
+0	135	1331	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1331		mov __signed_stack_001main, __D0main
+0	135	1333	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1333		getin __signed_stack_002main, __constVal1, 4
+0	135	1337	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1337	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1337		mov __D0main, __main_7qG2_B_7qG2_000
+0	135	1339	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1339		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	135	1343	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	135	1343	#line 135 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1343		and __D0main, __signed_stack_001main, __zfmain
+0	136	1347	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1347		tst 5, __zfmain, __D0main
+0	136	1350	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1350		brtst 4, __NXC_Label_762, __zfmain
+0	136	1353	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1353		getin __signed_stack_001main, __constVal0, 4
+0	136	1357	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	136	1357	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1357		mov __D0main, __main_7qG2_FR_7qG2_000
+0	136	1359	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1359		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	136	1363	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1363		mov __D0main, __zfmain
+0	136	1365	#line 136 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1365		brtst 4, __NXC_Label_767, __zfmain
+0	137	1368	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1368		set __main_7qG2_countR_7qG2_000, 0
+0	137	1371	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1371	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1371	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1371	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1371		getin __signed_stack_001main, __constVal3, 4
+0	137	1375	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	137	1375	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1375		mov __D0main, __main_7qG2_FL_7qG2_000
+0	137	1377	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1377		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	137	1381	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1381		mov __D0main, __zfmain
+0	137	1383	#line 137 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1383		brtst 4, __NXC_Label_772, __zfmain
+0	138	1386	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1386		set __main_7qG2_countL_7qG2_000, 0
+0	138	1389	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1389	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1389	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1389	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1389		getin __signed_stack_001main, __constVal0, 4
+0	138	1393	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1393	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1393		mov __D0main, __main_7qG2_FR_7qG2_000
+0	138	1395	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1395		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	138	1399	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1399		mov __D0main, __zfmain
+0	138	1401	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1401		brtst 4, __NXC_Label_777, __zfmain
+0	138	1404	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1404		mov __float_stack_001main, __main_7qG2_va_7qG2_000
+0	138	1406	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1406	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1406	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1406	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	138	1406	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1406		div __D0main, __main_7qG2_l_7qG2_000, __constVal10000
+0	138	1410	#line 138 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1410		mul __DF0main, __float_stack_001main, __D0main
+0	139	1414	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1414		add __main_7qG2_countR_7qG2_000, __main_7qG2_countR_7qG2_000, __DF0main
+0	139	1418	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1418	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1418	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1418		getin __signed_stack_001main, __constVal3, 4
+0	139	1422	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1422	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1422		mov __D0main, __main_7qG2_FL_7qG2_000
+0	139	1424	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1424		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	139	1428	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1428		mov __D0main, __zfmain
+0	139	1430	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1430		brtst 4, __NXC_Label_786, __zfmain
+0	139	1433	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1433		mov __float_stack_001main, __main_7qG2_va_7qG2_000
+0	139	1435	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1435	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1435	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1435	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	139	1435	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1435		div __D0main, __main_7qG2_l_7qG2_000, __constVal10000
+0	139	1439	#line 139 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1439		mul __DF0main, __float_stack_001main, __D0main
+0	140	1443	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1443		add __main_7qG2_countL_7qG2_000, __main_7qG2_countL_7qG2_000, __DF0main
+0	140	1447	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1447	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1447	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1447		mov __signed_stack_001main, __main_7qG2_countR_7qG2_000
+0	140	1449	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	140	1449	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1449		mov __DF0main, __main_7qG2_va_7qG2_000
+0	140	1451	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1451		cmp 1, __zfmain, __signed_stack_001main, __DF0main
+0	140	1455	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1455		mov __D0main, __zfmain
+0	140	1457	#line 140 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1457		brtst 4, __NXC_Label_795, __zfmain
+0	141	1460	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1460		mov __main_7qG2_countR_7qG2_000, __main_7qG2_va_7qG2_000
+0	141	1462	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1462	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1462	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1462	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1462		mov __signed_stack_001main, __main_7qG2_countL_7qG2_000
+0	141	1464	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	141	1464	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1464		mov __DF0main, __main_7qG2_va_7qG2_000
+0	141	1466	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1466		cmp 1, __zfmain, __signed_stack_001main, __DF0main
+0	141	1470	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1470		mov __D0main, __zfmain
+0	141	1472	#line 141 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	142	1472		brtst 4, __NXC_Label_800, __zfmain
+0	143	1475	#line 143 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	144	1475		mov __main_7qG2_countL_7qG2_000, __main_7qG2_va_7qG2_000
+0	143	1477	#line 143 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	143	1477	#line 143 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	143	1477	#line 143 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	144	1477	#line 144 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	145	1477		add __main_7qG2_BCL_7qG2_000, __main_7qG2_BCL_7qG2_000, __constVal1
+0	144	1481	#line 144 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	146	1481	#line 146 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	147	1481		set __main_7qG2_BCR_7qG2_000, 0
+0	146	1484	#line 146 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	146	1484	#line 146 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	146	1484	#line 146 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	147	1484	#line 147 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1484	#pragma macro 10
+0	148	1484		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	148	1487		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5616	1510	#line 5616 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	147	1510	#line 147 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	147	1510	#line 147 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1510		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	147	1512	#line 147 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1512	#line 7921 "NXCDefs.h"
+0	7922	1512		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1515	#line 7921 "NXCDefs.h"
+0	148	1515	#line 148 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1515	#line 148 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1515	#line 148 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1515	#line 148 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	148	1515	#line 148 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	149	1515		sub __DF0main, __main_7qG2_countL_7qG2_000, __main_7qG2_va_7qG2_000
+0	150	1519	#line 150 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	151	1519	#pragma macro 10
+0	151	1519		neg __OnRev_Tmp, __DF0main
+0	151	1522		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5639	1545	#line 5639 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	150	1545	#line 150 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	150	1545	#line 150 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	151	1545		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	150	1547	#line 150 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1547	#line 7921 "NXCDefs.h"
+0	7922	1547		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1550	#line 7921 "NXCDefs.h"
+0	151	1550	#line 151 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1550	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1550		jmp __NXC_Label_761
+0	153	1552	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1552	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1552		getin __signed_stack_001main, __constVal0, 4
+0	153	1556	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1556	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1556		mov __D0main, __main_7qG2_FR_7qG2_000
+0	153	1558	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1558		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	153	1562	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1562		mov __D0main, __zfmain
+0	153	1564	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1564		brtst 4, __NXC_Label_816, __zfmain
+0	153	1567	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1567		mov __signed_stack_001main, __D0main
+0	153	1569	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1569		getin __signed_stack_002main, __constVal3, 4
+0	153	1573	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1573	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1573		mov __D0main, __main_7qG2_FL_7qG2_000
+0	153	1575	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1575		cmp 1, __zfmain, __signed_stack_002main, __D0main
+0	153	1579	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1579	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1579		and __D0main, __signed_stack_001main, __zfmain
+0	153	1583	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1583		tst 5, __zfmain, __D0main
+0	153	1586	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1586		mov __D0main, __zfmain
+0	153	1588	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1588		brtst 4, __NXC_Label_816, __zfmain
+0	153	1591	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1591		mov __signed_stack_001main, __D0main
+0	153	1593	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1593		getin __signed_stack_002main, __constVal1, 4
+0	153	1597	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1597	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1597		mov __D0main, __main_7qG2_B_7qG2_000
+0	153	1599	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1599		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	153	1603	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	153	1603	#line 153 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1603		and __D0main, __signed_stack_001main, __zfmain
+0	154	1607	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1607		tst 5, __zfmain, __D0main
+0	154	1610	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1610		brtst 4, __NXC_Label_814, __zfmain
+0	154	1613	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1613		getin __signed_stack_001main, __constVal0, 4
+0	154	1617	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	154	1617	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1617		mov __D0main, __main_7qG2_FR_7qG2_000
+0	154	1619	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1619		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	154	1623	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1623		mov __D0main, __zfmain
+0	154	1625	#line 154 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1625		brtst 4, __NXC_Label_819, __zfmain
+0	155	1628	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1628		set __main_7qG2_countR_7qG2_000, 0
+0	155	1631	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1631	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1631	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1631	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1631		getin __signed_stack_001main, __constVal3, 4
+0	155	1635	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	155	1635	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1635		mov __D0main, __main_7qG2_FL_7qG2_000
+0	155	1637	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1637		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	155	1641	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1641		mov __D0main, __zfmain
+0	155	1643	#line 155 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1643		brtst 4, __NXC_Label_824, __zfmain
+0	156	1646	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1646		set __main_7qG2_countL_7qG2_000, 0
+0	156	1649	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1649	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1649	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1649	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1649		getin __signed_stack_001main, __constVal0, 4
+0	156	1653	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1653	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1653		mov __D0main, __main_7qG2_FR_7qG2_000
+0	156	1655	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1655		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	156	1659	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1659		mov __D0main, __zfmain
+0	156	1661	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1661		brtst 4, __NXC_Label_829, __zfmain
+0	156	1664	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1664		mov __float_stack_001main, __main_7qG2_va_7qG2_000
+0	156	1666	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1666	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1666	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1666	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	156	1666	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1666		div __D0main, __main_7qG2_l_7qG2_000, __constVal10000
+0	156	1670	#line 156 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1670		mul __DF0main, __float_stack_001main, __D0main
+0	157	1674	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1674		add __main_7qG2_countR_7qG2_000, __main_7qG2_countR_7qG2_000, __DF0main
+0	157	1678	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1678	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1678	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1678		getin __signed_stack_001main, __constVal3, 4
+0	157	1682	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1682	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1682		mov __D0main, __main_7qG2_FL_7qG2_000
+0	157	1684	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1684		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	157	1688	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1688		mov __D0main, __zfmain
+0	157	1690	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1690		brtst 4, __NXC_Label_838, __zfmain
+0	157	1693	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1693		mov __float_stack_001main, __main_7qG2_va_7qG2_000
+0	157	1695	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1695	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1695	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1695	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	157	1695	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1695		div __D0main, __main_7qG2_l_7qG2_000, __constVal10000
+0	157	1699	#line 157 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1699		mul __DF0main, __float_stack_001main, __D0main
+0	158	1703	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1703		add __main_7qG2_countL_7qG2_000, __main_7qG2_countL_7qG2_000, __DF0main
+0	158	1707	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1707	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1707	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1707		mov __signed_stack_001main, __main_7qG2_countR_7qG2_000
+0	158	1709	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	158	1709	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1709		mov __DF0main, __main_7qG2_va_7qG2_000
+0	158	1711	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1711		cmp 1, __zfmain, __signed_stack_001main, __DF0main
+0	158	1715	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1715		mov __D0main, __zfmain
+0	158	1717	#line 158 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1717		brtst 4, __NXC_Label_847, __zfmain
+0	159	1720	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1720		mov __main_7qG2_countR_7qG2_000, __main_7qG2_va_7qG2_000
+0	159	1722	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1722	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1722	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1722	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1722		mov __signed_stack_001main, __main_7qG2_countL_7qG2_000
+0	159	1724	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	159	1724	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1724		mov __DF0main, __main_7qG2_va_7qG2_000
+0	159	1726	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1726		cmp 1, __zfmain, __signed_stack_001main, __DF0main
+0	159	1730	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1730		mov __D0main, __zfmain
+0	159	1732	#line 159 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	160	1732		brtst 4, __NXC_Label_852, __zfmain
+0	161	1735	#line 161 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	162	1735		mov __main_7qG2_countL_7qG2_000, __main_7qG2_va_7qG2_000
+0	161	1737	#line 161 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	161	1737	#line 161 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	161	1737	#line 161 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	162	1737	#line 162 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	163	1737		set __main_7qG2_BCL_7qG2_000, 0
+0	162	1740	#line 162 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	162	1740	#line 162 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	164	1740	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	165	1740		add __main_7qG2_BCR_7qG2_000, __main_7qG2_BCR_7qG2_000, __constVal1
+0	164	1744	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	164	1744	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	164	1744	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	164	1744	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	164	1744	#line 164 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	165	1744		sub __DF0main, __main_7qG2_countR_7qG2_000, __main_7qG2_va_7qG2_000
+0	166	1748	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	167	1748	#pragma macro 10
+0	167	1748		neg __OnRev_Tmp, __DF0main
+0	167	1751		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5899	1774	#line 5899 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	166	1774	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	166	1774	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	167	1774		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	166	1776	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1776	#line 7921 "NXCDefs.h"
+0	7922	1776		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1779	#line 7921 "NXCDefs.h"
+0	167	1779	#line 167 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	167	1779	#line 167 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	168	1779	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	169	1779	#pragma macro 10
+0	169	1779		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	169	1782		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5916	1805	#line 5916 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	168	1805	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	168	1805	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	169	1805		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	168	1807	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1807	#line 7921 "NXCDefs.h"
+0	7922	1807		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1810	#line 7921 "NXCDefs.h"
+0	169	1810	#line 169 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	171	1810	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1810		jmp __NXC_Label_813
+0	171	1812	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	171	1812	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1812		getin __signed_stack_001main, __constVal0, 4
+0	171	1816	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	171	1816	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1816		mov __D0main, __main_7qG2_FR_7qG2_000
+0	171	1818	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1818		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	171	1822	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1822		mov __D0main, __zfmain
+0	171	1824	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1824		brtst 4, __NXC_Label_866, __zfmain
+0	171	1827	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1827		mov __signed_stack_001main, __D0main
+0	171	1829	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1829		getin __signed_stack_002main, __constVal3, 4
+0	171	1833	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	171	1833	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1833		mov __D0main, __main_7qG2_FL_7qG2_000
+0	171	1835	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1835		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	171	1839	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	171	1839	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1839		and __D0main, __signed_stack_001main, __zfmain
+0	172	1843	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1843		tst 5, __zfmain, __D0main
+0	172	1846	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1846		brtst 4, __NXC_Label_867, __zfmain
+0	172	1849	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1849		mov __signed_stack_001main, __main_7qG2_BCR_7qG2_000
+0	172	1851	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	172	1851	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1851		mov __D0main, __main_7qG2_BCL_7qG2_000
+0	172	1853	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1853		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	172	1857	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1857		mov __D0main, __zfmain
+0	173	1859	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	174	1859		brtst 4, __NXC_Label_870, __zfmain
+0	173	1862	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	174	1862		getin __signed_stack_001main, __constVal1, 4
+0	173	1866	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	173	1866	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	174	1866		mov __D0main, __main_7qG2_B_7qG2_000
+0	173	1868	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	174	1868		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	173	1872	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	174	1872		mov __D0main, __zfmain
+0	174	1874	#line 174 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	175	1874		brtst 4, __NXC_Label_872, __zfmain
+0	174	1877	#line 174 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	175	1877	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	176	1877	#pragma macro 10
+0	176	1877		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	176	1880		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	5998	1903	#line 5998 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	175	1903	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	175	1903	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	176	1903		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	175	1905	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1905	#line 7921 "NXCDefs.h"
+0	7922	1905		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1908	#line 7921 "NXCDefs.h"
+0	176	1908	#line 176 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	178	1908	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	179	1908		jmp __NXC_Label_871
+0	178	1910	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	178	1910	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	179	1910		getin __signed_stack_001main, __constVal0, 4
+0	178	1914	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	178	1914	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	179	1914		mov __D0main, __main_7qG2_FR_7qG2_000
+0	178	1916	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	179	1916		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	178	1920	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	179	1920		mov __D0main, __zfmain
+0	179	1922	#line 179 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	180	1922		brtst 4, __NXC_Label_880, __zfmain
+0	179	1925	#line 179 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	180	1925	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	181	1925	#pragma macro 10
+0	181	1925		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	181	1928		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6034	1951	#line 6034 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	180	1951	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	180	1951	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	181	1951		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	180	1953	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	1953	#line 7921 "NXCDefs.h"
+0	7922	1953		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	1956	#line 7921 "NXCDefs.h"
+0	181	1956	#line 181 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	182	1956	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	183	1956	#pragma macro 7
+0	183	1956		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6047	1979	#line 6047 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	182	1979	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	183	1979	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	184	1979		jmp __NXC_Label_879
+0	183	1981	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	183	1981	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	184	1981		set __D0main, 100
+0	184	1984	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	185	1984	#pragma macro 7
+0	185	1984		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6058	2007	#line 6058 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	184	2007	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	184	2007	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	185	2007		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	184	2010	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2010	#line 7921 "NXCDefs.h"
+0	7922	2010		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2013	#line 7921 "NXCDefs.h"
+0	185	2013	#line 185 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	186	2013	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	187	2013	#pragma macro 7
+0	187	2013		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6071	2036	#line 6071 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	186	2036	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	186	2036	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	187	2036	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	188	2036	#pragma macro 10
+0	188	2036		neg __OnRev_Tmp, __constVal100
+0	188	2039		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6078	2062	#line 6078 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	187	2062	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	187	2062	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	188	2062		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	187	2065	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2065	#line 7921 "NXCDefs.h"
+0	7922	2065		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2068	#line 7921 "NXCDefs.h"
+0	188	2068	#line 188 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	191	2068	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2068	#pragma macro 7
+0	192	2068		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6091	2091	#line 6091 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	191	2091	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	191	2091	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2091		jmp __NXC_Label_895
+0	191	2093	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2093		mov __signed_stack_001main, __main_7qG2_BCR_7qG2_000
+0	191	2095	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	191	2095	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2095		mov __D0main, __main_7qG2_BCL_7qG2_000
+0	191	2097	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2097		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	191	2101	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2101		mov __D0main, __zfmain
+0	192	2103	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	193	2103		brtst 4, __NXC_Label_898, __zfmain
+0	192	2106	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	193	2106		getin __signed_stack_001main, __constVal1, 4
+0	192	2110	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	192	2110	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	193	2110		mov __D0main, __main_7qG2_B_7qG2_000
+0	192	2112	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	193	2112		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	192	2116	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	193	2116		mov __D0main, __zfmain
+0	193	2118	#line 193 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	194	2118		brtst 4, __NXC_Label_900, __zfmain
+0	193	2121	#line 193 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	194	2121	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	195	2121	#pragma macro 10
+0	195	2121		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	195	2124		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6130	2147	#line 6130 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	194	2147	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	194	2147	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	195	2147		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	194	2149	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2149	#line 7921 "NXCDefs.h"
+0	7922	2149		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2152	#line 7921 "NXCDefs.h"
+0	195	2152	#line 195 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	197	2152	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	198	2152		jmp __NXC_Label_899
+0	197	2154	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	197	2154	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	198	2154		getin __signed_stack_001main, __constVal3, 4
+0	197	2158	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	197	2158	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	198	2158		mov __D0main, __main_7qG2_FL_7qG2_000
+0	197	2160	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	198	2160		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	197	2164	#line 197 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	198	2164		mov __D0main, __zfmain
+0	198	2166	#line 198 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	199	2166		brtst 4, __NXC_Label_908, __zfmain
+0	198	2169	#line 198 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	199	2169	#line 199 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	200	2169	#pragma macro 10
+0	200	2169		neg __OnRev_Tmp, __main_7qG2_va_7qG2_000
+0	200	2172		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6166	2195	#line 6166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	199	2195	#line 199 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	199	2195	#line 199 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	200	2195		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	199	2197	#line 199 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2197	#line 7921 "NXCDefs.h"
+0	7922	2197		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2200	#line 7921 "NXCDefs.h"
+0	200	2200	#line 200 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	201	2200	#line 201 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	202	2200	#pragma macro 7
+0	202	2200		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6179	2223	#line 6179 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	201	2223	#line 201 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	203	2223	#line 203 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	204	2223		jmp __NXC_Label_907
+0	203	2225	#line 203 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	203	2225	#line 203 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	204	2225		set __D0main, 100
+0	204	2228	#line 204 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	205	2228	#pragma macro 7
+0	205	2228		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6190	2251	#line 6190 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	204	2251	#line 204 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	204	2251	#line 204 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	205	2251		set __Wait_7qG2_ms_7qG2_000_inline_main, 100
+0	204	2254	#line 204 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2254	#line 7921 "NXCDefs.h"
+0	7922	2254		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2257	#line 7921 "NXCDefs.h"
+0	205	2257	#line 205 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	206	2257	#line 206 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	207	2257	#pragma macro 7
+0	207	2257		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6203	2280	#line 6203 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	206	2280	#line 206 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	206	2280	#line 206 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	207	2280	#line 207 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	208	2280	#pragma macro 10
+0	208	2280		neg __OnRev_Tmp, __constVal100
+0	208	2283		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6210	2306	#line 6210 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	207	2306	#line 207 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	207	2306	#line 207 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	208	2306		set __Wait_7qG2_ms_7qG2_000_inline_main, 300
+0	207	2309	#line 207 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2309	#line 7921 "NXCDefs.h"
+0	7922	2309		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2312	#line 7921 "NXCDefs.h"
+0	208	2312	#line 208 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	209	2312	#line 209 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	210	2312	#pragma macro 7
+0	210	2312		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6223	2335	#line 6223 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	209	2335	#line 209 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2335	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2335	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2335	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2335	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2335		getin __signed_stack_001main, __constVal1, 4
+0	212	2339	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2339	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2339		mov __D0main, __main_7qG2_B_7qG2_000
+0	212	2341	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2341		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	212	2345	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2345		mov __D0main, __zfmain
+0	212	2347	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2347		brtst 4, __NXC_Label_926, __zfmain
+0	212	2350	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2350		mov __signed_stack_001main, __D0main
+0	212	2352	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2352		getin __signed_stack_002main, __constVal3, 4
+0	212	2356	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2356	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2356		mov __D0main, __main_7qG2_FL_7qG2_000
+0	212	2358	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2358		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	212	2362	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2362		mov __D0main, __zfmain
+0	212	2364	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2364		brtst 4, __NXC_Label_928, __zfmain
+0	212	2367	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2367		mov __signed_stack_002main, __D0main
+0	212	2369	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2369		getin __signed_stack_003main, __constVal0, 4
+0	212	2373	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2373	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2373		mov __D0main, __main_7qG2_FR_7qG2_000
+0	212	2375	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2375		cmp 0, __zfmain, __signed_stack_003main, __D0main
+0	212	2379	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2379	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2379		and __D0main, __signed_stack_002main, __zfmain
+0	212	2383	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2383		not __D0main, __D0main
+0	212	2386	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2386		tst 5, __zfmain, __D0main
+0	212	2389	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	212	2389	#line 212 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2389		and __D0main, __signed_stack_001main, __zfmain
+0	213	2393	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2393		tst 5, __zfmain, __D0main
+0	213	2396	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2396		brtst 4, __NXC_Label_924, __zfmain
+0	213	2399	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2399		getin __signed_stack_001main, __constVal3, 4
+0	213	2403	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2403	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2403		mov __D0main, __main_7qG2_FL_7qG2_000
+0	213	2405	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2405		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	213	2409	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2409		mov __D0main, __zfmain
+0	213	2411	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2411		brtst 5, __NXC_Label_933, __zfmain
+0	213	2414	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2414		mov __signed_stack_001main, __D0main
+0	213	2416	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2416		getin __signed_stack_002main, __constVal0, 4
+0	213	2420	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2420	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2420		mov __D0main, __main_7qG2_FR_7qG2_000
+0	213	2422	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2422		cmp 0, __zfmain, __signed_stack_002main, __D0main
+0	213	2426	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	213	2426	#line 213 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	214	2426		or __D0main, __signed_stack_001main, __zfmain
+0	215	2430	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2430		tst 5, __zfmain, __D0main
+0	215	2433	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2433		brtst 4, __NXC_Label_936, __zfmain
+0	215	2436	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2436		getin __signed_stack_001main, __constVal3, 4
+0	215	2440	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	215	2440	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2440		mov __D0main, __main_7qG2_FL_7qG2_000
+0	215	2442	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2442		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	215	2446	#line 215 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	216	2446		mov __D0main, __zfmain
+0	216	2448	#line 216 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	217	2448		brtst 4, __NXC_Label_939, __zfmain
+0	216	2451	#line 216 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	217	2451		mov __DF0main, __main_7qG2_va_7qG2_000
+0	217	2453	#line 217 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	218	2453	#pragma macro 7
+0	218	2453		setout __constVal2, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6344	2476	#line 6344 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	217	2476	#line 217 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	217	2476	#line 217 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	218	2476		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	217	2478	#line 217 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2478	#line 7921 "NXCDefs.h"
+0	7922	2478		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2481	#line 7921 "NXCDefs.h"
+0	218	2481	#line 218 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	220	2481	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	220	2481	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	221	2481		getin __signed_stack_001main, __constVal0, 4
+0	220	2485	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	220	2485	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	221	2485		mov __D0main, __main_7qG2_FR_7qG2_000
+0	220	2487	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	221	2487		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	220	2491	#line 220 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	221	2491		mov __D0main, __zfmain
+0	221	2493	#line 221 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	222	2493		brtst 4, __NXC_Label_946, __zfmain
+0	221	2496	#line 221 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	222	2496		mov __DF0main, __main_7qG2_va_7qG2_000
+0	222	2498	#line 222 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	223	2498	#pragma macro 7
+0	223	2498		setout __constVal0, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6377	2521	#line 6377 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	222	2521	#line 222 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	222	2521	#line 222 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	223	2521		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	222	2523	#line 222 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2523	#line 7921 "NXCDefs.h"
+0	7922	2523		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2526	#line 7921 "NXCDefs.h"
+0	223	2526	#line 223 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	225	2526	#line 225 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	226	2526	#line 226 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	227	2526		jmp __NXC_Label_951
+0	226	2528	#line 226 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	227	2528		mov __DF0main, __main_7qG2_va_7qG2_000
+0	227	2530	#line 227 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2530	#pragma macro 7
+0	228	2530		setout __constVal0, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6399	2553	#line 6399 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	227	2553	#line 227 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	227	2553	#line 227 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2553		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	227	2555	#line 227 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2555	#line 7921 "NXCDefs.h"
+0	7922	2555		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2558	#line 7921 "NXCDefs.h"
+0	228	2558	#line 228 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2558	#line 228 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2558	#line 228 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2558	#line 228 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	228	2558	#line 228 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	229	2558		div __DF0main, __main_7qG2_va_7qG2_000, __constVal2
+0	229	2562	#line 229 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	230	2562	#pragma macro 7
+0	230	2562		setout __constVal2, 2, __DF0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	6422	2585	#line 6422 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	229	2585	#line 229 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	229	2585	#line 229 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	230	2585		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	229	2587	#line 229 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	7921	2587	#line 7921 "NXCDefs.h"
+0	7922	2587		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	2590	#line 7921 "NXCDefs.h"
+0	230	2590	#line 230 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	234	2590	#line 234 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	235	2590	#line 235 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	236	2590		jmp __NXC_Label_923
+0	235	2592	#line 235 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	236	2592	#line 236 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	237	2592		jmp __NXC_Label_673
+0	236	2594	#line 236 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	238	2594	#line 238 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	243	2594	#line 243 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	244	2594		jmp __NXC_Label_535
+0	243	2596	#line 243 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+0	244	2596		exit -1, -1
+1	4885	0		setin __constVal1, __ResetSensorPort, 5
+1	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+1	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+1	4889	11		subret ____ResetSensorSubroutine_return
+2	6518	0	#line 6518 "NXCDefs.h"
+2	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6518	2	#line 6518 "NXCDefs.h"
+2	6519	2	#line 6519 "NXCDefs.h"
+2	6520	2		set __D0PlaySound, 0
+2	6519	5	#line 6519 "NXCDefs.h"
+2	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6519	9	#line 6519 "NXCDefs.h"
+2	6520	9		mov __D0PlaySound, __zfPlaySound
+2	6519	11	#line 6519 "NXCDefs.h"
+2	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
+2	6519	14	#line 6519 "NXCDefs.h"
+2	6520	14		set __signed_stack_001PlaySound, 600
+2	6519	17	#line 6519 "NXCDefs.h"
+2	6519	17	#line 6519 "NXCDefs.h"
+2	6520	17		set __signed_stack_002PlaySound, 200
+2	6519	20	#line 6519 "NXCDefs.h"
+2	6519	20	#line 6519 "NXCDefs.h"
+2	6520	20		set __signed_stack_003PlaySound, 4
+2	6519	23	#line 6519 "NXCDefs.h"
+2	6519	23	#line 6519 "NXCDefs.h"
+2	6520	23		set __D0PlaySound, 0
+2	6520	26	#line 6520 "NXCDefs.h"
+2	6521	26		acquire __SPTArgsMutex
+2	6520	27	#line 6520 "NXCDefs.h"
+2	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6520	29	#line 6520 "NXCDefs.h"
+2	6521	29		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6520	31	#line 6520 "NXCDefs.h"
+2	6521	31		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6520	33	#line 6520 "NXCDefs.h"
+2	6521	33		mov __SPTArgs.Loop, __D0PlaySound
+2	6520	35	#line 6520 "NXCDefs.h"
+2	6521	35		syscall 10, __SPTArgs
+2	6520	38	#line 6520 "NXCDefs.h"
+2	6521	38		mov __D0PlaySound, __SPTArgs.Result
+2	6520	40	#line 6520 "NXCDefs.h"
+2	6521	40		release __SPTArgsMutex
+2	6520	41	#line 6520 "NXCDefs.h"
+2	6520	41	#line 6520 "NXCDefs.h"
+2	6521	41		jmp __NXC_Label_65
+2	6520	43	#line 6520 "NXCDefs.h"
+2	6521	43		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6520	45	#line 6520 "NXCDefs.h"
+2	6521	45	#line 6521 "NXCDefs.h"
+2	6522	45		set __D0PlaySound, 1
+2	6521	48	#line 6521 "NXCDefs.h"
+2	6522	48		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6521	52	#line 6521 "NXCDefs.h"
+2	6522	52		mov __D0PlaySound, __zfPlaySound
+2	6522	54	#line 6522 "NXCDefs.h"
+2	6523	54		brtst 4, __NXC_Label_68, __zfPlaySound
+2	6522	57	#line 6522 "NXCDefs.h"
+2	6523	57		set __signed_stack_001PlaySound, 600
+2	6522	60	#line 6522 "NXCDefs.h"
+2	6522	60	#line 6522 "NXCDefs.h"
+2	6523	60		set __signed_stack_002PlaySound, 150
+2	6522	63	#line 6522 "NXCDefs.h"
+2	6522	63	#line 6522 "NXCDefs.h"
+2	6523	63		set __signed_stack_003PlaySound, 4
+2	6522	66	#line 6522 "NXCDefs.h"
+2	6522	66	#line 6522 "NXCDefs.h"
+2	6523	66		set __D0PlaySound, 0
+2	6523	69	#line 6523 "NXCDefs.h"
+2	6524	69		acquire __SPTArgsMutex
+2	6523	70	#line 6523 "NXCDefs.h"
+2	6524	70		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6523	72	#line 6523 "NXCDefs.h"
+2	6524	72		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6523	74	#line 6523 "NXCDefs.h"
+2	6524	74		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6523	76	#line 6523 "NXCDefs.h"
+2	6524	76		mov __SPTArgs.Loop, __D0PlaySound
+2	6523	78	#line 6523 "NXCDefs.h"
+2	6524	78		syscall 10, __SPTArgs
+2	6523	81	#line 6523 "NXCDefs.h"
+2	6524	81		mov __D0PlaySound, __SPTArgs.Result
+2	6523	83	#line 6523 "NXCDefs.h"
+2	6524	83		release __SPTArgsMutex
+2	6523	84	#line 6523 "NXCDefs.h"
+2	6523	84	#line 6523 "NXCDefs.h"
+2	6524	84		wait2 NA, __constVal200
+2	6523	87	#line 6523 "NXCDefs.h"
+2	6523	87	#line 6523 "NXCDefs.h"
+2	6524	87	#line 6524 "NXCDefs.h"
+2	6525	87		set __signed_stack_001PlaySound, 600
+2	6524	90	#line 6524 "NXCDefs.h"
+2	6524	90	#line 6524 "NXCDefs.h"
+2	6525	90		set __signed_stack_002PlaySound, 150
+2	6524	93	#line 6524 "NXCDefs.h"
+2	6524	93	#line 6524 "NXCDefs.h"
+2	6525	93		set __signed_stack_003PlaySound, 4
+2	6524	96	#line 6524 "NXCDefs.h"
+2	6524	96	#line 6524 "NXCDefs.h"
+2	6525	96		set __D0PlaySound, 0
+2	6525	99	#line 6525 "NXCDefs.h"
+2	6526	99		acquire __SPTArgsMutex
+2	6525	100	#line 6525 "NXCDefs.h"
+2	6526	100		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6525	102	#line 6525 "NXCDefs.h"
+2	6526	102		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6525	104	#line 6525 "NXCDefs.h"
+2	6526	104		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6525	106	#line 6525 "NXCDefs.h"
+2	6526	106		mov __SPTArgs.Loop, __D0PlaySound
+2	6525	108	#line 6525 "NXCDefs.h"
+2	6526	108		syscall 10, __SPTArgs
+2	6525	111	#line 6525 "NXCDefs.h"
+2	6526	111		mov __D0PlaySound, __SPTArgs.Result
+2	6525	113	#line 6525 "NXCDefs.h"
+2	6526	113		release __SPTArgsMutex
+2	6525	114	#line 6525 "NXCDefs.h"
+2	6525	114	#line 6525 "NXCDefs.h"
+2	6526	114		wait2 NA, __constVal150
+2	6525	117	#line 6525 "NXCDefs.h"
+2	6525	117	#line 6525 "NXCDefs.h"
+2	6527	117	#line 6527 "NXCDefs.h"
+2	6528	117		jmp __NXC_Label_85
+2	6527	119	#line 6527 "NXCDefs.h"
+2	6528	119		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6527	121	#line 6527 "NXCDefs.h"
+2	6528	121	#line 6528 "NXCDefs.h"
+2	6529	121		set __D0PlaySound, 3
+2	6528	124	#line 6528 "NXCDefs.h"
+2	6529	124		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6528	128	#line 6528 "NXCDefs.h"
+2	6529	128		mov __D0PlaySound, __zfPlaySound
+2	6528	130	#line 6528 "NXCDefs.h"
+2	6529	130		brtst 4, __NXC_Label_88, __zfPlaySound
+2	6528	133	#line 6528 "NXCDefs.h"
+2	6529	133		set __PlaySound_7qG2_i_7qG2_001, 4
+2	6528	136	#line 6528 "NXCDefs.h"
+2	6528	136	#line 6528 "NXCDefs.h"
+2	6529	136		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+2	6528	138	#line 6528 "NXCDefs.h"
+2	6528	138	#line 6528 "NXCDefs.h"
+2	6529	138		set __D0PlaySound, 8
+2	6528	141	#line 6528 "NXCDefs.h"
+2	6529	141		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6528	145	#line 6528 "NXCDefs.h"
+2	6529	145		mov __D0PlaySound, __zfPlaySound
+2	6528	147	#line 6528 "NXCDefs.h"
+2	6529	147		brtst 4, __NXC_Label_90, __zfPlaySound
+2	6528	150	#line 6528 "NXCDefs.h"
+2	6529	150		jmp __NXC_Label_91
+2	6529	152	#line 6529 "NXCDefs.h"
+2	6530	152		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+2	6530	156	#line 6530 "NXCDefs.h"
+2	6531	156		jmp __NXC_Label_89
+2	6530	158	#line 6530 "NXCDefs.h"
+2	6530	158	#line 6530 "NXCDefs.h"
+2	6530	158	#line 6530 "NXCDefs.h"
+2	6530	158	#line 6530 "NXCDefs.h"
+2	6531	158		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+2	6530	162	#line 6530 "NXCDefs.h"
+2	6530	162	#line 6530 "NXCDefs.h"
+2	6530	162	#line 6530 "NXCDefs.h"
+2	6531	162		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+2	6530	166	#line 6530 "NXCDefs.h"
+2	6530	166	#line 6530 "NXCDefs.h"
+2	6531	166		set __signed_stack_002PlaySound, 100
+2	6530	169	#line 6530 "NXCDefs.h"
+2	6530	169	#line 6530 "NXCDefs.h"
+2	6531	169		set __signed_stack_003PlaySound, 4
+2	6530	172	#line 6530 "NXCDefs.h"
+2	6530	172	#line 6530 "NXCDefs.h"
+2	6531	172		set __D0PlaySound, 0
+2	6531	175	#line 6531 "NXCDefs.h"
+2	6532	175		acquire __SPTArgsMutex
+2	6531	176	#line 6531 "NXCDefs.h"
+2	6532	176		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6531	178	#line 6531 "NXCDefs.h"
+2	6532	178		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6531	180	#line 6531 "NXCDefs.h"
+2	6532	180		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6531	182	#line 6531 "NXCDefs.h"
+2	6532	182		mov __SPTArgs.Loop, __D0PlaySound
+2	6531	184	#line 6531 "NXCDefs.h"
+2	6532	184		syscall 10, __SPTArgs
+2	6531	187	#line 6531 "NXCDefs.h"
+2	6532	187		mov __D0PlaySound, __SPTArgs.Result
+2	6531	189	#line 6531 "NXCDefs.h"
+2	6532	189		release __SPTArgsMutex
+2	6531	190	#line 6531 "NXCDefs.h"
+2	6531	190	#line 6531 "NXCDefs.h"
+2	6532	190		wait2 NA, __constVal100
+2	6531	193	#line 6531 "NXCDefs.h"
+2	6531	193	#line 6531 "NXCDefs.h"
+2	6533	193	#line 6533 "NXCDefs.h"
+2	6534	193		jmp __NXC_Label_92
+2	6533	195	#line 6533 "NXCDefs.h"
+2	6533	195	#line 6533 "NXCDefs.h"
+2	6534	195		jmp __NXC_Label_105
+2	6533	197	#line 6533 "NXCDefs.h"
+2	6534	197		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6533	199	#line 6533 "NXCDefs.h"
+2	6534	199	#line 6534 "NXCDefs.h"
+2	6535	199		set __D0PlaySound, 2
+2	6534	202	#line 6534 "NXCDefs.h"
+2	6535	202		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6534	206	#line 6534 "NXCDefs.h"
+2	6535	206		mov __D0PlaySound, __zfPlaySound
+2	6534	208	#line 6534 "NXCDefs.h"
+2	6535	208		brtst 4, __NXC_Label_108, __zfPlaySound
+2	6534	211	#line 6534 "NXCDefs.h"
+2	6535	211		set __PlaySound_7qG2_i_7qG2_001, 7
+2	6534	214	#line 6534 "NXCDefs.h"
+2	6534	214	#line 6534 "NXCDefs.h"
+2	6535	214		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+2	6534	216	#line 6534 "NXCDefs.h"
+2	6534	216	#line 6534 "NXCDefs.h"
+2	6535	216		set __D0PlaySound, 3
+2	6534	219	#line 6534 "NXCDefs.h"
+2	6535	219		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6534	223	#line 6534 "NXCDefs.h"
+2	6535	223		mov __D0PlaySound, __zfPlaySound
+2	6534	225	#line 6534 "NXCDefs.h"
+2	6535	225		brtst 4, __NXC_Label_110, __zfPlaySound
+2	6534	228	#line 6534 "NXCDefs.h"
+2	6535	228		jmp __NXC_Label_111
+2	6535	230	#line 6535 "NXCDefs.h"
+2	6536	230		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+2	6536	234	#line 6536 "NXCDefs.h"
+2	6537	234		jmp __NXC_Label_109
+2	6536	236	#line 6536 "NXCDefs.h"
+2	6536	236	#line 6536 "NXCDefs.h"
+2	6536	236	#line 6536 "NXCDefs.h"
+2	6536	236	#line 6536 "NXCDefs.h"
+2	6537	236		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+2	6536	240	#line 6536 "NXCDefs.h"
+2	6536	240	#line 6536 "NXCDefs.h"
+2	6536	240	#line 6536 "NXCDefs.h"
+2	6537	240		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+2	6536	244	#line 6536 "NXCDefs.h"
+2	6536	244	#line 6536 "NXCDefs.h"
+2	6537	244		set __signed_stack_002PlaySound, 100
+2	6536	247	#line 6536 "NXCDefs.h"
+2	6536	247	#line 6536 "NXCDefs.h"
+2	6537	247		set __signed_stack_003PlaySound, 4
+2	6536	250	#line 6536 "NXCDefs.h"
+2	6536	250	#line 6536 "NXCDefs.h"
+2	6537	250		set __D0PlaySound, 0
+2	6537	253	#line 6537 "NXCDefs.h"
+2	6538	253		acquire __SPTArgsMutex
+2	6537	254	#line 6537 "NXCDefs.h"
+2	6538	254		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6537	256	#line 6537 "NXCDefs.h"
+2	6538	256		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6537	258	#line 6537 "NXCDefs.h"
+2	6538	258		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6537	260	#line 6537 "NXCDefs.h"
+2	6538	260		mov __SPTArgs.Loop, __D0PlaySound
+2	6537	262	#line 6537 "NXCDefs.h"
+2	6538	262		syscall 10, __SPTArgs
+2	6537	265	#line 6537 "NXCDefs.h"
+2	6538	265		mov __D0PlaySound, __SPTArgs.Result
+2	6537	267	#line 6537 "NXCDefs.h"
+2	6538	267		release __SPTArgsMutex
+2	6537	268	#line 6537 "NXCDefs.h"
+2	6537	268	#line 6537 "NXCDefs.h"
+2	6538	268		wait2 NA, __constVal100
+2	6537	271	#line 6537 "NXCDefs.h"
+2	6537	271	#line 6537 "NXCDefs.h"
+2	6539	271	#line 6539 "NXCDefs.h"
+2	6540	271		jmp __NXC_Label_112
+2	6539	273	#line 6539 "NXCDefs.h"
+2	6539	273	#line 6539 "NXCDefs.h"
+2	6540	273		jmp __NXC_Label_125
+2	6539	275	#line 6539 "NXCDefs.h"
+2	6540	275		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6539	277	#line 6539 "NXCDefs.h"
+2	6540	277	#line 6540 "NXCDefs.h"
+2	6541	277		set __D0PlaySound, 4
+2	6540	280	#line 6540 "NXCDefs.h"
+2	6541	280		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6540	284	#line 6540 "NXCDefs.h"
+2	6541	284		mov __D0PlaySound, __zfPlaySound
+2	6541	286	#line 6541 "NXCDefs.h"
+2	6542	286		brtst 4, __NXC_Label_128, __zfPlaySound
+2	6541	289	#line 6541 "NXCDefs.h"
+2	6542	289		set __signed_stack_001PlaySound, 100
+2	6541	292	#line 6541 "NXCDefs.h"
+2	6541	292	#line 6541 "NXCDefs.h"
+2	6542	292		set __signed_stack_002PlaySound, 500
+2	6541	295	#line 6541 "NXCDefs.h"
+2	6541	295	#line 6541 "NXCDefs.h"
+2	6542	295		set __signed_stack_003PlaySound, 4
+2	6541	298	#line 6541 "NXCDefs.h"
+2	6541	298	#line 6541 "NXCDefs.h"
+2	6542	298		set __D0PlaySound, 0
+2	6542	301	#line 6542 "NXCDefs.h"
+2	6543	301		acquire __SPTArgsMutex
+2	6542	302	#line 6542 "NXCDefs.h"
+2	6543	302		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6542	304	#line 6542 "NXCDefs.h"
+2	6543	304		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6542	306	#line 6542 "NXCDefs.h"
+2	6543	306		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6542	308	#line 6542 "NXCDefs.h"
+2	6543	308		mov __SPTArgs.Loop, __D0PlaySound
+2	6542	310	#line 6542 "NXCDefs.h"
+2	6543	310		syscall 10, __SPTArgs
+2	6542	313	#line 6542 "NXCDefs.h"
+2	6543	313		mov __D0PlaySound, __SPTArgs.Result
+2	6542	315	#line 6542 "NXCDefs.h"
+2	6543	315		release __SPTArgsMutex
+2	6542	316	#line 6542 "NXCDefs.h"
+2	6542	316	#line 6542 "NXCDefs.h"
+2	6543	316		wait2 NA, __constVal500
+2	6542	319	#line 6542 "NXCDefs.h"
+2	6542	319	#line 6542 "NXCDefs.h"
+2	6544	319	#line 6544 "NXCDefs.h"
+2	6545	319		jmp __NXC_Label_137
+2	6544	321	#line 6544 "NXCDefs.h"
+2	6545	321		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+2	6544	323	#line 6544 "NXCDefs.h"
+2	6545	323	#line 6545 "NXCDefs.h"
+2	6546	323		set __D0PlaySound, 5
+2	6545	326	#line 6545 "NXCDefs.h"
+2	6546	326		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6545	330	#line 6545 "NXCDefs.h"
+2	6546	330		mov __D0PlaySound, __zfPlaySound
+2	6545	332	#line 6545 "NXCDefs.h"
+2	6546	332		brtst 4, __NXC_Label_140, __zfPlaySound
+2	6545	335	#line 6545 "NXCDefs.h"
+2	6546	335		set __PlaySound_7qG2_i_7qG2_001, 4
+2	6545	338	#line 6545 "NXCDefs.h"
+2	6545	338	#line 6545 "NXCDefs.h"
+2	6546	338		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+2	6545	340	#line 6545 "NXCDefs.h"
+2	6545	340	#line 6545 "NXCDefs.h"
+2	6546	340		set __D0PlaySound, 8
+2	6545	343	#line 6545 "NXCDefs.h"
+2	6546	343		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+2	6545	347	#line 6545 "NXCDefs.h"
+2	6546	347		mov __D0PlaySound, __zfPlaySound
+2	6545	349	#line 6545 "NXCDefs.h"
+2	6546	349		brtst 4, __NXC_Label_142, __zfPlaySound
+2	6545	352	#line 6545 "NXCDefs.h"
+2	6546	352		jmp __NXC_Label_143
+2	6546	354	#line 6546 "NXCDefs.h"
+2	6547	354		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+2	6547	358	#line 6547 "NXCDefs.h"
+2	6548	358		jmp __NXC_Label_141
+2	6547	360	#line 6547 "NXCDefs.h"
+2	6547	360	#line 6547 "NXCDefs.h"
+2	6547	360	#line 6547 "NXCDefs.h"
+2	6547	360	#line 6547 "NXCDefs.h"
+2	6548	360		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+2	6547	364	#line 6547 "NXCDefs.h"
+2	6547	364	#line 6547 "NXCDefs.h"
+2	6547	364	#line 6547 "NXCDefs.h"
+2	6548	364		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+2	6547	368	#line 6547 "NXCDefs.h"
+2	6547	368	#line 6547 "NXCDefs.h"
+2	6548	368		set __signed_stack_002PlaySound, 50
+2	6547	371	#line 6547 "NXCDefs.h"
+2	6547	371	#line 6547 "NXCDefs.h"
+2	6548	371		set __signed_stack_003PlaySound, 4
+2	6547	374	#line 6547 "NXCDefs.h"
+2	6547	374	#line 6547 "NXCDefs.h"
+2	6548	374		set __D0PlaySound, 0
+2	6548	377	#line 6548 "NXCDefs.h"
+2	6549	377		acquire __SPTArgsMutex
+2	6548	378	#line 6548 "NXCDefs.h"
+2	6549	378		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+2	6548	380	#line 6548 "NXCDefs.h"
+2	6549	380		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+2	6548	382	#line 6548 "NXCDefs.h"
+2	6549	382		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+2	6548	384	#line 6548 "NXCDefs.h"
+2	6549	384		mov __SPTArgs.Loop, __D0PlaySound
+2	6548	386	#line 6548 "NXCDefs.h"
+2	6549	386		syscall 10, __SPTArgs
+2	6548	389	#line 6548 "NXCDefs.h"
+2	6549	389		mov __D0PlaySound, __SPTArgs.Result
+2	6548	391	#line 6548 "NXCDefs.h"
+2	6549	391		release __SPTArgsMutex
+2	6548	392	#line 6548 "NXCDefs.h"
+2	6548	392	#line 6548 "NXCDefs.h"
+2	6549	392		wait2 NA, __constVal50
+2	6548	395	#line 6548 "NXCDefs.h"
+2	6548	395	#line 6548 "NXCDefs.h"
+2	6560	395	#line 6560 "NXCDefs.h"
+2	6561	395		jmp __NXC_Label_144
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6560	397	#line 6560 "NXCDefs.h"
+2	6561	397		subret __PlaySound_return
+3	244	0	#line 244 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc"
+3	245	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc
+1	__ResetSensorSubroutine	2599	NXTDefs.h
+2	PlaySound	2612	NXCDefs.h
+3	__initialize_global_data	3011	C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Version 3.nxc
