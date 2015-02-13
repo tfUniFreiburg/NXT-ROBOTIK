@@ -1,0 +1,1463 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__D0main	6	1	0	4	104
+1	__signed_stack_003PlaySound	6	1	4	4	14
+2	__unsigned_stack_001main	5	1	8	4	8
+3	__constVal262145	6	0	12	4	3
+4	__signed_stack_001PlaySound	6	1	16	4	38
+5	__rotate_theAngle1	5	1	20	4	2
+6	__signed_stack_002PlaySound	6	1	24	4	14
+7	__SPTArgsMutex	9	0	28	4	14
+8	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	32	4	2
+9	__D0SetSensorLight_inline_main	6	1	36	4	6
+10	__rotate_angle1	6	1	40	4	5
+11	__DU0SetSensorLight_inline_main	5	1	44	4	4
+12	__D0PlaySound	6	1	48	4	48
+13	__signed_stack_002main	6	1	52	4	24
+14	__signed_stack_001main	6	1	56	4	44
+15	__main_7qG2_BFL_7qG2_000	4	1	60	2	10
+16	__PlaySound_7qG2_i_7qG2_001	4	1	62	2	15
+17	__PlaySound_7qG2_aCode_7qG2_000	4	1	64	2	15
+18	__main_7qG2_d_7qG2_000	4	1	66	2	3
+19	__main_7qG2_w_7qG2_000	4	1	68	2	5
+20	__main_7qG2_FLC_7qG2_000	4	1	70	2	14
+21	__constVal523	4	0	72	2	3
+22	__main_7qG2_va_7qG2_000	4	1	74	2	7
+23	__rotate_RotCount1	4	1	76	2	4
+24	__main_7qG2_WFL_7qG2_000	4	1	78	2	10
+25	__main_7qG2_FL_7qG2_000	4	1	80	2	10
+26	__rotate_OldRotCount1	4	1	82	2	2
+27	____initialize_global_data_return	1	1	84	1	3
+28	__PlaySound_return	1	1	85	1	11
+29	__constVal34	2	0	86	1	1
+30	__constVal33	2	0	87	1	1
+31	__main_7qG2_state_7qG2_000	1	1	88	1	12
+32	__constVal35	2	0	89	1	1
+33	__constVal80	2	0	90	1	1
+34	__constVal63	2	0	91	1	8
+35	__constVal96	2	0	92	1	10
+36	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	93	1	4
+37	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	94	1	4
+38	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	95	1	4
+39	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	96	1	10
+40	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	97	1	4
+41	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	98	1	2
+42	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	99	1	4
+43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	100	1	4
+44	__zfSetSensorLight_inline_main	1	1	101	1	4
+45	__rotate_theRVD1	1	1	102	1	3
+46	__rotate_rs1	1	1	103	1	2
+47	__rotate_theRVP1	1	1	104	1	3
+48	__rotate_theRVI1	1	1	105	1	3
+49	__constVal32	2	0	106	1	30
+50	__constVal1	2	0	107	1	20
+51	__rotate_thePower1	2	1	108	1	4
+52	__rotate_theTurnPct1	2	1	109	1	4
+53	__rotate_theRS1	1	1	110	1	3
+54	__rotate_sync1	1	1	111	1	3
+55	__rotate_stop1	1	1	112	1	3
+56	__rotate_power1	1	1	113	1	5
+57	__rotate_firstPort1	1	1	114	1	5
+58	__rotate_theOM1	1	1	115	1	7
+59	__rotate_theRM1	1	1	116	1	4
+60	__rotate_turnpct1	2	1	117	1	4
+61	__rotate_theUF1	1	1	118	1	6
+62	__IOMRUnflattenErr	1	1	119	1	3
+63	__constVal2	2	0	120	1	10
+64	____ResetSensorSubroutine_return	1	1	121	1	5
+65	__tmpsbytemain	2	1	122	1	9
+66	__zfmain	1	1	123	1	74
+67	__zfPlaySound	1	1	124	1	27
+68	__constVal3	2	0	125	1	8
+69	__constVal0	2	1	126	1	51
+70	____RotateMotor1_return	1	1	127	1	4
+71	__constVal4	2	0	128	1	3
+72	__ResetSensorTmp	1	1	129	1	2
+73	__ResetSensorPort	1	1	130	1	5
+74	__SPTArgs	8	0	5	8	42
+75	__SPTArgs.Result	2	1	132	1	42
+76	__SPTArgs.Frequency	3	1	134	2	42
+77	__SPTArgs.Duration	3	1	136	2	42
+78	__SPTArgs.Loop	1	1	138	1	42
+79	__SPTArgs.Volume	1	1	139	1	42
+80	__TextOutArgs	8	0	4	16	31
+81	__TextOutArgs.Result	2	1	140	1	31
+82	__TextOutArgs.Location	8	0	2	4	31
+83	__TextOutArgs.Location.X	4	1	144	2	31
+84	__TextOutArgs.Location.Y	4	1	146	2	31
+85	__TextOutArgs.Text	7	0	148	4	31
+86	__TextOutArgs.Text.Text_type	1	0	0	1	0
+87	__TextOutArgs.Options	5	1	152	4	31
+88	__IOMRBIArgs	8	0	5	16	15
+89	__IOMRBIArgs.Result	2	1	156	1	15
+90	__IOMRBIArgs.ModuleID	5	1	160	4	15
+91	__IOMRBIArgs.Offset	3	1	164	2	15
+92	__IOMRBIArgs.Count	3	1	166	2	15
+93	__IOMRBIArgs.Buffer	7	0	168	4	15
+94	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
+95	__rotate_ports1	7	0	170	4	7
+96	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+97	__strbufmain	7	0	172	4	15
+98	__strbufmain.__strbufmain_type	1	0	0	1	0
+99	__constStr0009	7	0	174	4	9
+100	__constStr0009.__constStr0009_type	1	1	0	1	0
+101	__IOMRUnflattenBuf	7	0	176	4	6
+102	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+103	__constStr0010	7	0	178	4	1
+104	__constStr0010.__constStr0010_type	1	1	0	1	0
+105	__constStr0012	7	0	180	4	1
+106	__constStr0012.__constStr0012_type	1	1	0	1	0
+107	__constStr0011	7	0	182	4	1
+108	__constStr0011.__constStr0011_type	1	1	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	43	0	#line 43 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	44	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	43	2	#line 43 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	43	2	#line 43 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	44	2		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	43	5	#line 43 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	44	5	#line 44 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	45	5		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	7	#line 3729 "NXCDefs.h"
+0	3730	7		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3729	9	#line 3729 "NXCDefs.h"
+0	3730	9		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	11	#line 3729 "NXCDefs.h"
+0	3730	11		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	14	#line 3729 "NXCDefs.h"
+0	3730	14		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	17	#line 3729 "NXCDefs.h"
+0	3730	17		set __D0SetSensorLight_inline_main, 5
+0	3729	20	#line 3729 "NXCDefs.h"
+0	3730	20		jmp __001__NXC_Label_5
+0	3729	22	#line 3729 "NXCDefs.h"
+0	3730	22		set __D0SetSensorLight_inline_main, 6
+0	3729	25	#line 3729 "NXCDefs.h"
+0	3730	25		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	27	#line 3663 "NXCDefs.h"
+0	3664	27		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	31	#line 3663 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3730	31	#line 3730 "NXCDefs.h"
+0	3731	31		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3730	33	#line 3730 "NXCDefs.h"
+0	3731	33		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	36	#line 3730 "NXCDefs.h"
+0	3676	36	#line 3676 "NXCDefs.h"
+0	3677	36		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	40	#line 3676 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3731	40	#line 3731 "NXCDefs.h"
+0	3732	40		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	42	#line 3731 "NXCDefs.h"
+0	3694	42	#line 3694 "NXCDefs.h"
+0	3695	42	#pragma macro 4
+0	3695	42		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	44		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6033	46	#line 6033 "NXCDefs.h"
+0	3694	46	#line 3694 "NXCDefs.h"
+0	3732	46	#line 3732 "NXCDefs.h"
+0	44	46	#line 44 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	44	46	#line 44 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	45	46		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	44	49	#line 44 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	45	49	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	46	49		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	51	#line 3729 "NXCDefs.h"
+0	3730	51		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3729	53	#line 3729 "NXCDefs.h"
+0	3730	53		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	55	#line 3729 "NXCDefs.h"
+0	3730	55		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	58	#line 3729 "NXCDefs.h"
+0	3730	58		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	61	#line 3729 "NXCDefs.h"
+0	3730	61		set __D0SetSensorLight_inline_main, 5
+0	3729	64	#line 3729 "NXCDefs.h"
+0	3730	64		jmp __002__NXC_Label_5
+0	3729	66	#line 3729 "NXCDefs.h"
+0	3730	66		set __D0SetSensorLight_inline_main, 6
+0	3729	69	#line 3729 "NXCDefs.h"
+0	3730	69		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	71	#line 3663 "NXCDefs.h"
+0	3664	71		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	75	#line 3663 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3730	75	#line 3730 "NXCDefs.h"
+0	3731	75		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3730	77	#line 3730 "NXCDefs.h"
+0	3731	77		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	80	#line 3730 "NXCDefs.h"
+0	3676	80	#line 3676 "NXCDefs.h"
+0	3677	80		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	84	#line 3676 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3731	84	#line 3731 "NXCDefs.h"
+0	3732	84		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	86	#line 3731 "NXCDefs.h"
+0	3694	86	#line 3694 "NXCDefs.h"
+0	3695	86	#pragma macro 4
+0	3695	86		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	88		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6100	90	#line 6100 "NXCDefs.h"
+0	3694	90	#line 3694 "NXCDefs.h"
+0	3732	90	#line 3732 "NXCDefs.h"
+0	45	90	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	45	90	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	46	90		set __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 2
+0	45	93	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	3718	93	#line 3718 "NXCDefs.h"
+0	3719	93	#pragma macro 6
+0	3719	93		setin __constVal1, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 0
+0	3719	97		setin __constVal32, __SetSensorTouch_7qG2_port_7qG2_000_inline_main, 1
+0	3719	101		mov __ResetSensorPort, __SetSensorTouch_7qG2_port_7qG2_000_inline_main
+0	3719	103		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	6115	105	#line 6115 "NXCDefs.h"
+0	3718	105	#line 3718 "NXCDefs.h"
+0	53	105	#line 53 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	55	105	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	105		set __main_7qG2_d_7qG2_000, 150
+0	55	108	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	55	108	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	108		set __main_7qG2_BFL_7qG2_000, 0
+0	55	111	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	55	111	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	111		set __main_7qG2_WFL_7qG2_000, 0
+0	55	114	#line 55 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	114	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	57	114		set __main_7qG2_FL_7qG2_000, 0
+0	56	117	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	117	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	117	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	117	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	57	117		set __main_7qG2_FLC_7qG2_000, 0
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	56	120	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	57	120	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	58	120		set __main_7qG2_w_7qG2_000, 1
+0	57	123	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	57	123	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	57	123	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	58	123	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	59	123		mov __main_7qG2_va_7qG2_000, __constVal80
+0	58	125	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	58	125	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	58	125	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	59	125	#line 59 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	59	125	#line 59 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	60	125	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	61	125		set __main_7qG2_WFL_7qG2_000, 0
+0	60	128	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	60	128	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	61	128		mov __main_7qG2_BFL_7qG2_000, __constVal0
+0	60	130	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	60	130	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	63	130	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	63	130	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	64	130	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	130		set __main_7qG2_state_7qG2_000, 0
+0	64	133	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	64	133	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	64	133	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	133		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	64	135	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	64	135	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	135		set __D0main, 0
+0	64	138	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	138		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	64	142	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	142		mov __D0main, __zfmain
+0	65	144	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	144		brtst 4, __NXC_Label_698, __zfmain
+0	65	147	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	147		mov __D0main, __main_7qG2_BFL_7qG2_000
+0	65	149	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	149		tst 5, __zfmain, __D0main
+0	65	152	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	152		mov __D0main, __zfmain
+0	65	154	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	154		brtst 4, __NXC_Label_702, __zfmain
+0	65	157	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	157		mov __signed_stack_001main, __D0main
+0	65	159	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	159		mov __signed_stack_002main, __main_7qG2_WFL_7qG2_000
+0	65	161	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	161	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	161		set __D0main, 0
+0	65	164	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	164		cmp 5, __zfmain, __signed_stack_002main, __D0main
+0	65	168	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	65	168	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	66	168		and __D0main, __signed_stack_001main, __zfmain
+0	66	172	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	67	172		tst 5, __zfmain, __D0main
+0	66	175	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	67	175		brtst 4, __NXC_Label_703, __zfmain
+0	67	178	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	68	178		set __main_7qG2_state_7qG2_000, 1
+0	67	181	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	67	181	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	73	181	#line 73 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	73	181	#line 73 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	74	181	#pragma macro 2
+0	74	181	#pragma macro 25
+0	74	181		mov __IOMRBIArgs.ModuleID, __constVal262145
+0	74	183		mov __IOMRBIArgs.Offset, __constVal33
+0	74	185		set __IOMRBIArgs.Count, 1
+0	74	188		syscall 78, __IOMRBIArgs
+0	74	191		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	74	194		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	6366	199	#line 6366 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	6367	199		mov __D0main, __tmpsbytemain
+0	73	201	#line 73 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	74	201	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	201		tst 5, __zfmain, __D0main
+0	74	204	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	204		brtst 4, __NXC_Label_708, __zfmain
+0	74	207	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	207		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	74	209	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	74	209	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	209		set __D0main, 0
+0	74	212	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	212		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	74	216	#line 74 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	216		mov __D0main, __zfmain
+0	75	218	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	76	218		brtst 4, __NXC_Label_711, __zfmain
+0	75	221	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	76	221		getin __main_7qG2_BFL_7qG2_000, __constVal0, 4
+0	75	225	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	225	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	75	225	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	78	225	#line 78 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	79	225		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	78	229	#line 78 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	78	229	#line 78 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	79	229		strcat __strbufmain, __constStr0009
+0	78	233	#line 78 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	79	233		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	78	236	#line 78 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	80	236	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	236		subcall PlaySound, __PlaySound_return
+0	80	238	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	80	238	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	238		jmp __NXC_Label_716
+0	80	240	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	240		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	80	242	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	80	242	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	242		set __D0main, 1
+0	80	245	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	245		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	80	249	#line 80 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	249		mov __D0main, __zfmain
+0	81	251	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	82	251		brtst 4, __NXC_Label_719, __zfmain
+0	81	254	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	82	254		getin __main_7qG2_WFL_7qG2_000, __constVal0, 4
+0	81	258	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	258	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	258	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	258	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	258		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	84	262	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	262	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	262		strcat __strbufmain, __constStr0009
+0	84	266	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	266		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	84	269	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	269	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	86	269		subcall PlaySound, __PlaySound_return
+0	85	271	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	271	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	86	271		strcat __strbufmain, __constStr0009
+0	85	275	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	86	275		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	85	278	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	86	278	#line 86 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	87	278		subcall PlaySound, __PlaySound_return
+0	86	280	#line 86 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	280	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	280	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	280	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	280	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	280		jmp __NXC_Label_697
+0	90	282	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	282	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	282		strcat __strbufmain, __constStr0009
+0	90	286	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	286		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	90	289	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	289	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	289		subcall PlaySound, __PlaySound_return
+0	91	291	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	291	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	291		set __main_7qG2_FLC_7qG2_000, 0
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	294	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	294		add __signed_stack_001main, __main_7qG2_BFL_7qG2_000, __main_7qG2_WFL_7qG2_000
+0	92	298	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	298	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	298	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	298		div __main_7qG2_FL_7qG2_000, __signed_stack_001main, __constVal2
+0	93	302	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	302	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	95	302	#line 95 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	302		set __main_7qG2_WFL_7qG2_000, 0
+0	95	305	#line 95 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	95	305	#line 95 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	305		mov __main_7qG2_BFL_7qG2_000, __constVal0
+0	95	307	#line 95 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	95	307	#line 95 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	307	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	307		set __main_7qG2_state_7qG2_000, 0
+0	96	310	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	310	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	310	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	310		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	96	312	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	312	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	312		set __D0main, 0
+0	96	315	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	315		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	96	319	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	319		mov __D0main, __zfmain
+0	97	321	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	321		brtst 4, __NXC_Label_743, __zfmain
+0	97	324	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	324		mov __D0main, __main_7qG2_BFL_7qG2_000
+0	97	326	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	326		tst 5, __zfmain, __D0main
+0	97	329	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	329		mov __D0main, __zfmain
+0	97	331	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	331		brtst 4, __NXC_Label_747, __zfmain
+0	97	334	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	334		mov __signed_stack_001main, __D0main
+0	97	336	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	336		mov __signed_stack_002main, __main_7qG2_WFL_7qG2_000
+0	97	338	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	338	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	338		set __D0main, 0
+0	97	341	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	341		cmp 5, __zfmain, __signed_stack_002main, __D0main
+0	97	345	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	345	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	345		and __D0main, __signed_stack_001main, __zfmain
+0	98	349	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	99	349		tst 5, __zfmain, __D0main
+0	98	352	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	99	352		brtst 4, __NXC_Label_748, __zfmain
+0	99	355	#line 99 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	100	355		set __main_7qG2_state_7qG2_000, 1
+0	99	358	#line 99 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	99	358	#line 99 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	105	358	#line 105 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	105	358	#line 105 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	106	358	#pragma macro 2
+0	106	358	#pragma macro 25
+0	106	358		mov __IOMRBIArgs.ModuleID, __constVal262145
+0	106	360		mov __IOMRBIArgs.Offset, __constVal34
+0	106	362		set __IOMRBIArgs.Count, 1
+0	106	365		syscall 78, __IOMRBIArgs
+0	106	368		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	106	371		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	6586	376	#line 6586 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	6587	376		mov __D0main, __tmpsbytemain
+0	105	378	#line 105 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	106	378	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	378		tst 5, __zfmain, __D0main
+0	106	381	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	381		brtst 4, __NXC_Label_753, __zfmain
+0	106	384	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	384		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	106	386	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	106	386	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	386		set __D0main, 0
+0	106	389	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	389		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	106	393	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	393		mov __D0main, __zfmain
+0	107	395	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	108	395		brtst 4, __NXC_Label_756, __zfmain
+0	107	398	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	108	398		getin __main_7qG2_BFL_7qG2_000, __constVal0, 4
+0	107	402	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	402	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	402	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	110	402	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	111	402		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	110	406	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	110	406	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	111	406		strcat __strbufmain, __constStr0009
+0	110	410	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	111	410		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	110	413	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	112	413	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	413		subcall PlaySound, __PlaySound_return
+0	112	415	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	112	415	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	415		jmp __NXC_Label_761
+0	112	417	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	417		mov __signed_stack_001main, __main_7qG2_FLC_7qG2_000
+0	112	419	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	112	419	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	419		set __D0main, 1
+0	112	422	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	422		cmp 4, __zfmain, __signed_stack_001main, __D0main
+0	112	426	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	426		mov __D0main, __zfmain
+0	113	428	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	114	428		brtst 4, __NXC_Label_764, __zfmain
+0	113	431	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	114	431		getin __main_7qG2_WFL_7qG2_000, __constVal0, 4
+0	113	435	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	435	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	435	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	116	435	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	117	435		add __main_7qG2_FLC_7qG2_000, __main_7qG2_FLC_7qG2_000, __constVal1
+0	116	439	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	116	439	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	117	439		strcat __strbufmain, __constStr0009
+0	116	443	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	117	443		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	116	446	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	117	446	#line 117 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	118	446		subcall PlaySound, __PlaySound_return
+0	117	448	#line 117 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	117	448	#line 117 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	118	448		strcat __strbufmain, __constStr0009
+0	117	452	#line 117 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	118	452		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	117	455	#line 117 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	118	455	#line 118 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	119	455		subcall PlaySound, __PlaySound_return
+0	118	457	#line 118 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	120	457	#line 120 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	120	457	#line 120 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	457	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	457	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	457		jmp __NXC_Label_742
+0	122	459	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	459	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	459		mov __signed_stack_001main, __main_7qG2_FL_7qG2_000
+0	122	461	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	461	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	461	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	461	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	461	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	461		add __signed_stack_002main, __main_7qG2_BFL_7qG2_000, __main_7qG2_WFL_7qG2_000
+0	122	465	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	465	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	122	465	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	465		div __D0main, __signed_stack_002main, __constVal2
+0	122	469	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	469		add __signed_stack_001main, __signed_stack_001main, __D0main
+0	122	473	#line 122 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	473	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	473	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	124	473		div __main_7qG2_FL_7qG2_000, __signed_stack_001main, __constVal2
+0	123	477	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	477	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	123	477	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	124	477		strcat __strbufmain, __constStr0009
+0	123	481	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	124	481		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	123	484	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	141	484	#line 141 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	142	484		subcall PlaySound, __PlaySound_return
+0	141	486	#line 141 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	141	486	#line 141 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	142	486		set __D0main, 1
+0	143	489	#line 143 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	144	489		tst 5, __zfmain, __D0main
+0	143	492	#line 143 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	144	492		brtst 4, __NXC_Label_782, __zfmain
+0	143	495	#line 143 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	144	495	#pragma macro 2
+0	144	495	#pragma macro 25
+0	144	495		mov __IOMRBIArgs.ModuleID, __constVal262145
+0	144	497		mov __IOMRBIArgs.Offset, __constVal35
+0	144	499		set __IOMRBIArgs.Count, 1
+0	144	502		syscall 78, __IOMRBIArgs
+0	144	505		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	144	508		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
+0	6750	513	#line 6750 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	6751	513		mov __D0main, __tmpsbytemain
+0	143	515	#line 143 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	144	515	#line 144 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	145	515		tst 5, __zfmain, __D0main
+0	144	518	#line 144 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	145	518		brtst 4, __NXC_Label_787, __zfmain
+0	145	521	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	146	521		set __main_7qG2_state_7qG2_000, 0
+0	145	524	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	145	524	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	145	524	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	146	524		strcat __strbufmain, __constStr0009
+0	145	528	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	146	528		set __PlaySound_7qG2_aCode_7qG2_000, 1
+0	145	531	#line 145 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	146	531	#line 146 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	147	531		subcall PlaySound, __PlaySound_return
+0	146	533	#line 146 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	146	533	#line 146 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	147	533		set __D0main, 1
+0	157	536	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	536		tst 5, __zfmain, __D0main
+0	157	539	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	539		brtst 4, __NXC_Label_793, __zfmain
+0	157	542	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	542		set __signed_stack_001main, 10
+0	157	545	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	157	545	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	545		set __signed_stack_002main, 32
+0	157	548	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	157	548	#line 157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	548		strcat __strbufmain, __constStr0010
+0	158	552	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	552	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	552		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	158	554	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	554		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	158	556	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	556		set __TextOutArgs.Options, 0
+0	158	559	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	559		mov __TextOutArgs.Text, __strbufmain
+0	158	561	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	561		syscall 13, __TextOutArgs
+0	158	564	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	564	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	564	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	564	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	564		set __signed_stack_001main, 60
+0	158	567	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	567	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	567		set __signed_stack_002main, 32
+0	158	570	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	158	570	#line 158 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	570		mov __D0main, __main_7qG2_FL_7qG2_000
+0	159	572	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	572	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	572		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	159	574	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	574		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	159	576	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	576		set __TextOutArgs.Options, 0
+0	159	579	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	579		numtostr __TextOutArgs.Text, __D0main
+0	159	582	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	582		syscall 13, __TextOutArgs
+0	159	585	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	585	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	585	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	585	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	585		set __signed_stack_001main, 10
+0	159	588	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	588	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	588		set __signed_stack_002main, 24
+0	159	591	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	159	591	#line 159 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	591		strcat __strbufmain, __constStr0011
+0	160	595	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	595	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	595		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	160	597	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	597		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	160	599	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	599		set __TextOutArgs.Options, 0
+0	160	602	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	602		mov __TextOutArgs.Text, __strbufmain
+0	160	604	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	604		syscall 13, __TextOutArgs
+0	160	607	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	607	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	607	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	607	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	607		set __signed_stack_001main, 60
+0	160	610	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	610	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	610		set __signed_stack_002main, 24
+0	160	613	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	160	613	#line 160 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	613		mov __D0main, __main_7qG2_BFL_7qG2_000
+0	161	615	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	615	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	615		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	161	617	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	617		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	161	619	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	619		set __TextOutArgs.Options, 0
+0	161	622	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	622		numtostr __TextOutArgs.Text, __D0main
+0	161	625	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	625		syscall 13, __TextOutArgs
+0	161	628	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	628	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	628	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	628	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	628		set __signed_stack_001main, 10
+0	161	631	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	631	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	631		set __signed_stack_002main, 16
+0	161	634	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	161	634	#line 161 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	634		strcat __strbufmain, __constStr0012
+0	162	638	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	638	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	638		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	162	640	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	640		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	162	642	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	642		set __TextOutArgs.Options, 0
+0	162	645	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	645		mov __TextOutArgs.Text, __strbufmain
+0	162	647	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	647		syscall 13, __TextOutArgs
+0	162	650	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	650	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	650	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	650	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	650		set __signed_stack_001main, 60
+0	162	653	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	653	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	653		set __signed_stack_002main, 16
+0	162	656	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	162	656	#line 162 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	163	656		mov __D0main, __main_7qG2_WFL_7qG2_000
+0	167	658	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	658	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	658		mov __TextOutArgs.Location.X, __signed_stack_001main
+0	167	660	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	660		mov __TextOutArgs.Location.Y, __signed_stack_002main
+0	167	662	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	662		set __TextOutArgs.Options, 0
+0	167	665	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	665		numtostr __TextOutArgs.Text, __D0main
+0	167	668	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	668		syscall 13, __TextOutArgs
+0	167	671	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	671		mov __D0main, __TextOutArgs.Result
+0	167	673	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	673	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	673	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	673		getin __D0main, __constVal0, 4
+0	167	677	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	677		tst 5, __zfmain, __D0main
+0	167	680	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	680		mov __D0main, __zfmain
+0	167	682	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	682		brtst 4, __NXC_Label_827, __zfmain
+0	167	685	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	685		mov __signed_stack_001main, __D0main
+0	167	687	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	687		getin __signed_stack_002main, __constVal1, 4
+0	167	691	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	691	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	691		mov __D0main, __main_7qG2_FL_7qG2_000
+0	167	693	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	693		cmp 3, __zfmain, __signed_stack_002main, __D0main
+0	167	697	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	697	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	697		and __D0main, __signed_stack_001main, __zfmain
+0	167	701	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	701		tst 5, __zfmain, __D0main
+0	167	704	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	704		mov __D0main, __zfmain
+0	167	706	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	706		brtst 5, __NXC_Label_826, __zfmain
+0	167	709	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	709		mov __signed_stack_001main, __D0main
+0	167	711	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	711		getin __D0main, __constVal0, 4
+0	167	715	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	715		tst 5, __zfmain, __D0main
+0	167	718	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	718		mov __D0main, __zfmain
+0	167	720	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	720		brtst 4, __NXC_Label_830, __zfmain
+0	167	723	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	723		mov __signed_stack_002main, __D0main
+0	167	725	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	725		getin __D0main, __constVal1, 4
+0	167	729	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	729		and __D0main, __signed_stack_002main, __D0main
+0	167	733	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	733		mov __signed_stack_002main, __D0main
+0	167	735	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	735		mov __D0main, __main_7qG2_FL_7qG2_000
+0	167	737	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	737		cmp 2, __zfmain, __signed_stack_002main, __D0main
+0	167	741	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	167	741	#line 167 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	168	741		or __D0main, __signed_stack_001main, __zfmain
+0	168	745	#line 168 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	169	745		tst 5, __zfmain, __D0main
+0	168	748	#line 168 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	169	748		brtst 4, __NXC_Label_831, __zfmain
+0	169	751	#line 169 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	170	751		set __main_7qG2_va_7qG2_000, 100
+0	169	754	#line 169 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	169	754	#line 169 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	170	754	#line 170 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	171	754		jmp __NXC_Label_834
+0	171	756	#line 171 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	172	756		set __main_7qG2_va_7qG2_000, 75
+0	171	759	#line 171 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	171	759	#line 171 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	173	759	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	173	759	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	174	759		getin __signed_stack_001main, __constVal0, 4
+0	173	763	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	173	763	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	174	763		mov __D0main, __main_7qG2_FL_7qG2_000
+0	173	765	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	174	765		cmp 3, __zfmain, __signed_stack_001main, __D0main
+0	173	769	#line 173 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	174	769		mov __D0main, __zfmain
+0	174	771	#line 174 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	175	771		brtst 4, __NXC_Label_839, __zfmain
+0	174	774	#line 174 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	175	774		mov __D0main, __main_7qG2_va_7qG2_000
+0	176	776	#line 176 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	177	776	#pragma macro 7
+0	177	776		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7079	799	#line 7079 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	176	799	#line 176 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	178	799	#line 178 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	179	799	#pragma macro 7
+0	179	799		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7082	822	#line 7082 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	178	822	#line 178 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	179	822	#line 179 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	180	822		jmp __NXC_Label_842
+0	179	824	#line 179 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	180	824		mov __D0main, __main_7qG2_va_7qG2_000
+0	181	826	#line 181 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	182	826	#pragma macro 7
+0	182	826		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7092	849	#line 7092 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	181	849	#line 181 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	182	849	#line 182 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	183	849	#pragma macro 7
+0	183	849		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7095	872	#line 7095 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	182	872	#line 182 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	184	872	#line 184 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	184	872	#line 184 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	185	872		getin __D0main, __constVal2, 4
+0	185	876	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	876		tst 5, __zfmain, __D0main
+0	185	879	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	879		brtst 4, __NXC_Label_847, __zfmain
+0	185	882	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	882		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	185	884	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	185	884	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	884		set __D0main, 0
+0	185	887	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	887		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	185	891	#line 185 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	186	891		mov __D0main, __zfmain
+0	187	893	#line 187 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	188	893		brtst 4, __NXC_Label_850, __zfmain
+0	187	896	#line 187 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	188	896		set __signed_stack_001main, 50
+0	187	899	#line 187 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	187	899	#line 187 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	188	899		mov __D0main, __main_7qG2_d_7qG2_000
+0	188	901	#line 188 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	901	#pragma macro 33
+0	189	901		arrbuild __rotate_ports1, __constVal1
+0	189	905		mov __rotate_power1, __signed_stack_001main
+0	189	907		mov __rotate_angle1, __D0main
+0	189	909		mov __rotate_turnpct1, __constVal0
+0	189	911		mov __rotate_sync1, __constVal0
+0	189	913		mov __rotate_stop1, __constVal1
+0	189	915		mov __rotate_theRVP1, __constVal32
+0	189	917		mov __rotate_theRVI1, __constVal0
+0	189	919		mov __rotate_theRVD1, __constVal96
+0	189	921		subcall __RotateMotor1, ____RotateMotor1_return
+0	7132	923	#line 7132 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	188	923	#line 188 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	923	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	923		add __main_7qG2_state_7qG2_000, __main_7qG2_state_7qG2_000, __constVal1
+0	189	927	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	927	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	927		getin __signed_stack_001main, __constVal0, 4
+0	189	931	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	931	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	931		mov __D0main, __main_7qG2_FL_7qG2_000
+0	189	933	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	933		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	189	937	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	937		mov __D0main, __zfmain
+0	189	939	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	939		brtst 4, __NXC_Label_856, __zfmain
+0	189	942	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	942		mov __D0main, __main_7qG2_va_7qG2_000
+0	189	944	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	944	#pragma macro 7
+0	190	944		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7157	967	#line 7157 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	967	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	967	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	967		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	189	969	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	7921	969	#line 7921 "NXCDefs.h"
+0	7922	969		waitv __main_7qG2_w_7qG2_000
+0	7921	971	#line 7921 "NXCDefs.h"
+0	189	971	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	971	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	971	#pragma macro 7
+0	190	971		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7174	994	#line 7174 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	189	994	#line 189 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	994	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	994		jmp __NXC_Label_855
+0	190	996	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	996	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	996		getin __signed_stack_001main, __constVal0, 4
+0	190	1000	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	1000	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1000		mov __D0main, __main_7qG2_FL_7qG2_000
+0	190	1002	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1002		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	190	1006	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1006		mov __D0main, __zfmain
+0	190	1008	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1008		brtst 4, __NXC_Label_864, __zfmain
+0	190	1011	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1011		mov __D0main, __main_7qG2_va_7qG2_000
+0	190	1013	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1013	#pragma macro 7
+0	191	1013		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7200	1036	#line 7200 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	1036	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	1036	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1036		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	190	1038	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	7921	1038	#line 7921 "NXCDefs.h"
+0	7922	1038		waitv __main_7qG2_w_7qG2_000
+0	7921	1040	#line 7921 "NXCDefs.h"
+0	190	1040	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	1040	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1040	#pragma macro 7
+0	191	1040		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	7213	1063	#line 7213 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	190	1063	#line 190 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1063	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1063		jmp __NXC_Label_863
+0	191	1065	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1065	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1065		jmp __NXC_Label_871
+0	191	1067	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1067		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	191	1069	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	191	1069	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1069		set __D0main, 1
+0	191	1072	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1072		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	191	1076	#line 191 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	192	1076		mov __D0main, __zfmain
+0	193	1078	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	194	1078		brtst 4, __NXC_Label_874, __zfmain
+0	193	1081	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	194	1081		set __signed_stack_001main, 50
+0	193	1084	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	193	1084	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	193	1084	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	193	1084	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	193	1084	#line 193 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	194	1084		sub __D0main, __constVal0, __main_7qG2_d_7qG2_000
+0	194	1088	#line 194 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	195	1088	#pragma macro 33
+0	195	1088		arrbuild __rotate_ports1, __constVal1
+0	195	1092		mov __rotate_power1, __signed_stack_001main
+0	195	1094		mov __rotate_angle1, __D0main
+0	195	1096		mov __rotate_turnpct1, __constVal0
+0	195	1098		mov __rotate_sync1, __constVal0
+0	195	1100		mov __rotate_stop1, __constVal1
+0	195	1102		mov __rotate_theRVP1, __constVal32
+0	195	1104		mov __rotate_theRVI1, __constVal0
+0	195	1106		mov __rotate_theRVD1, __constVal96
+0	195	1108		subcall __RotateMotor1, ____RotateMotor1_return
+0	7253	1110	#line 7253 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	194	1110	#line 194 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	195	1110	#line 195 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	196	1110		set __main_7qG2_state_7qG2_000, 0
+0	195	1113	#line 195 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	195	1113	#line 195 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	199	1113	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	199	1113	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	199	1113	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	199	1113	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	200	1113		jmp __NXC_Label_792
+0	199	1115	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	199	1115	#line 199 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	201	1115	#line 201 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	202	1115		jmp __NXC_Label_781
+0	201	1117	#line 201 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	202	1117		exit -1, -1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		sign __rotate_thePower1, __rotate_angle1
+1	4531	6		abs __rotate_theAngle1, __rotate_angle1
+1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	13		set __rotate_theUF1, 23
+1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	19		set __rotate_theOM1, 7
+1	4537	22		set __rotate_theRM1, 2
+1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	34		jmp __rotate_Start1
+1	4543	36		set __rotate_theOM1, 3
+1	4544	39		set __rotate_theRM1, 0
+1	4545	42		set __rotate_theTurnPct1, 0
+1	4547	45		set __rotate_theRS1, 32
+1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	93		set __rotate_theOM1, 7
+1	4561	96		set __rotate_theUF1, 7
+1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	120		wait 50
+1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	130		set __rotate_theOM1, 4
+1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	147		setout __rotate_ports1, 0, __constVal32
+1	4578	152		subret ____RotateMotor1_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	6518	0	#line 6518 "NXCDefs.h"
+3	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6518	2	#line 6518 "NXCDefs.h"
+3	6519	2	#line 6519 "NXCDefs.h"
+3	6520	2		set __D0PlaySound, 0
+3	6519	5	#line 6519 "NXCDefs.h"
+3	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6519	9	#line 6519 "NXCDefs.h"
+3	6520	9		mov __D0PlaySound, __zfPlaySound
+3	6519	11	#line 6519 "NXCDefs.h"
+3	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
+3	6519	14	#line 6519 "NXCDefs.h"
+3	6520	14		set __signed_stack_001PlaySound, 600
+3	6519	17	#line 6519 "NXCDefs.h"
+3	6519	17	#line 6519 "NXCDefs.h"
+3	6520	17		set __signed_stack_002PlaySound, 200
+3	6519	20	#line 6519 "NXCDefs.h"
+3	6519	20	#line 6519 "NXCDefs.h"
+3	6520	20		set __signed_stack_003PlaySound, 4
+3	6519	23	#line 6519 "NXCDefs.h"
+3	6519	23	#line 6519 "NXCDefs.h"
+3	6520	23		set __D0PlaySound, 0
+3	6520	26	#line 6520 "NXCDefs.h"
+3	6521	26		acquire __SPTArgsMutex
+3	6520	27	#line 6520 "NXCDefs.h"
+3	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6520	29	#line 6520 "NXCDefs.h"
+3	6521	29		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6520	31	#line 6520 "NXCDefs.h"
+3	6521	31		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6520	33	#line 6520 "NXCDefs.h"
+3	6521	33		mov __SPTArgs.Loop, __D0PlaySound
+3	6520	35	#line 6520 "NXCDefs.h"
+3	6521	35		syscall 10, __SPTArgs
+3	6520	38	#line 6520 "NXCDefs.h"
+3	6521	38		mov __D0PlaySound, __SPTArgs.Result
+3	6520	40	#line 6520 "NXCDefs.h"
+3	6521	40		release __SPTArgsMutex
+3	6520	41	#line 6520 "NXCDefs.h"
+3	6520	41	#line 6520 "NXCDefs.h"
+3	6521	41		jmp __NXC_Label_65
+3	6520	43	#line 6520 "NXCDefs.h"
+3	6521	43		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6520	45	#line 6520 "NXCDefs.h"
+3	6521	45	#line 6521 "NXCDefs.h"
+3	6522	45		set __D0PlaySound, 1
+3	6521	48	#line 6521 "NXCDefs.h"
+3	6522	48		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6521	52	#line 6521 "NXCDefs.h"
+3	6522	52		mov __D0PlaySound, __zfPlaySound
+3	6522	54	#line 6522 "NXCDefs.h"
+3	6523	54		brtst 4, __NXC_Label_68, __zfPlaySound
+3	6522	57	#line 6522 "NXCDefs.h"
+3	6523	57		set __signed_stack_001PlaySound, 600
+3	6522	60	#line 6522 "NXCDefs.h"
+3	6522	60	#line 6522 "NXCDefs.h"
+3	6523	60		set __signed_stack_002PlaySound, 150
+3	6522	63	#line 6522 "NXCDefs.h"
+3	6522	63	#line 6522 "NXCDefs.h"
+3	6523	63		set __signed_stack_003PlaySound, 4
+3	6522	66	#line 6522 "NXCDefs.h"
+3	6522	66	#line 6522 "NXCDefs.h"
+3	6523	66		set __D0PlaySound, 0
+3	6523	69	#line 6523 "NXCDefs.h"
+3	6524	69		acquire __SPTArgsMutex
+3	6523	70	#line 6523 "NXCDefs.h"
+3	6524	70		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6523	72	#line 6523 "NXCDefs.h"
+3	6524	72		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6523	74	#line 6523 "NXCDefs.h"
+3	6524	74		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6523	76	#line 6523 "NXCDefs.h"
+3	6524	76		mov __SPTArgs.Loop, __D0PlaySound
+3	6523	78	#line 6523 "NXCDefs.h"
+3	6524	78		syscall 10, __SPTArgs
+3	6523	81	#line 6523 "NXCDefs.h"
+3	6524	81		mov __D0PlaySound, __SPTArgs.Result
+3	6523	83	#line 6523 "NXCDefs.h"
+3	6524	83		release __SPTArgsMutex
+3	6523	84	#line 6523 "NXCDefs.h"
+3	6523	84	#line 6523 "NXCDefs.h"
+3	6524	84		wait 200
+3	6523	86	#line 6523 "NXCDefs.h"
+3	6523	86	#line 6523 "NXCDefs.h"
+3	6524	86	#line 6524 "NXCDefs.h"
+3	6525	86		set __signed_stack_001PlaySound, 600
+3	6524	89	#line 6524 "NXCDefs.h"
+3	6524	89	#line 6524 "NXCDefs.h"
+3	6525	89		set __signed_stack_002PlaySound, 150
+3	6524	92	#line 6524 "NXCDefs.h"
+3	6524	92	#line 6524 "NXCDefs.h"
+3	6525	92		set __signed_stack_003PlaySound, 4
+3	6524	95	#line 6524 "NXCDefs.h"
+3	6524	95	#line 6524 "NXCDefs.h"
+3	6525	95		set __D0PlaySound, 0
+3	6525	98	#line 6525 "NXCDefs.h"
+3	6526	98		acquire __SPTArgsMutex
+3	6525	99	#line 6525 "NXCDefs.h"
+3	6526	99		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6525	101	#line 6525 "NXCDefs.h"
+3	6526	101		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6525	103	#line 6525 "NXCDefs.h"
+3	6526	103		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6525	105	#line 6525 "NXCDefs.h"
+3	6526	105		mov __SPTArgs.Loop, __D0PlaySound
+3	6525	107	#line 6525 "NXCDefs.h"
+3	6526	107		syscall 10, __SPTArgs
+3	6525	110	#line 6525 "NXCDefs.h"
+3	6526	110		mov __D0PlaySound, __SPTArgs.Result
+3	6525	112	#line 6525 "NXCDefs.h"
+3	6526	112		release __SPTArgsMutex
+3	6525	113	#line 6525 "NXCDefs.h"
+3	6525	113	#line 6525 "NXCDefs.h"
+3	6526	113		wait 150
+3	6525	115	#line 6525 "NXCDefs.h"
+3	6525	115	#line 6525 "NXCDefs.h"
+3	6527	115	#line 6527 "NXCDefs.h"
+3	6528	115		jmp __NXC_Label_85
+3	6527	117	#line 6527 "NXCDefs.h"
+3	6528	117		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6527	119	#line 6527 "NXCDefs.h"
+3	6528	119	#line 6528 "NXCDefs.h"
+3	6529	119		set __D0PlaySound, 3
+3	6528	122	#line 6528 "NXCDefs.h"
+3	6529	122		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6528	126	#line 6528 "NXCDefs.h"
+3	6529	126		mov __D0PlaySound, __zfPlaySound
+3	6528	128	#line 6528 "NXCDefs.h"
+3	6529	128		brtst 4, __NXC_Label_88, __zfPlaySound
+3	6528	131	#line 6528 "NXCDefs.h"
+3	6529	131		set __PlaySound_7qG2_i_7qG2_001, 4
+3	6528	134	#line 6528 "NXCDefs.h"
+3	6528	134	#line 6528 "NXCDefs.h"
+3	6529	134		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6528	136	#line 6528 "NXCDefs.h"
+3	6528	136	#line 6528 "NXCDefs.h"
+3	6529	136		set __D0PlaySound, 8
+3	6528	139	#line 6528 "NXCDefs.h"
+3	6529	139		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6528	143	#line 6528 "NXCDefs.h"
+3	6529	143		mov __D0PlaySound, __zfPlaySound
+3	6528	145	#line 6528 "NXCDefs.h"
+3	6529	145		brtst 4, __NXC_Label_90, __zfPlaySound
+3	6528	148	#line 6528 "NXCDefs.h"
+3	6529	148		jmp __NXC_Label_91
+3	6529	150	#line 6529 "NXCDefs.h"
+3	6530	150		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6530	154	#line 6530 "NXCDefs.h"
+3	6531	154		jmp __NXC_Label_89
+3	6530	156	#line 6530 "NXCDefs.h"
+3	6530	156	#line 6530 "NXCDefs.h"
+3	6530	156	#line 6530 "NXCDefs.h"
+3	6530	156	#line 6530 "NXCDefs.h"
+3	6531	156		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6530	160	#line 6530 "NXCDefs.h"
+3	6530	160	#line 6530 "NXCDefs.h"
+3	6530	160	#line 6530 "NXCDefs.h"
+3	6531	160		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6530	164	#line 6530 "NXCDefs.h"
+3	6530	164	#line 6530 "NXCDefs.h"
+3	6531	164		set __signed_stack_002PlaySound, 100
+3	6530	167	#line 6530 "NXCDefs.h"
+3	6530	167	#line 6530 "NXCDefs.h"
+3	6531	167		set __signed_stack_003PlaySound, 4
+3	6530	170	#line 6530 "NXCDefs.h"
+3	6530	170	#line 6530 "NXCDefs.h"
+3	6531	170		set __D0PlaySound, 0
+3	6531	173	#line 6531 "NXCDefs.h"
+3	6532	173		acquire __SPTArgsMutex
+3	6531	174	#line 6531 "NXCDefs.h"
+3	6532	174		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6531	176	#line 6531 "NXCDefs.h"
+3	6532	176		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6531	178	#line 6531 "NXCDefs.h"
+3	6532	178		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6531	180	#line 6531 "NXCDefs.h"
+3	6532	180		mov __SPTArgs.Loop, __D0PlaySound
+3	6531	182	#line 6531 "NXCDefs.h"
+3	6532	182		syscall 10, __SPTArgs
+3	6531	185	#line 6531 "NXCDefs.h"
+3	6532	185		mov __D0PlaySound, __SPTArgs.Result
+3	6531	187	#line 6531 "NXCDefs.h"
+3	6532	187		release __SPTArgsMutex
+3	6531	188	#line 6531 "NXCDefs.h"
+3	6531	188	#line 6531 "NXCDefs.h"
+3	6532	188		wait 100
+3	6531	190	#line 6531 "NXCDefs.h"
+3	6531	190	#line 6531 "NXCDefs.h"
+3	6533	190	#line 6533 "NXCDefs.h"
+3	6534	190		jmp __NXC_Label_92
+3	6533	192	#line 6533 "NXCDefs.h"
+3	6533	192	#line 6533 "NXCDefs.h"
+3	6534	192		jmp __NXC_Label_105
+3	6533	194	#line 6533 "NXCDefs.h"
+3	6534	194		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6533	196	#line 6533 "NXCDefs.h"
+3	6534	196	#line 6534 "NXCDefs.h"
+3	6535	196		set __D0PlaySound, 2
+3	6534	199	#line 6534 "NXCDefs.h"
+3	6535	199		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	203	#line 6534 "NXCDefs.h"
+3	6535	203		mov __D0PlaySound, __zfPlaySound
+3	6534	205	#line 6534 "NXCDefs.h"
+3	6535	205		brtst 4, __NXC_Label_108, __zfPlaySound
+3	6534	208	#line 6534 "NXCDefs.h"
+3	6535	208		set __PlaySound_7qG2_i_7qG2_001, 7
+3	6534	211	#line 6534 "NXCDefs.h"
+3	6534	211	#line 6534 "NXCDefs.h"
+3	6535	211		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6534	213	#line 6534 "NXCDefs.h"
+3	6534	213	#line 6534 "NXCDefs.h"
+3	6535	213		set __D0PlaySound, 3
+3	6534	216	#line 6534 "NXCDefs.h"
+3	6535	216		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	220	#line 6534 "NXCDefs.h"
+3	6535	220		mov __D0PlaySound, __zfPlaySound
+3	6534	222	#line 6534 "NXCDefs.h"
+3	6535	222		brtst 4, __NXC_Label_110, __zfPlaySound
+3	6534	225	#line 6534 "NXCDefs.h"
+3	6535	225		jmp __NXC_Label_111
+3	6535	227	#line 6535 "NXCDefs.h"
+3	6536	227		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6536	231	#line 6536 "NXCDefs.h"
+3	6537	231		jmp __NXC_Label_109
+3	6536	233	#line 6536 "NXCDefs.h"
+3	6536	233	#line 6536 "NXCDefs.h"
+3	6536	233	#line 6536 "NXCDefs.h"
+3	6536	233	#line 6536 "NXCDefs.h"
+3	6537	233		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6536	237	#line 6536 "NXCDefs.h"
+3	6536	237	#line 6536 "NXCDefs.h"
+3	6536	237	#line 6536 "NXCDefs.h"
+3	6537	237		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6536	241	#line 6536 "NXCDefs.h"
+3	6536	241	#line 6536 "NXCDefs.h"
+3	6537	241		set __signed_stack_002PlaySound, 100
+3	6536	244	#line 6536 "NXCDefs.h"
+3	6536	244	#line 6536 "NXCDefs.h"
+3	6537	244		set __signed_stack_003PlaySound, 4
+3	6536	247	#line 6536 "NXCDefs.h"
+3	6536	247	#line 6536 "NXCDefs.h"
+3	6537	247		set __D0PlaySound, 0
+3	6537	250	#line 6537 "NXCDefs.h"
+3	6538	250		acquire __SPTArgsMutex
+3	6537	251	#line 6537 "NXCDefs.h"
+3	6538	251		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6537	253	#line 6537 "NXCDefs.h"
+3	6538	253		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6537	255	#line 6537 "NXCDefs.h"
+3	6538	255		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6537	257	#line 6537 "NXCDefs.h"
+3	6538	257		mov __SPTArgs.Loop, __D0PlaySound
+3	6537	259	#line 6537 "NXCDefs.h"
+3	6538	259		syscall 10, __SPTArgs
+3	6537	262	#line 6537 "NXCDefs.h"
+3	6538	262		mov __D0PlaySound, __SPTArgs.Result
+3	6537	264	#line 6537 "NXCDefs.h"
+3	6538	264		release __SPTArgsMutex
+3	6537	265	#line 6537 "NXCDefs.h"
+3	6537	265	#line 6537 "NXCDefs.h"
+3	6538	265		wait 100
+3	6537	267	#line 6537 "NXCDefs.h"
+3	6537	267	#line 6537 "NXCDefs.h"
+3	6539	267	#line 6539 "NXCDefs.h"
+3	6540	267		jmp __NXC_Label_112
+3	6539	269	#line 6539 "NXCDefs.h"
+3	6539	269	#line 6539 "NXCDefs.h"
+3	6540	269		jmp __NXC_Label_125
+3	6539	271	#line 6539 "NXCDefs.h"
+3	6540	271		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6539	273	#line 6539 "NXCDefs.h"
+3	6540	273	#line 6540 "NXCDefs.h"
+3	6541	273		set __D0PlaySound, 4
+3	6540	276	#line 6540 "NXCDefs.h"
+3	6541	276		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6540	280	#line 6540 "NXCDefs.h"
+3	6541	280		mov __D0PlaySound, __zfPlaySound
+3	6541	282	#line 6541 "NXCDefs.h"
+3	6542	282		brtst 4, __NXC_Label_128, __zfPlaySound
+3	6541	285	#line 6541 "NXCDefs.h"
+3	6542	285		set __signed_stack_001PlaySound, 100
+3	6541	288	#line 6541 "NXCDefs.h"
+3	6541	288	#line 6541 "NXCDefs.h"
+3	6542	288		set __signed_stack_002PlaySound, 500
+3	6541	291	#line 6541 "NXCDefs.h"
+3	6541	291	#line 6541 "NXCDefs.h"
+3	6542	291		set __signed_stack_003PlaySound, 4
+3	6541	294	#line 6541 "NXCDefs.h"
+3	6541	294	#line 6541 "NXCDefs.h"
+3	6542	294		set __D0PlaySound, 0
+3	6542	297	#line 6542 "NXCDefs.h"
+3	6543	297		acquire __SPTArgsMutex
+3	6542	298	#line 6542 "NXCDefs.h"
+3	6543	298		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6542	300	#line 6542 "NXCDefs.h"
+3	6543	300		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6542	302	#line 6542 "NXCDefs.h"
+3	6543	302		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6542	304	#line 6542 "NXCDefs.h"
+3	6543	304		mov __SPTArgs.Loop, __D0PlaySound
+3	6542	306	#line 6542 "NXCDefs.h"
+3	6543	306		syscall 10, __SPTArgs
+3	6542	309	#line 6542 "NXCDefs.h"
+3	6543	309		mov __D0PlaySound, __SPTArgs.Result
+3	6542	311	#line 6542 "NXCDefs.h"
+3	6543	311		release __SPTArgsMutex
+3	6542	312	#line 6542 "NXCDefs.h"
+3	6542	312	#line 6542 "NXCDefs.h"
+3	6543	312		wait 500
+3	6542	314	#line 6542 "NXCDefs.h"
+3	6542	314	#line 6542 "NXCDefs.h"
+3	6544	314	#line 6544 "NXCDefs.h"
+3	6545	314		jmp __NXC_Label_137
+3	6544	316	#line 6544 "NXCDefs.h"
+3	6545	316		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6544	318	#line 6544 "NXCDefs.h"
+3	6545	318	#line 6545 "NXCDefs.h"
+3	6546	318		set __D0PlaySound, 5
+3	6545	321	#line 6545 "NXCDefs.h"
+3	6546	321		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6545	325	#line 6545 "NXCDefs.h"
+3	6546	325		mov __D0PlaySound, __zfPlaySound
+3	6545	327	#line 6545 "NXCDefs.h"
+3	6546	327		brtst 4, __NXC_Label_140, __zfPlaySound
+3	6545	330	#line 6545 "NXCDefs.h"
+3	6546	330		set __PlaySound_7qG2_i_7qG2_001, 4
+3	6545	333	#line 6545 "NXCDefs.h"
+3	6545	333	#line 6545 "NXCDefs.h"
+3	6546	333		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6545	335	#line 6545 "NXCDefs.h"
+3	6545	335	#line 6545 "NXCDefs.h"
+3	6546	335		set __D0PlaySound, 8
+3	6545	338	#line 6545 "NXCDefs.h"
+3	6546	338		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6545	342	#line 6545 "NXCDefs.h"
+3	6546	342		mov __D0PlaySound, __zfPlaySound
+3	6545	344	#line 6545 "NXCDefs.h"
+3	6546	344		brtst 4, __NXC_Label_142, __zfPlaySound
+3	6545	347	#line 6545 "NXCDefs.h"
+3	6546	347		jmp __NXC_Label_143
+3	6546	349	#line 6546 "NXCDefs.h"
+3	6547	349		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6547	353	#line 6547 "NXCDefs.h"
+3	6548	353		jmp __NXC_Label_141
+3	6547	355	#line 6547 "NXCDefs.h"
+3	6547	355	#line 6547 "NXCDefs.h"
+3	6547	355	#line 6547 "NXCDefs.h"
+3	6547	355	#line 6547 "NXCDefs.h"
+3	6548	355		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6547	359	#line 6547 "NXCDefs.h"
+3	6547	359	#line 6547 "NXCDefs.h"
+3	6547	359	#line 6547 "NXCDefs.h"
+3	6548	359		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6547	363	#line 6547 "NXCDefs.h"
+3	6547	363	#line 6547 "NXCDefs.h"
+3	6548	363		set __signed_stack_002PlaySound, 50
+3	6547	366	#line 6547 "NXCDefs.h"
+3	6547	366	#line 6547 "NXCDefs.h"
+3	6548	366		set __signed_stack_003PlaySound, 4
+3	6547	369	#line 6547 "NXCDefs.h"
+3	6547	369	#line 6547 "NXCDefs.h"
+3	6548	369		set __D0PlaySound, 0
+3	6548	372	#line 6548 "NXCDefs.h"
+3	6549	372		acquire __SPTArgsMutex
+3	6548	373	#line 6548 "NXCDefs.h"
+3	6549	373		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6548	375	#line 6548 "NXCDefs.h"
+3	6549	375		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6548	377	#line 6548 "NXCDefs.h"
+3	6549	377		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6548	379	#line 6548 "NXCDefs.h"
+3	6549	379		mov __SPTArgs.Loop, __D0PlaySound
+3	6548	381	#line 6548 "NXCDefs.h"
+3	6549	381		syscall 10, __SPTArgs
+3	6548	384	#line 6548 "NXCDefs.h"
+3	6549	384		mov __D0PlaySound, __SPTArgs.Result
+3	6548	386	#line 6548 "NXCDefs.h"
+3	6549	386		release __SPTArgsMutex
+3	6548	387	#line 6548 "NXCDefs.h"
+3	6548	387	#line 6548 "NXCDefs.h"
+3	6549	387		wait 50
+3	6548	389	#line 6548 "NXCDefs.h"
+3	6548	389	#line 6548 "NXCDefs.h"
+3	6560	389	#line 6560 "NXCDefs.h"
+3	6561	389		jmp __NXC_Label_144
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6560	391	#line 6560 "NXCDefs.h"
+3	6561	391		subret __PlaySound_return
+4	202	0	#line 202 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	203	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc
+1	__RotateMotor1	1120	NXTDefs.h
+2	__ResetSensorSubroutine	1274	NXTDefs.h
+3	PlaySound	1287	NXCDefs.h
+4	__initialize_global_data	1680	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc

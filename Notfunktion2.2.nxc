@@ -1,0 +1,200 @@
+ //# define task drive(int BFR, int WFR, int BFL, int WFL, int BB, int WB);
+
+
+inline int colors(bool state, int WFL, int BFL, int FLC){
+    state=FALSE;
+    while(state==FALSE){
+            if(BFL&&WFL!=NULL){
+            state=true;
+            }
+
+        //TextOut(10,LCD_LINE4, "Sensor:");
+        //NumOut(60,LCD_LINE5, Sensor(IN_1));
+
+
+        if(ButtonState(BTNRIGHT)){
+            if(FLC==0){
+                BFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+
+            }else if(FLC==1){
+                WFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+                PlaySound("Click");
+            }
+        }
+        }
+        FLC=0;
+        int r[];
+        ArrayInit(r, 0, 3)
+        r[0]=WFL;
+        r[1]=BFL;
+        r[2]=FLC;
+        return r;
+}
+
+task main ()
+{
+
+    //SetSensorLight(IN_1);
+    SetSensorLight(IN_1);
+    SetSensorLight(IN_2);
+    SetSensorTouch(IN_3);
+
+
+    //OnFwd(OUT_AC, 100);
+    //until (Sensor(IN_3) == 1 );
+    //Off(OUT_A);
+    //OnFwd(OUT_AC, 100);
+
+    int r[];
+    int d=150;
+    int BFL=NULL, WFL=NULL, FL=NULL;
+    int FRC=0, FLC=0, i=1000, MC=0, countR=0, countL=0, l=1, w=1;
+    int vc=80, va=vc;
+    int BCR=0, BCL=0;
+    BFL=WFL=NULL;
+    bool state=FALSE;
+
+
+    state=FALSE;
+    while(state==FALSE){
+            if(BFL&&WFL!=NULL){
+            state=true;
+            }
+
+        //TextOut(10,LCD_LINE4, "Sensor:");
+        //NumOut(60,LCD_LINE5, Sensor(IN_1));
+
+
+        if(ButtonState(BTNRIGHT)){
+            if(FLC==0){
+                BFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+
+            }else if(FLC==1){
+                WFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+                PlaySound("Click");
+            }
+        }
+        }
+
+        PlaySound("Click");
+        FLC=0;
+        FL=((BFL+WFL)/2);
+        BFL=WFL=NULL;
+        
+        state=FALSE;
+        while(state==FALSE){
+            if(BFL&&WFL!=NULL){
+            state=true;
+            }
+
+        //TextOut(10,LCD_LINE4, "Sensor:");
+        //NumOut(60,LCD_LINE5, Sensor(IN_1));
+
+
+        if(ButtonState(BTNLEFT)){
+            if(FLC==0){
+                BFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+
+            }else if(FLC==1){
+                WFL=Sensor(IN_1);
+                FLC++;
+                //Wait(1000);
+                PlaySound("Click");
+                PlaySound("Click");
+            }
+        }
+        }
+
+        FL=(FL+((BFL+WFL)/2))/2;
+        PlaySound("Click");
+
+
+        //r=colors(state, WFL, BFL, FLC);
+        //PlaySound("Click");
+        //FL=((BFL+WFL)/2);
+
+        //WFL=r[0];
+        //BFL=r[1];
+        //FLC=r[2];
+
+        //BFL=NULL, WFL=NULL;
+
+        //WFL, BFL, FLC=colors(state, WFL, BFL, FLC);
+        //FL=(FL+((BFL+WFL)/2))/2;
+        //PlaySound("Click");
+
+
+        while(TRUE){
+
+        if(ButtonState(BTNCENTER)){
+        state=0;
+        PlaySound("Click");
+        while(TRUE){
+
+
+//         drive(BFR, WFR, BFL, WFL, BB, WB);
+
+
+
+
+        //NumOut(60,LCD_LINE4, Sensor(IN_1));
+        //NumOut(60,LCD_LINE5, Sensor(IN_1));
+
+            TextOut(10,LCD_LINE4, "FL:");
+            NumOut(60,LCD_LINE4, FL);
+            TextOut(10,LCD_LINE5, "BFL:");
+            NumOut(60,LCD_LINE5, BFL);
+            TextOut(10,LCD_LINE6, "WFL:");
+            NumOut(60,LCD_LINE6, WFL);
+            //OnFwd(OUT_AC, 100);
+            //Wait(w);
+            //Off(OUT_AC);
+            
+            if(Sensor(IN_1)&&Sensor(IN_2)>=FL||(Sensor(IN_1)&&Sensor(IN_2))<=FL){
+            va=100;
+            } else {
+            va=75;
+            }
+            
+            if(Sensor(IN_1)>=FL){
+            OnFwd(OUT_C, va);
+            //RotateMotor(OUT_C, 100, 100);
+            Off(OUT_C);
+
+            } else {
+            OnFwd(OUT_A, va);
+            //RotateMotor(OUT_A, 100, 100);
+            Off(OUT_A);
+            }
+            
+            if(Sensor(IN_3)){
+            if(state==0){
+            // GRAB
+            RotateMotor(OUT_B, 50, d);
+            state++;
+            while(Sensor(IN_1)>FL) {OnFwd(OUT_C, va); Wait(w); Off(OUT_C);}
+            while(Sensor(IN_1)<FL) {OnFwd(OUT_C, va); Wait(w); Off(OUT_C);}
+            } else if(state==1){
+            // DROP
+            RotateMotor(OUT_B, 50, -d);
+            state=0;
+            } // else {noooooooooooooooooooooooooooo}
+            
+            }
+            
+}}}}
