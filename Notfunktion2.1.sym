@@ -1,122 +1,168 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_001main	6	1	0	4	40
-1	__DU0SetSensorLight_inline_main	5	1	4	4	2
-2	__SPTArgsMutex	9	0	8	4	14
-3	__signed_stack_002PlaySound	6	1	12	4	14
+0	__unsigned_stack_001main	5	1	0	4	8
+1	__signed_stack_001PlaySound	6	1	4	4	38
+2	__rotate_angle2	6	1	8	4	5
+3	__signed_stack_001main	6	1	12	4	44
 4	__signed_stack_002main	6	1	16	4	18
-5	__unsigned_stack_001main	5	1	20	4	8
-6	__signed_stack_001PlaySound	6	1	24	4	38
-7	__rotate_theAngle1	5	1	28	4	2
-8	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	32	4	8
-9	__D0PlaySound	6	1	36	4	48
-10	__rotate_angle1	6	1	40	4	6
-11	__D0main	6	1	44	4	82
-12	__D0SetSensorLight_inline_main	6	1	48	4	3
-13	__signed_stack_003PlaySound	6	1	52	4	14
-14	__constVal200	4	0	56	2	1
-15	__constVal150	4	0	58	2	1
-16	__PlaySound_7qG2_aCode_7qG2_000	4	1	60	2	15
-17	__constVal500	4	0	62	2	1
-18	__PlaySound_7qG2_i_7qG2_001	4	1	64	2	15
-19	__main_7qG2_FLC_7qG2_000	4	1	66	2	14
-20	__main_7qG2_FL_7qG2_000	4	1	68	2	8
-21	__main_7qG2_w_7qG2_000	4	1	70	2	5
-22	__constVal523	4	0	72	2	3
-23	__main_7qG2_va_7qG2_000	4	1	74	2	5
-24	__main_7qG2_WFL_7qG2_000	4	1	76	2	10
-25	__rotate_OldRotCount1	4	1	78	2	2
-26	__rotate_RotCount1	4	1	80	2	4
-27	__main_7qG2_BFL_7qG2_000	4	1	82	2	10
-28	__main_7qG2_d_7qG2_000	4	1	84	2	3
-29	__zfPlaySound	1	1	86	1	27
-30	__zfSetSensorLight_inline_main	1	1	87	1	2
-31	__constVal63	2	0	88	1	8
-32	__main_7qG2_state_7qG2_000	1	1	89	1	11
-33	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	90	1	4
-34	__constVal33	2	0	91	1	1
-35	__constVal35	2	0	92	1	1
-36	__constVal34	2	0	93	1	1
-37	__constVal96	2	0	94	1	10
-38	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	95	1	2
-39	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	96	1	4
-40	____initialize_global_data_return	1	1	97	1	3
-41	__PlaySound_return	1	1	98	1	11
-42	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	99	1	2
-43	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	100	1	2
-44	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	101	1	2
-45	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	102	1	2
-46	__rotate_theRVD1	1	1	103	1	3
-47	__rotate_rs1	1	1	104	1	2
-48	__rotate_theRVP1	1	1	105	1	3
-49	__rotate_theRVI1	1	1	106	1	3
-50	__rotate_thePower1	2	1	107	1	4
-51	__constVal1	2	0	108	1	17
-52	__constVal0	2	1	109	1	49
-53	__rotate_theTurnPct1	2	1	110	1	4
-54	__constVal32	2	0	111	1	30
-55	__rotate_sync1	1	1	112	1	3
-56	__rotate_stop1	1	1	113	1	3
-57	__rotate_power1	1	1	114	1	5
-58	__rotate_firstPort1	1	1	115	1	5
-59	__rotate_turnpct1	2	1	116	1	4
-60	__rotate_theRM1	1	1	117	1	4
-61	__rotate_theRS1	1	1	118	1	3
-62	__rotate_theUF1	1	1	119	1	6
-63	__rotate_theOM1	1	1	120	1	7
-64	__constVal80	2	0	121	1	1
-65	__IOMRUnflattenErr	1	1	122	1	3
-66	__constVal2	2	0	123	1	10
-67	__constVal100	2	0	124	1	2
-68	__zfmain	1	1	125	1	59
-69	__tmpsbytemain	2	1	126	1	9
-70	__PFTmp	1	1	127	1	1
-71	____ResetSensorSubroutine_return	1	1	128	1	4
-72	____RotateMotor1_sign_tmp	2	1	129	1	4
-73	__constVal3	2	0	130	1	8
-74	__constVal50	2	0	131	1	2
-75	____RotateMotor1_return	1	1	132	1	4
-76	__constVal4	2	0	133	1	3
-77	__ResetSensorTmp	1	1	134	1	2
-78	__ResetSensorPort	1	1	135	1	4
-79	__TextOutArgs	8	0	4	16	31
-80	__TextOutArgs.Result	2	1	136	1	31
-81	__TextOutArgs.Location	8	0	2	4	31
-82	__TextOutArgs.Location.X	4	1	140	2	31
-83	__TextOutArgs.Location.Y	4	1	142	2	31
-84	__TextOutArgs.Text	7	0	144	4	31
-85	__TextOutArgs.Text.Text_type	1	0	0	1	0
-86	__TextOutArgs.Options	5	1	148	4	31
-87	__IOMRArgs	8	0	5	16	15
-88	__IOMRArgs.Result	2	1	152	1	15
-89	__IOMRArgs.ModuleName	7	0	154	4	15
-90	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
-91	__IOMRArgs.Offset	3	1	156	2	15
-92	__IOMRArgs.Count	3	1	158	2	15
-93	__IOMRArgs.Buffer	7	0	160	4	15
-94	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
-95	__SPTArgs	8	0	5	8	42
-96	__SPTArgs.Result	2	1	164	1	42
-97	__SPTArgs.Frequency	3	1	166	2	42
-98	__SPTArgs.Duration	3	1	168	2	42
-99	__SPTArgs.Loop	1	1	170	1	42
-100	__SPTArgs.Volume	1	1	171	1	42
-101	__constStr0013	7	0	172	4	1
-102	__constStr0013.__constStr0013_type	1	1	0	1	0
-103	__constStr0012	7	0	174	4	1
-104	__constStr0012.__constStr0012_type	1	1	0	1	0
-105	__strbufmain	7	0	176	4	15
-106	__strbufmain.__strbufmain_type	1	0	0	1	0
-107	__IOMRUnflattenBuf	7	0	178	4	6
-108	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
-109	__rotate_ports1	7	0	180	4	7
-110	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-111	__constStr0011	7	0	182	4	1
-112	__constStr0011.__constStr0011_type	1	1	0	1	0
-113	__constStr0010	7	0	184	4	9
-114	__constStr0010.__constStr0010_type	1	1	0	1	0
-115	__constStr0009	7	0	186	4	3
-116	__constStr0009.__constStr0009_type	1	1	0	1	0
+5	__rotate_angle1	6	1	20	4	6
+6	__signed_stack_003PlaySound	6	1	24	4	14
+7	__rotate_theAngle0	5	1	28	4	2
+8	__rotate_theAngle1	5	1	32	4	2
+9	__signed_stack_002PlaySound	6	1	36	4	14
+10	__DU0SetSensorLight_inline_main	5	1	40	4	2
+11	__rotate_angle0	6	1	44	4	5
+12	__rotate_theAngle2	5	1	48	4	2
+13	__Wait_7qG2_ms_7qG2_000_inline_main	5	1	52	4	4
+14	__SPTArgsMutex	9	0	56	4	14
+15	__D0SetSensorLight_inline_main	6	1	60	4	3
+16	__D0PlaySound	6	1	64	4	48
+17	__D0main	6	1	68	4	86
+18	__PlaySound_7qG2_aCode_7qG2_000	4	1	72	2	15
+19	__constVal500	4	0	74	2	1
+20	__PlaySound_7qG2_i_7qG2_001	4	1	76	2	15
+21	__constVal150	4	0	78	2	1
+22	__rotate_OldRotCount2	4	1	80	2	2
+23	__constVal200	4	0	82	2	1
+24	__rotate_RotCount2	4	1	84	2	4
+25	__rotate_OldRotCount1	4	1	86	2	2
+26	__rotate_RotCount1	4	1	88	2	4
+27	__rotate_OldRotCount0	4	1	90	2	2
+28	__main_7qG2_WFL_7qG2_000	4	1	92	2	10
+29	__main_7qG2_BFL_7qG2_000	4	1	94	2	10
+30	__rotate_RotCount0	4	1	96	2	4
+31	__main_7qG2_FL_7qG2_000	4	1	98	2	8
+32	__constVal523	4	0	100	2	3
+33	__main_7qG2_va_7qG2_000	4	1	102	2	5
+34	__main_7qG2_FLC_7qG2_000	4	1	104	2	14
+35	__main_7qG2_w_7qG2_000	4	1	106	2	3
+36	__main_7qG2_d_7qG2_000	4	1	108	2	3
+37	__constVal80	2	0	110	1	1
+38	__constVal100	2	0	111	1	2
+39	____RotateMotor2_return	1	1	112	1	3
+40	__constVal63	2	0	113	1	8
+41	__constVal35	2	0	114	1	1
+42	__constVal96	2	0	115	1	12
+43	__PFTmp	1	1	116	1	1
+44	____RotateMotor2_sign_tmp	2	1	117	1	4
+45	____ResetSensorSubroutine_return	1	1	118	1	4
+46	__constVal2	2	0	119	1	11
+47	__IOMRUnflattenErr	1	1	120	1	3
+48	__ResetSensorTmp	1	1	121	1	2
+49	__constVal3	2	0	122	1	8
+50	__constVal4	2	0	123	1	3
+51	__ResetSensorPort	1	1	124	1	4
+52	__PlaySound_return	1	1	125	1	11
+53	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	126	1	2
+54	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	127	1	2
+55	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	128	1	2
+56	____initialize_global_data_return	1	1	129	1	3
+57	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	130	1	4
+58	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	131	1	2
+59	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	132	1	2
+60	__zfmain	1	1	133	1	59
+61	__constVal33	2	0	134	1	1
+62	__tmpsbytemain	2	1	135	1	9
+63	__constVal34	2	0	136	1	1
+64	__zfSetSensorLight_inline_main	1	1	137	1	2
+65	__SetSensorTouch_7qG2_port_7qG2_000_inline_main	1	1	138	1	4
+66	__zfPlaySound	1	1	139	1	27
+67	__main_7qG2_state_7qG2_000	1	1	140	1	12
+68	__rotate_turnpct1	2	1	141	1	4
+69	__rotate_theUF1	1	1	142	1	6
+70	__rotate_theOM1	1	1	143	1	7
+71	__rotate_stop1	1	1	144	1	3
+72	__rotate_power1	1	1	145	1	5
+73	__rotate_firstPort1	1	1	146	1	5
+74	__rotate_sync1	1	1	147	1	3
+75	__rotate_theRVD1	1	1	148	1	3
+76	__rotate_rs1	1	1	149	1	2
+77	__rotate_thePower1	2	1	150	1	4
+78	__rotate_theRVI1	1	1	151	1	3
+79	__rotate_theRM1	1	1	152	1	4
+80	__rotate_theRS1	1	1	153	1	3
+81	__rotate_theRVP1	1	1	154	1	3
+82	__rotate_theTurnPct0	2	1	155	1	4
+83	__rotate_turnpct0	2	1	156	1	3
+84	__rotate_theUF0	1	1	157	1	6
+85	__rotate_theOM0	1	1	158	1	7
+86	__rotate_stop0	1	1	159	1	2
+87	__rotate_power0	1	1	160	1	4
+88	__rotate_firstPort0	1	1	161	1	5
+89	__rotate_sync0	1	1	162	1	2
+90	__rotate_theRVD0	1	1	163	1	2
+91	__rotate_rs0	1	1	164	1	2
+92	__rotate_thePower0	2	1	165	1	4
+93	__rotate_theRVI0	1	1	166	1	2
+94	__rotate_theRM0	1	1	167	1	4
+95	__rotate_theRS0	1	1	168	1	3
+96	__rotate_theRVP0	1	1	169	1	2
+97	__rotate_theTurnPct1	2	1	170	1	4
+98	__rotate_theTurnPct2	2	1	171	1	4
+99	____RotateMotor0_return	1	1	172	1	3
+100	____RotateMotor0_sign_tmp	2	1	173	1	4
+101	__rotate_theRVD2	1	1	174	1	2
+102	__rotate_rs2	1	1	175	1	2
+103	__rotate_thePower2	2	1	176	1	4
+104	__constVal50	2	0	177	1	4
+105	____RotateMotor1_return	1	1	178	1	4
+106	____RotateMotor1_sign_tmp	2	1	179	1	4
+107	__constVal32	2	0	180	1	38
+108	__constVal1	2	0	181	1	23
+109	__constVal0	2	1	182	1	62
+110	__rotate_theRVI2	1	1	183	1	2
+111	__rotate_turnpct2	2	1	184	1	3
+112	__rotate_theUF2	1	1	185	1	6
+113	__rotate_theOM2	1	1	186	1	7
+114	__rotate_stop2	1	1	187	1	2
+115	__rotate_power2	1	1	188	1	4
+116	__rotate_firstPort2	1	1	189	1	5
+117	__rotate_sync2	1	1	190	1	2
+118	__rotate_theRM2	1	1	191	1	4
+119	__rotate_theRS2	1	1	192	1	3
+120	__rotate_theRVP2	1	1	193	1	2
+121	__TextOutArgs	8	0	4	16	31
+122	__TextOutArgs.Result	2	1	196	1	31
+123	__TextOutArgs.Location	8	0	2	4	31
+124	__TextOutArgs.Location.X	4	1	200	2	31
+125	__TextOutArgs.Location.Y	4	1	202	2	31
+126	__TextOutArgs.Text	7	0	204	4	31
+127	__TextOutArgs.Text.Text_type	1	0	0	1	0
+128	__TextOutArgs.Options	5	1	208	4	31
+129	__SPTArgs	8	0	5	8	42
+130	__SPTArgs.Result	2	1	212	1	42
+131	__SPTArgs.Frequency	3	1	214	2	42
+132	__SPTArgs.Duration	3	1	216	2	42
+133	__SPTArgs.Loop	1	1	218	1	42
+134	__SPTArgs.Volume	1	1	219	1	42
+135	__IOMRArgs	8	0	5	16	15
+136	__IOMRArgs.Result	2	1	220	1	15
+137	__IOMRArgs.ModuleName	7	0	222	4	15
+138	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
+139	__IOMRArgs.Offset	3	1	224	2	15
+140	__IOMRArgs.Count	3	1	226	2	15
+141	__IOMRArgs.Buffer	7	0	228	4	15
+142	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
+143	__rotate_ports1	7	0	230	4	7
+144	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+145	__constStr0013	7	0	232	4	1
+146	__constStr0013.__constStr0013_type	1	1	0	1	0
+147	__rotate_ports2	7	0	234	4	6
+148	__rotate_ports2.__rotate_ports2_type	1	0	0	1	0
+149	__rotate_ports0	7	0	236	4	6
+150	__rotate_ports0.__rotate_ports0_type	1	0	0	1	0
+151	__constStr0010	7	0	238	4	9
+152	__constStr0010.__constStr0010_type	1	1	0	1	0
+153	__IOMRUnflattenBuf	7	0	240	4	6
+154	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+155	__constStr0009	7	0	242	4	3
+156	__constStr0009.__constStr0009_type	1	1	0	1	0
+157	__constStr0012	7	0	244	4	1
+158	__constStr0012.__constStr0012_type	1	1	0	1	0
+159	__constStr0011	7	0	246	4	1
+160	__constStr0011.__constStr0011_type	1	1	0	1	0
+161	__strbufmain	7	0	248	4	15
+162	__strbufmain.__strbufmain_type	1	0	0	1	0
 #SOURCES
 Clump	Line	PC	Source
 0	43	0	#line 43 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
@@ -181,7 +227,7 @@ Clump	Line	PC	Source
 0	3718	59	#line 3718 "NXCDefs.h"
 0	53	59	#line 53 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	55	59	#line 55 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	56	59		set __main_7qG2_d_7qG2_000, 10
+0	56	59		set __main_7qG2_d_7qG2_000, 150
 0	55	62	#line 55 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	55	62	#line 55 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	56	62		set __main_7qG2_BFL_7qG2_000, 0
@@ -725,7 +771,7 @@ Clump	Line	PC	Source
 0	166	631	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	167	631		mov __D0main, __main_7qG2_FL_7qG2_000
 0	166	633	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	167	633		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	167	633		cmp 3, __zfmain, __signed_stack_001main, __D0main
 0	166	637	#line 166 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	167	637		mov __D0main, __zfmain
 0	167	639	#line 167 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
@@ -738,635 +784,747 @@ Clump	Line	PC	Source
 0	4595	667	#line 4595 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	168	667	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	168	667	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	169	667		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
-0	168	669	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	7921	669	#line 7921 "NXCDefs.h"
-0	7922	669		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	672	#line 7921 "NXCDefs.h"
-0	169	672	#line 169 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	171	672	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	172	672	#pragma macro 7
-0	172	672		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4612	695	#line 4612 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	169	667		set __signed_stack_001main, 100
+0	168	670	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	168	670	#line 168 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	169	670		set __D0main, 100
+0	169	673	#line 169 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	170	673	#pragma macro 33
+0	170	673		arrbuild __rotate_ports2, __constVal2
+0	170	677		mov __rotate_power2, __signed_stack_001main
+0	170	679		mov __rotate_angle2, __D0main
+0	170	681		mov __rotate_turnpct2, __constVal0
+0	170	683		mov __rotate_sync2, __constVal0
+0	170	685		mov __rotate_stop2, __constVal1
+0	170	687		mov __rotate_theRVP2, __constVal32
+0	170	689		mov __rotate_theRVI2, __constVal0
+0	170	691		mov __rotate_theRVD2, __constVal96
+0	170	693		subcall __RotateMotor2, ____RotateMotor2_return
+0	4608	695	#line 4608 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	169	695	#line 169 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	171	695	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	172	695	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	173	695		jmp __NXC_Label_716
-0	172	697	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	173	697		mov __D0main, __main_7qG2_va_7qG2_000
-0	173	699	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	174	699	#pragma macro 7
-0	174	699		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4622	722	#line 4622 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	172	695	#pragma macro 7
+0	172	695		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4611	718	#line 4611 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	171	718	#line 171 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	172	718	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	173	718		jmp __NXC_Label_718
+0	172	720	#line 172 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	173	720		mov __D0main, __main_7qG2_va_7qG2_000
 0	173	722	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	173	722	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	174	722		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
-0	173	724	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	7921	724	#line 7921 "NXCDefs.h"
-0	7922	724		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	727	#line 7921 "NXCDefs.h"
-0	174	727	#line 174 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	175	727	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	176	727	#pragma macro 7
-0	176	727		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4635	750	#line 4635 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	175	750	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	177	750	#line 177 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	177	750	#line 177 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	178	750		getin __D0main, __constVal2, 4
-0	178	754	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	754		tst 5, __zfmain, __D0main
-0	178	757	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	757		brtst 4, __NXC_Label_723, __zfmain
-0	178	760	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	760		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
-0	178	762	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	178	762	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	762		set __D0main, 0
-0	178	765	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	765		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
-0	178	769	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	179	769		mov __D0main, __zfmain
-0	180	771	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	181	771		brtst 4, __NXC_Label_726, __zfmain
-0	180	774	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	181	774		set __signed_stack_001main, 50
-0	180	777	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	180	777	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	181	777		mov __D0main, __main_7qG2_d_7qG2_000
-0	181	779	#line 181 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	779	#pragma macro 33
-0	182	779		arrbuild __rotate_ports1, __constVal1
-0	182	783		mov __rotate_power1, __signed_stack_001main
-0	182	785		mov __rotate_angle1, __D0main
-0	182	787		mov __rotate_turnpct1, __constVal0
-0	182	789		mov __rotate_sync1, __constVal0
-0	182	791		mov __rotate_stop1, __constVal1
-0	182	793		mov __rotate_theRVP1, __constVal32
-0	182	795		mov __rotate_theRVI1, __constVal0
-0	182	797		mov __rotate_theRVD1, __constVal96
-0	182	799		subcall __RotateMotor1, ____RotateMotor1_return
-0	4672	801	#line 4672 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	181	801	#line 181 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	801	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	801		add __main_7qG2_state_7qG2_000, __main_7qG2_state_7qG2_000, __constVal1
-0	182	805	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	805	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	805		getin __signed_stack_001main, __constVal0, 4
-0	182	809	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	809	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	809		mov __D0main, __main_7qG2_FL_7qG2_000
-0	182	811	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	811		cmp 1, __zfmain, __signed_stack_001main, __D0main
-0	182	815	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	815		mov __D0main, __zfmain
-0	182	817	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	817		brtst 4, __NXC_Label_732, __zfmain
-0	182	820	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	820		mov __D0main, __main_7qG2_va_7qG2_000
-0	182	822	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	822	#pragma macro 7
-0	183	822		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4697	845	#line 4697 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	845	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	845	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	845		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	174	722	#pragma macro 7
+0	174	722		setout __constVal0, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4621	745	#line 4621 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	173	745	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	173	745	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	174	745		set __signed_stack_001main, 100
+0	173	748	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	173	748	#line 173 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	174	748		set __D0main, 100
+0	174	751	#line 174 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	175	751	#pragma macro 33
+0	175	751		arrbuild __rotate_ports0, __constVal0
+0	175	755		mov __rotate_power0, __signed_stack_001main
+0	175	757		mov __rotate_angle0, __D0main
+0	175	759		mov __rotate_turnpct0, __constVal0
+0	175	761		mov __rotate_sync0, __constVal0
+0	175	763		mov __rotate_stop0, __constVal1
+0	175	765		mov __rotate_theRVP0, __constVal32
+0	175	767		mov __rotate_theRVI0, __constVal0
+0	175	769		mov __rotate_theRVD0, __constVal96
+0	175	771		subcall __RotateMotor0, ____RotateMotor0_return
+0	4634	773	#line 4634 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	174	773	#line 174 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	175	773	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	176	773	#pragma macro 7
+0	176	773		setout __constVal0, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4637	796	#line 4637 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	175	796	#line 175 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	177	796	#line 177 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	177	796	#line 177 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	178	796		getin __D0main, __constVal2, 4
+0	178	800	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	800		tst 5, __zfmain, __D0main
+0	178	803	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	803		brtst 4, __NXC_Label_727, __zfmain
+0	178	806	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	806		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	178	808	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	178	808	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	808		set __D0main, 0
+0	178	811	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	811		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	178	815	#line 178 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	179	815		mov __D0main, __zfmain
+0	180	817	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	181	817		brtst 4, __NXC_Label_730, __zfmain
+0	180	820	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	181	820		set __signed_stack_001main, 50
+0	180	823	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	180	823	#line 180 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	181	823		mov __D0main, __main_7qG2_d_7qG2_000
+0	181	825	#line 181 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	825	#pragma macro 33
+0	182	825		arrbuild __rotate_ports1, __constVal1
+0	182	829		mov __rotate_power1, __signed_stack_001main
+0	182	831		mov __rotate_angle1, __D0main
+0	182	833		mov __rotate_turnpct1, __constVal0
+0	182	835		mov __rotate_sync1, __constVal0
+0	182	837		mov __rotate_stop1, __constVal1
+0	182	839		mov __rotate_theRVP1, __constVal32
+0	182	841		mov __rotate_theRVI1, __constVal0
+0	182	843		mov __rotate_theRVD1, __constVal96
+0	182	845		subcall __RotateMotor1, ____RotateMotor1_return
+0	4674	847	#line 4674 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	181	847	#line 181 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
 0	182	847	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	7921	847	#line 7921 "NXCDefs.h"
-0	7922	847		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	850	#line 7921 "NXCDefs.h"
-0	182	850	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	850	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	850	#pragma macro 7
-0	183	850		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4710	873	#line 4710 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	182	873	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	873	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	873		jmp __NXC_Label_731
-0	183	875	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	875	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	875		getin __signed_stack_001main, __constVal0, 4
-0	183	879	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	879	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	879		mov __D0main, __main_7qG2_FL_7qG2_000
-0	183	881	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	881		cmp 0, __zfmain, __signed_stack_001main, __D0main
-0	183	885	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	885		mov __D0main, __zfmain
-0	183	887	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	887		brtst 4, __NXC_Label_740, __zfmain
-0	183	890	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	890		mov __D0main, __main_7qG2_va_7qG2_000
-0	183	892	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	892	#pragma macro 7
-0	184	892		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4736	915	#line 4736 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	915	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	915	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	915		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
-0	183	917	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	7921	917	#line 7921 "NXCDefs.h"
-0	7922	917		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
-0	7921	920	#line 7921 "NXCDefs.h"
-0	183	920	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	920	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	920	#pragma macro 7
-0	184	920		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-0	4749	943	#line 4749 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	183	943	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	943	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	943		jmp __NXC_Label_739
-0	184	945	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	945	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	945		jmp __NXC_Label_747
-0	184	947	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	947		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
-0	184	949	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	184	949	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	949		set __D0main, 1
-0	184	952	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	952		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
-0	184	956	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	185	956		mov __D0main, __zfmain
-0	186	958	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	187	958		brtst 4, __NXC_Label_750, __zfmain
-0	186	961	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	187	961		set __signed_stack_001main, 50
-0	186	964	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	186	964	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	186	964	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	186	964	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	186	964	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	187	964		sub __D0main, __constVal0, __main_7qG2_d_7qG2_000
-0	187	968	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	188	968	#pragma macro 33
-0	188	968		arrbuild __rotate_ports1, __constVal1
-0	188	972		mov __rotate_power1, __signed_stack_001main
-0	188	974		mov __rotate_angle1, __D0main
-0	188	976		mov __rotate_turnpct1, __constVal0
-0	188	978		mov __rotate_sync1, __constVal0
-0	188	980		mov __rotate_stop1, __constVal1
-0	188	982		mov __rotate_theRVP1, __constVal32
-0	188	984		mov __rotate_theRVI1, __constVal0
-0	188	986		mov __rotate_theRVD1, __constVal96
-0	188	988		subcall __RotateMotor1, ____RotateMotor1_return
-0	4789	990	#line 4789 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	187	990	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	191	990	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	191	990	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	191	990	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	191	990	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	192	990		jmp __NXC_Label_675
-0	191	992	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	191	992	#line 191 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	193	992	#line 193 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	194	992		jmp __NXC_Label_664
-0	193	994	#line 193 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-0	194	994		exit -1, -1
-1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
-1	4530	3		set ____RotateMotor1_sign_tmp, 0
-1	4530	6		brtst EQ, __sign_1, __rotate_angle1
-1	4530	9		set ____RotateMotor1_sign_tmp, -1
-1	4530	12		brtst LT, __sign_1, __rotate_angle1
-1	4530	15		set ____RotateMotor1_sign_tmp, 1
-1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
-1	4531	20		abs __rotate_theAngle1, __rotate_angle1
-1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
-1	4534	27		set __rotate_theUF1, 23
-1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
-1	4536	33		set __rotate_theOM1, 7
-1	4537	36		set __rotate_theRM1, 2
-1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
-1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
-1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
-1	4541	48		jmp __rotate_Start1
-1	4543	50		set __rotate_theOM1, 3
-1	4544	53		set __rotate_theRM1, 0
-1	4545	56		set __rotate_theTurnPct1, 0
-1	4547	59		set __rotate_theRS1, 32
-1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
-1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
-1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
-1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
-1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
-1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
-1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
-1	4560	107		set __rotate_theOM1, 7
-1	4561	110		set __rotate_theUF1, 7
-1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
-1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
-1	4567	134		wait2 NA, __constVal50
-1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
-1	4571	145		set __rotate_theOM1, 4
-1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
-1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
-1	4576	162		setout __rotate_ports1, 0, __constVal32
-1	4578	167		subret ____RotateMotor1_return
-2	4885	0		setin __constVal1, __ResetSensorPort, 5
-2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
-2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
-2	4889	11		subret ____ResetSensorSubroutine_return
-3	6518	0	#line 6518 "NXCDefs.h"
-3	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6518	2	#line 6518 "NXCDefs.h"
-3	6519	2	#line 6519 "NXCDefs.h"
-3	6520	2		set __D0PlaySound, 0
-3	6519	5	#line 6519 "NXCDefs.h"
-3	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6519	9	#line 6519 "NXCDefs.h"
-3	6520	9		mov __D0PlaySound, __zfPlaySound
-3	6519	11	#line 6519 "NXCDefs.h"
-3	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
-3	6519	14	#line 6519 "NXCDefs.h"
-3	6520	14		set __signed_stack_001PlaySound, 600
-3	6519	17	#line 6519 "NXCDefs.h"
-3	6519	17	#line 6519 "NXCDefs.h"
-3	6520	17		set __signed_stack_002PlaySound, 200
-3	6519	20	#line 6519 "NXCDefs.h"
-3	6519	20	#line 6519 "NXCDefs.h"
-3	6520	20		set __signed_stack_003PlaySound, 4
-3	6519	23	#line 6519 "NXCDefs.h"
-3	6519	23	#line 6519 "NXCDefs.h"
-3	6520	23		set __D0PlaySound, 0
-3	6520	26	#line 6520 "NXCDefs.h"
-3	6521	26		acquire __SPTArgsMutex
-3	6520	27	#line 6520 "NXCDefs.h"
-3	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6520	29	#line 6520 "NXCDefs.h"
-3	6521	29		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6520	31	#line 6520 "NXCDefs.h"
-3	6521	31		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6520	33	#line 6520 "NXCDefs.h"
-3	6521	33		mov __SPTArgs.Loop, __D0PlaySound
-3	6520	35	#line 6520 "NXCDefs.h"
-3	6521	35		syscall 10, __SPTArgs
-3	6520	38	#line 6520 "NXCDefs.h"
-3	6521	38		mov __D0PlaySound, __SPTArgs.Result
-3	6520	40	#line 6520 "NXCDefs.h"
-3	6521	40		release __SPTArgsMutex
-3	6520	41	#line 6520 "NXCDefs.h"
-3	6520	41	#line 6520 "NXCDefs.h"
-3	6521	41		jmp __NXC_Label_65
-3	6520	43	#line 6520 "NXCDefs.h"
-3	6521	43		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6520	45	#line 6520 "NXCDefs.h"
-3	6521	45	#line 6521 "NXCDefs.h"
-3	6522	45		set __D0PlaySound, 1
-3	6521	48	#line 6521 "NXCDefs.h"
-3	6522	48		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6521	52	#line 6521 "NXCDefs.h"
-3	6522	52		mov __D0PlaySound, __zfPlaySound
-3	6522	54	#line 6522 "NXCDefs.h"
-3	6523	54		brtst 4, __NXC_Label_68, __zfPlaySound
-3	6522	57	#line 6522 "NXCDefs.h"
-3	6523	57		set __signed_stack_001PlaySound, 600
-3	6522	60	#line 6522 "NXCDefs.h"
-3	6522	60	#line 6522 "NXCDefs.h"
-3	6523	60		set __signed_stack_002PlaySound, 150
-3	6522	63	#line 6522 "NXCDefs.h"
-3	6522	63	#line 6522 "NXCDefs.h"
-3	6523	63		set __signed_stack_003PlaySound, 4
-3	6522	66	#line 6522 "NXCDefs.h"
-3	6522	66	#line 6522 "NXCDefs.h"
-3	6523	66		set __D0PlaySound, 0
-3	6523	69	#line 6523 "NXCDefs.h"
-3	6524	69		acquire __SPTArgsMutex
-3	6523	70	#line 6523 "NXCDefs.h"
-3	6524	70		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6523	72	#line 6523 "NXCDefs.h"
-3	6524	72		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6523	74	#line 6523 "NXCDefs.h"
-3	6524	74		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6523	76	#line 6523 "NXCDefs.h"
-3	6524	76		mov __SPTArgs.Loop, __D0PlaySound
-3	6523	78	#line 6523 "NXCDefs.h"
-3	6524	78		syscall 10, __SPTArgs
-3	6523	81	#line 6523 "NXCDefs.h"
-3	6524	81		mov __D0PlaySound, __SPTArgs.Result
-3	6523	83	#line 6523 "NXCDefs.h"
-3	6524	83		release __SPTArgsMutex
-3	6523	84	#line 6523 "NXCDefs.h"
-3	6523	84	#line 6523 "NXCDefs.h"
-3	6524	84		wait2 NA, __constVal200
-3	6523	87	#line 6523 "NXCDefs.h"
-3	6523	87	#line 6523 "NXCDefs.h"
-3	6524	87	#line 6524 "NXCDefs.h"
-3	6525	87		set __signed_stack_001PlaySound, 600
-3	6524	90	#line 6524 "NXCDefs.h"
-3	6524	90	#line 6524 "NXCDefs.h"
-3	6525	90		set __signed_stack_002PlaySound, 150
-3	6524	93	#line 6524 "NXCDefs.h"
-3	6524	93	#line 6524 "NXCDefs.h"
-3	6525	93		set __signed_stack_003PlaySound, 4
-3	6524	96	#line 6524 "NXCDefs.h"
-3	6524	96	#line 6524 "NXCDefs.h"
-3	6525	96		set __D0PlaySound, 0
-3	6525	99	#line 6525 "NXCDefs.h"
-3	6526	99		acquire __SPTArgsMutex
-3	6525	100	#line 6525 "NXCDefs.h"
-3	6526	100		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6525	102	#line 6525 "NXCDefs.h"
-3	6526	102		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6525	104	#line 6525 "NXCDefs.h"
-3	6526	104		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6525	106	#line 6525 "NXCDefs.h"
-3	6526	106		mov __SPTArgs.Loop, __D0PlaySound
-3	6525	108	#line 6525 "NXCDefs.h"
-3	6526	108		syscall 10, __SPTArgs
-3	6525	111	#line 6525 "NXCDefs.h"
-3	6526	111		mov __D0PlaySound, __SPTArgs.Result
-3	6525	113	#line 6525 "NXCDefs.h"
-3	6526	113		release __SPTArgsMutex
-3	6525	114	#line 6525 "NXCDefs.h"
-3	6525	114	#line 6525 "NXCDefs.h"
-3	6526	114		wait2 NA, __constVal150
-3	6525	117	#line 6525 "NXCDefs.h"
-3	6525	117	#line 6525 "NXCDefs.h"
-3	6527	117	#line 6527 "NXCDefs.h"
-3	6528	117		jmp __NXC_Label_85
-3	6527	119	#line 6527 "NXCDefs.h"
-3	6528	119		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6527	121	#line 6527 "NXCDefs.h"
-3	6528	121	#line 6528 "NXCDefs.h"
-3	6529	121		set __D0PlaySound, 3
-3	6528	124	#line 6528 "NXCDefs.h"
-3	6529	124		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6528	128	#line 6528 "NXCDefs.h"
-3	6529	128		mov __D0PlaySound, __zfPlaySound
-3	6528	130	#line 6528 "NXCDefs.h"
-3	6529	130		brtst 4, __NXC_Label_88, __zfPlaySound
-3	6528	133	#line 6528 "NXCDefs.h"
-3	6529	133		set __PlaySound_7qG2_i_7qG2_001, 4
-3	6528	136	#line 6528 "NXCDefs.h"
-3	6528	136	#line 6528 "NXCDefs.h"
-3	6529	136		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
-3	6528	138	#line 6528 "NXCDefs.h"
-3	6528	138	#line 6528 "NXCDefs.h"
-3	6529	138		set __D0PlaySound, 8
-3	6528	141	#line 6528 "NXCDefs.h"
-3	6529	141		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6528	145	#line 6528 "NXCDefs.h"
-3	6529	145		mov __D0PlaySound, __zfPlaySound
-3	6528	147	#line 6528 "NXCDefs.h"
-3	6529	147		brtst 4, __NXC_Label_90, __zfPlaySound
-3	6528	150	#line 6528 "NXCDefs.h"
-3	6529	150		jmp __NXC_Label_91
-3	6529	152	#line 6529 "NXCDefs.h"
-3	6530	152		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6530	156	#line 6530 "NXCDefs.h"
-3	6531	156		jmp __NXC_Label_89
-3	6530	158	#line 6530 "NXCDefs.h"
-3	6530	158	#line 6530 "NXCDefs.h"
-3	6530	158	#line 6530 "NXCDefs.h"
-3	6530	158	#line 6530 "NXCDefs.h"
-3	6531	158		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6530	162	#line 6530 "NXCDefs.h"
-3	6530	162	#line 6530 "NXCDefs.h"
-3	6530	162	#line 6530 "NXCDefs.h"
-3	6531	162		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6530	166	#line 6530 "NXCDefs.h"
-3	6530	166	#line 6530 "NXCDefs.h"
-3	6531	166		set __signed_stack_002PlaySound, 100
-3	6530	169	#line 6530 "NXCDefs.h"
-3	6530	169	#line 6530 "NXCDefs.h"
-3	6531	169		set __signed_stack_003PlaySound, 4
-3	6530	172	#line 6530 "NXCDefs.h"
-3	6530	172	#line 6530 "NXCDefs.h"
-3	6531	172		set __D0PlaySound, 0
-3	6531	175	#line 6531 "NXCDefs.h"
-3	6532	175		acquire __SPTArgsMutex
-3	6531	176	#line 6531 "NXCDefs.h"
-3	6532	176		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6531	178	#line 6531 "NXCDefs.h"
-3	6532	178		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6531	180	#line 6531 "NXCDefs.h"
-3	6532	180		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6531	182	#line 6531 "NXCDefs.h"
-3	6532	182		mov __SPTArgs.Loop, __D0PlaySound
-3	6531	184	#line 6531 "NXCDefs.h"
-3	6532	184		syscall 10, __SPTArgs
-3	6531	187	#line 6531 "NXCDefs.h"
-3	6532	187		mov __D0PlaySound, __SPTArgs.Result
-3	6531	189	#line 6531 "NXCDefs.h"
-3	6532	189		release __SPTArgsMutex
-3	6531	190	#line 6531 "NXCDefs.h"
-3	6531	190	#line 6531 "NXCDefs.h"
-3	6532	190		wait2 NA, __constVal100
-3	6531	193	#line 6531 "NXCDefs.h"
-3	6531	193	#line 6531 "NXCDefs.h"
-3	6533	193	#line 6533 "NXCDefs.h"
-3	6534	193		jmp __NXC_Label_92
-3	6533	195	#line 6533 "NXCDefs.h"
-3	6533	195	#line 6533 "NXCDefs.h"
-3	6534	195		jmp __NXC_Label_105
-3	6533	197	#line 6533 "NXCDefs.h"
-3	6534	197		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6533	199	#line 6533 "NXCDefs.h"
-3	6534	199	#line 6534 "NXCDefs.h"
-3	6535	199		set __D0PlaySound, 2
-3	6534	202	#line 6534 "NXCDefs.h"
-3	6535	202		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6534	206	#line 6534 "NXCDefs.h"
-3	6535	206		mov __D0PlaySound, __zfPlaySound
-3	6534	208	#line 6534 "NXCDefs.h"
-3	6535	208		brtst 4, __NXC_Label_108, __zfPlaySound
-3	6534	211	#line 6534 "NXCDefs.h"
-3	6535	211		set __PlaySound_7qG2_i_7qG2_001, 7
-3	6534	214	#line 6534 "NXCDefs.h"
-3	6534	214	#line 6534 "NXCDefs.h"
-3	6535	214		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
-3	6534	216	#line 6534 "NXCDefs.h"
-3	6534	216	#line 6534 "NXCDefs.h"
-3	6535	216		set __D0PlaySound, 3
-3	6534	219	#line 6534 "NXCDefs.h"
-3	6535	219		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6534	223	#line 6534 "NXCDefs.h"
-3	6535	223		mov __D0PlaySound, __zfPlaySound
-3	6534	225	#line 6534 "NXCDefs.h"
-3	6535	225		brtst 4, __NXC_Label_110, __zfPlaySound
-3	6534	228	#line 6534 "NXCDefs.h"
-3	6535	228		jmp __NXC_Label_111
-3	6535	230	#line 6535 "NXCDefs.h"
-3	6536	230		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6536	234	#line 6536 "NXCDefs.h"
-3	6537	234		jmp __NXC_Label_109
-3	6536	236	#line 6536 "NXCDefs.h"
-3	6536	236	#line 6536 "NXCDefs.h"
-3	6536	236	#line 6536 "NXCDefs.h"
-3	6536	236	#line 6536 "NXCDefs.h"
-3	6537	236		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6536	240	#line 6536 "NXCDefs.h"
-3	6536	240	#line 6536 "NXCDefs.h"
-3	6536	240	#line 6536 "NXCDefs.h"
-3	6537	240		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6536	244	#line 6536 "NXCDefs.h"
-3	6536	244	#line 6536 "NXCDefs.h"
-3	6537	244		set __signed_stack_002PlaySound, 100
-3	6536	247	#line 6536 "NXCDefs.h"
-3	6536	247	#line 6536 "NXCDefs.h"
-3	6537	247		set __signed_stack_003PlaySound, 4
-3	6536	250	#line 6536 "NXCDefs.h"
-3	6536	250	#line 6536 "NXCDefs.h"
-3	6537	250		set __D0PlaySound, 0
-3	6537	253	#line 6537 "NXCDefs.h"
-3	6538	253		acquire __SPTArgsMutex
-3	6537	254	#line 6537 "NXCDefs.h"
-3	6538	254		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6537	256	#line 6537 "NXCDefs.h"
-3	6538	256		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6537	258	#line 6537 "NXCDefs.h"
-3	6538	258		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6537	260	#line 6537 "NXCDefs.h"
-3	6538	260		mov __SPTArgs.Loop, __D0PlaySound
-3	6537	262	#line 6537 "NXCDefs.h"
-3	6538	262		syscall 10, __SPTArgs
-3	6537	265	#line 6537 "NXCDefs.h"
-3	6538	265		mov __D0PlaySound, __SPTArgs.Result
-3	6537	267	#line 6537 "NXCDefs.h"
-3	6538	267		release __SPTArgsMutex
-3	6537	268	#line 6537 "NXCDefs.h"
-3	6537	268	#line 6537 "NXCDefs.h"
-3	6538	268		wait2 NA, __constVal100
-3	6537	271	#line 6537 "NXCDefs.h"
-3	6537	271	#line 6537 "NXCDefs.h"
-3	6539	271	#line 6539 "NXCDefs.h"
-3	6540	271		jmp __NXC_Label_112
-3	6539	273	#line 6539 "NXCDefs.h"
-3	6539	273	#line 6539 "NXCDefs.h"
-3	6540	273		jmp __NXC_Label_125
-3	6539	275	#line 6539 "NXCDefs.h"
-3	6540	275		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6539	277	#line 6539 "NXCDefs.h"
-3	6540	277	#line 6540 "NXCDefs.h"
-3	6541	277		set __D0PlaySound, 4
-3	6540	280	#line 6540 "NXCDefs.h"
-3	6541	280		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6540	284	#line 6540 "NXCDefs.h"
-3	6541	284		mov __D0PlaySound, __zfPlaySound
-3	6541	286	#line 6541 "NXCDefs.h"
-3	6542	286		brtst 4, __NXC_Label_128, __zfPlaySound
-3	6541	289	#line 6541 "NXCDefs.h"
-3	6542	289		set __signed_stack_001PlaySound, 100
-3	6541	292	#line 6541 "NXCDefs.h"
-3	6541	292	#line 6541 "NXCDefs.h"
-3	6542	292		set __signed_stack_002PlaySound, 500
-3	6541	295	#line 6541 "NXCDefs.h"
-3	6541	295	#line 6541 "NXCDefs.h"
-3	6542	295		set __signed_stack_003PlaySound, 4
-3	6541	298	#line 6541 "NXCDefs.h"
-3	6541	298	#line 6541 "NXCDefs.h"
-3	6542	298		set __D0PlaySound, 0
-3	6542	301	#line 6542 "NXCDefs.h"
-3	6543	301		acquire __SPTArgsMutex
-3	6542	302	#line 6542 "NXCDefs.h"
-3	6543	302		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6542	304	#line 6542 "NXCDefs.h"
-3	6543	304		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6542	306	#line 6542 "NXCDefs.h"
-3	6543	306		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6542	308	#line 6542 "NXCDefs.h"
-3	6543	308		mov __SPTArgs.Loop, __D0PlaySound
-3	6542	310	#line 6542 "NXCDefs.h"
-3	6543	310		syscall 10, __SPTArgs
-3	6542	313	#line 6542 "NXCDefs.h"
-3	6543	313		mov __D0PlaySound, __SPTArgs.Result
-3	6542	315	#line 6542 "NXCDefs.h"
-3	6543	315		release __SPTArgsMutex
-3	6542	316	#line 6542 "NXCDefs.h"
-3	6542	316	#line 6542 "NXCDefs.h"
-3	6543	316		wait2 NA, __constVal500
-3	6542	319	#line 6542 "NXCDefs.h"
-3	6542	319	#line 6542 "NXCDefs.h"
-3	6544	319	#line 6544 "NXCDefs.h"
-3	6545	319		jmp __NXC_Label_137
-3	6544	321	#line 6544 "NXCDefs.h"
-3	6545	321		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6544	323	#line 6544 "NXCDefs.h"
-3	6545	323	#line 6545 "NXCDefs.h"
-3	6546	323		set __D0PlaySound, 5
-3	6545	326	#line 6545 "NXCDefs.h"
-3	6546	326		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6545	330	#line 6545 "NXCDefs.h"
-3	6546	330		mov __D0PlaySound, __zfPlaySound
-3	6545	332	#line 6545 "NXCDefs.h"
-3	6546	332		brtst 4, __NXC_Label_140, __zfPlaySound
-3	6545	335	#line 6545 "NXCDefs.h"
-3	6546	335		set __PlaySound_7qG2_i_7qG2_001, 4
-3	6545	338	#line 6545 "NXCDefs.h"
-3	6545	338	#line 6545 "NXCDefs.h"
-3	6546	338		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
-3	6545	340	#line 6545 "NXCDefs.h"
-3	6545	340	#line 6545 "NXCDefs.h"
-3	6546	340		set __D0PlaySound, 8
-3	6545	343	#line 6545 "NXCDefs.h"
-3	6546	343		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6545	347	#line 6545 "NXCDefs.h"
-3	6546	347		mov __D0PlaySound, __zfPlaySound
-3	6545	349	#line 6545 "NXCDefs.h"
-3	6546	349		brtst 4, __NXC_Label_142, __zfPlaySound
-3	6545	352	#line 6545 "NXCDefs.h"
-3	6546	352		jmp __NXC_Label_143
-3	6546	354	#line 6546 "NXCDefs.h"
-3	6547	354		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6547	358	#line 6547 "NXCDefs.h"
-3	6548	358		jmp __NXC_Label_141
-3	6547	360	#line 6547 "NXCDefs.h"
-3	6547	360	#line 6547 "NXCDefs.h"
-3	6547	360	#line 6547 "NXCDefs.h"
-3	6547	360	#line 6547 "NXCDefs.h"
-3	6548	360		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6547	364	#line 6547 "NXCDefs.h"
-3	6547	364	#line 6547 "NXCDefs.h"
-3	6547	364	#line 6547 "NXCDefs.h"
-3	6548	364		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6547	368	#line 6547 "NXCDefs.h"
-3	6547	368	#line 6547 "NXCDefs.h"
-3	6548	368		set __signed_stack_002PlaySound, 50
-3	6547	371	#line 6547 "NXCDefs.h"
-3	6547	371	#line 6547 "NXCDefs.h"
-3	6548	371		set __signed_stack_003PlaySound, 4
-3	6547	374	#line 6547 "NXCDefs.h"
-3	6547	374	#line 6547 "NXCDefs.h"
-3	6548	374		set __D0PlaySound, 0
-3	6548	377	#line 6548 "NXCDefs.h"
-3	6549	377		acquire __SPTArgsMutex
-3	6548	378	#line 6548 "NXCDefs.h"
-3	6549	378		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6548	380	#line 6548 "NXCDefs.h"
-3	6549	380		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6548	382	#line 6548 "NXCDefs.h"
-3	6549	382		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6548	384	#line 6548 "NXCDefs.h"
-3	6549	384		mov __SPTArgs.Loop, __D0PlaySound
-3	6548	386	#line 6548 "NXCDefs.h"
-3	6549	386		syscall 10, __SPTArgs
-3	6548	389	#line 6548 "NXCDefs.h"
-3	6549	389		mov __D0PlaySound, __SPTArgs.Result
-3	6548	391	#line 6548 "NXCDefs.h"
-3	6549	391		release __SPTArgsMutex
-3	6548	392	#line 6548 "NXCDefs.h"
-3	6548	392	#line 6548 "NXCDefs.h"
-3	6549	392		wait2 NA, __constVal50
-3	6548	395	#line 6548 "NXCDefs.h"
-3	6548	395	#line 6548 "NXCDefs.h"
-3	6560	395	#line 6560 "NXCDefs.h"
-3	6561	395		jmp __NXC_Label_144
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6560	397	#line 6560 "NXCDefs.h"
-3	6561	397		subret __PlaySound_return
-4	194	0	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
-4	195	0		subret ____initialize_global_data_return
+0	183	847		add __main_7qG2_state_7qG2_000, __main_7qG2_state_7qG2_000, __constVal1
+0	182	851	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	851	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	851		getin __signed_stack_001main, __constVal0, 4
+0	182	855	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	855	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	855		mov __D0main, __main_7qG2_FL_7qG2_000
+0	182	857	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	857		cmp 1, __zfmain, __signed_stack_001main, __D0main
+0	182	861	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	861		mov __D0main, __zfmain
+0	182	863	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	863		brtst 4, __NXC_Label_736, __zfmain
+0	182	866	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	866		mov __D0main, __main_7qG2_va_7qG2_000
+0	182	868	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	868	#pragma macro 7
+0	183	868		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4699	891	#line 4699 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	891	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	891	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	891		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	182	893	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	7921	893	#line 7921 "NXCDefs.h"
+0	7922	893		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	896	#line 7921 "NXCDefs.h"
+0	182	896	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	896	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	896	#pragma macro 7
+0	183	896		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4716	919	#line 4716 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	182	919	#line 182 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	919	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	919		jmp __NXC_Label_735
+0	183	921	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	921	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	921		getin __signed_stack_001main, __constVal0, 4
+0	183	925	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	925	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	925		mov __D0main, __main_7qG2_FL_7qG2_000
+0	183	927	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	927		cmp 0, __zfmain, __signed_stack_001main, __D0main
+0	183	931	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	931		mov __D0main, __zfmain
+0	183	933	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	933		brtst 4, __NXC_Label_744, __zfmain
+0	183	936	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	936		mov __D0main, __main_7qG2_va_7qG2_000
+0	183	938	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	938	#pragma macro 7
+0	184	938		setout __constVal2, 2, __D0main, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4742	961	#line 4742 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	961	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	961	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	961		mov __Wait_7qG2_ms_7qG2_000_inline_main, __main_7qG2_w_7qG2_000
+0	183	963	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	7921	963	#line 7921 "NXCDefs.h"
+0	7922	963		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_main
+0	7921	966	#line 7921 "NXCDefs.h"
+0	183	966	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	966	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	966	#pragma macro 7
+0	184	966		setout __constVal2, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+0	4755	989	#line 4755 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	183	989	#line 183 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	989	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	989		jmp __NXC_Label_743
+0	184	991	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	991	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	991		jmp __NXC_Label_751
+0	184	993	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	993		mov __unsigned_stack_001main, __main_7qG2_state_7qG2_000
+0	184	995	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	184	995	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	995		set __D0main, 1
+0	184	998	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	998		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
+0	184	1002	#line 184 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	185	1002		mov __D0main, __zfmain
+0	186	1004	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	187	1004		brtst 4, __NXC_Label_754, __zfmain
+0	186	1007	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	187	1007		set __signed_stack_001main, 50
+0	186	1010	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	186	1010	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	186	1010	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	186	1010	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	186	1010	#line 186 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	187	1010		sub __D0main, __constVal0, __main_7qG2_d_7qG2_000
+0	187	1014	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	188	1014	#pragma macro 33
+0	188	1014		arrbuild __rotate_ports1, __constVal1
+0	188	1018		mov __rotate_power1, __signed_stack_001main
+0	188	1020		mov __rotate_angle1, __D0main
+0	188	1022		mov __rotate_turnpct1, __constVal0
+0	188	1024		mov __rotate_sync1, __constVal0
+0	188	1026		mov __rotate_stop1, __constVal1
+0	188	1028		mov __rotate_theRVP1, __constVal32
+0	188	1030		mov __rotate_theRVI1, __constVal0
+0	188	1032		mov __rotate_theRVD1, __constVal96
+0	188	1034		subcall __RotateMotor1, ____RotateMotor1_return
+0	4795	1036	#line 4795 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	187	1036	#line 187 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	188	1036	#line 188 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	189	1036		set __main_7qG2_state_7qG2_000, 0
+0	188	1039	#line 188 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	188	1039	#line 188 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	192	1039	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	192	1039	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	192	1039	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	192	1039	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	193	1039		jmp __NXC_Label_675
+0	192	1041	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	192	1041	#line 192 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	194	1041	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	195	1041		jmp __NXC_Label_664
+0	194	1043	#line 194 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+0	195	1043		exit -1, -1
+1	4476	0		brtst 4, __rotate_Done0, __rotate_angle0
+1	4477	3		set ____RotateMotor0_sign_tmp, 0
+1	4477	6		brtst EQ, __sign_0, __rotate_angle0
+1	4477	9		set ____RotateMotor0_sign_tmp, -1
+1	4477	12		brtst LT, __sign_0, __rotate_angle0
+1	4477	15		set ____RotateMotor0_sign_tmp, 1
+1	4477	18	__sign_0:	mov __rotate_thePower0, ____RotateMotor0_sign_tmp
+1	4478	20		abs __rotate_theAngle0, __rotate_angle0
+1	4479	23		mul __rotate_thePower0, __rotate_thePower0, __rotate_power0
+1	4481	27		set __rotate_theUF0, 23
+1	4482	30		brtst 4, __rotate_NoSync0, __rotate_sync0
+1	4483	33		set __rotate_theOM0, 7
+1	4484	36		set __rotate_theRM0, 2
+1	4485	39		mov __rotate_theTurnPct0, __rotate_turnpct0
+1	4486	41		brtst 4, __rotate_Start0, __rotate_theTurnPct0
+1	4487	44		add __rotate_theUF0, __rotate_theUF0, __constVal32
+1	4488	48		jmp __rotate_Start0
+1	4490	50		set __rotate_theOM0, 3
+1	4491	53		set __rotate_theRM0, 0
+1	4492	56		set __rotate_theTurnPct0, 0
+1	4494	59		set __rotate_theRS0, 32
+1	4495	62		setout __rotate_ports0, 1, __rotate_theOM0, 8, __rotate_theRM0, 5, __rotate_theAngle0, 6, __rotate_theRS0, 10, __rotate_theRVP0, 11, __rotate_theRVI0, 12, __rotate_theRVD0, 2, __rotate_thePower0, 7, __rotate_turnpct0, 0, __rotate_theUF0
+1	4498	85		index __rotate_firstPort0, __rotate_ports0, 65535
+1	4500	89		getout __rotate_power0, __rotate_firstPort0, 2
+1	4501	93		brtst 4, __rotate_doneRunning0, __rotate_power0
+1	4502	96		getout __rotate_rs0, __rotate_firstPort0, 6
+1	4503	100		brcmp 4, __rotate_Running0, __rotate_rs0, __constVal32
+1	4505	104		brtst 4, __rotate_Reset0, __rotate_stop0
+1	4507	107		set __rotate_theOM0, 7
+1	4508	110		set __rotate_theUF0, 7
+1	4509	113		setout __rotate_ports0, 1, __rotate_theOM0, 8, __constVal1, 6, __rotate_theRS0, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF0
+1	4511	128		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4513	132		mov __rotate_OldRotCount0, __rotate_RotCount0
+1	4514	134		wait2 NA, __constVal50
+1	4516	137		getout __rotate_RotCount0, __rotate_firstPort0, 14
+1	4517	141		brcmp 5, __rotate_Stabilize0, __rotate_OldRotCount0, __rotate_RotCount0
+1	4518	145		set __rotate_theOM0, 4
+1	4519	148		setout __rotate_ports0, 8, __rotate_theRM0, 6, __constVal0, 1, __rotate_theOM0, 0, __constVal1
+1	4522	159		brtst 4, __rotate_Done0, __rotate_theTurnPct0
+1	4523	162		setout __rotate_ports0, 0, __constVal32
+1	4525	167		subret ____RotateMotor0_return
+2	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+2	4530	3		set ____RotateMotor1_sign_tmp, 0
+2	4530	6		brtst EQ, __sign_1, __rotate_angle1
+2	4530	9		set ____RotateMotor1_sign_tmp, -1
+2	4530	12		brtst LT, __sign_1, __rotate_angle1
+2	4530	15		set ____RotateMotor1_sign_tmp, 1
+2	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+2	4531	20		abs __rotate_theAngle1, __rotate_angle1
+2	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+2	4534	27		set __rotate_theUF1, 23
+2	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+2	4536	33		set __rotate_theOM1, 7
+2	4537	36		set __rotate_theRM1, 2
+2	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+2	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+2	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+2	4541	48		jmp __rotate_Start1
+2	4543	50		set __rotate_theOM1, 3
+2	4544	53		set __rotate_theRM1, 0
+2	4545	56		set __rotate_theTurnPct1, 0
+2	4547	59		set __rotate_theRS1, 32
+2	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+2	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+2	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+2	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+2	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+2	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+2	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+2	4560	107		set __rotate_theOM1, 7
+2	4561	110		set __rotate_theUF1, 7
+2	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+2	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+2	4567	134		wait2 NA, __constVal50
+2	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+2	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+2	4571	145		set __rotate_theOM1, 4
+2	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+2	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+2	4576	162		setout __rotate_ports1, 0, __constVal32
+2	4578	167		subret ____RotateMotor1_return
+3	4582	0		brtst 4, __rotate_Done2, __rotate_angle2
+3	4583	3		set ____RotateMotor2_sign_tmp, 0
+3	4583	6		brtst EQ, __sign_2, __rotate_angle2
+3	4583	9		set ____RotateMotor2_sign_tmp, -1
+3	4583	12		brtst LT, __sign_2, __rotate_angle2
+3	4583	15		set ____RotateMotor2_sign_tmp, 1
+3	4583	18	__sign_2:	mov __rotate_thePower2, ____RotateMotor2_sign_tmp
+3	4584	20		abs __rotate_theAngle2, __rotate_angle2
+3	4585	23		mul __rotate_thePower2, __rotate_thePower2, __rotate_power2
+3	4587	27		set __rotate_theUF2, 23
+3	4588	30		brtst 4, __rotate_NoSync2, __rotate_sync2
+3	4589	33		set __rotate_theOM2, 7
+3	4590	36		set __rotate_theRM2, 2
+3	4591	39		mov __rotate_theTurnPct2, __rotate_turnpct2
+3	4592	41		brtst 4, __rotate_Start2, __rotate_theTurnPct2
+3	4593	44		add __rotate_theUF2, __rotate_theUF2, __constVal32
+3	4594	48		jmp __rotate_Start2
+3	4596	50		set __rotate_theOM2, 3
+3	4597	53		set __rotate_theRM2, 0
+3	4598	56		set __rotate_theTurnPct2, 0
+3	4600	59		set __rotate_theRS2, 32
+3	4601	62		setout __rotate_ports2, 1, __rotate_theOM2, 8, __rotate_theRM2, 5, __rotate_theAngle2, 6, __rotate_theRS2, 10, __rotate_theRVP2, 11, __rotate_theRVI2, 12, __rotate_theRVD2, 2, __rotate_thePower2, 7, __rotate_turnpct2, 0, __rotate_theUF2
+3	4604	85		index __rotate_firstPort2, __rotate_ports2, 65535
+3	4606	89		getout __rotate_power2, __rotate_firstPort2, 2
+3	4607	93		brtst 4, __rotate_doneRunning2, __rotate_power2
+3	4608	96		getout __rotate_rs2, __rotate_firstPort2, 6
+3	4609	100		brcmp 4, __rotate_Running2, __rotate_rs2, __constVal32
+3	4611	104		brtst 4, __rotate_Reset2, __rotate_stop2
+3	4613	107		set __rotate_theOM2, 7
+3	4614	110		set __rotate_theUF2, 7
+3	4615	113		setout __rotate_ports2, 1, __rotate_theOM2, 8, __constVal1, 6, __rotate_theRS2, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF2
+3	4617	128		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4619	132		mov __rotate_OldRotCount2, __rotate_RotCount2
+3	4620	134		wait2 NA, __constVal50
+3	4622	137		getout __rotate_RotCount2, __rotate_firstPort2, 14
+3	4623	141		brcmp 5, __rotate_Stabilize2, __rotate_OldRotCount2, __rotate_RotCount2
+3	4624	145		set __rotate_theOM2, 4
+3	4625	148		setout __rotate_ports2, 8, __rotate_theRM2, 6, __constVal0, 1, __rotate_theOM2, 0, __constVal1
+3	4628	159		brtst 4, __rotate_Done2, __rotate_theTurnPct2
+3	4629	162		setout __rotate_ports2, 0, __constVal32
+3	4631	167		subret ____RotateMotor2_return
+4	4885	0		setin __constVal1, __ResetSensorPort, 5
+4	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+4	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+4	4889	11		subret ____ResetSensorSubroutine_return
+5	6518	0	#line 6518 "NXCDefs.h"
+5	6519	0		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6518	2	#line 6518 "NXCDefs.h"
+5	6519	2	#line 6519 "NXCDefs.h"
+5	6520	2		set __D0PlaySound, 0
+5	6519	5	#line 6519 "NXCDefs.h"
+5	6520	5		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6519	9	#line 6519 "NXCDefs.h"
+5	6520	9		mov __D0PlaySound, __zfPlaySound
+5	6519	11	#line 6519 "NXCDefs.h"
+5	6520	11		brtst 4, __NXC_Label_56, __zfPlaySound
+5	6519	14	#line 6519 "NXCDefs.h"
+5	6520	14		set __signed_stack_001PlaySound, 600
+5	6519	17	#line 6519 "NXCDefs.h"
+5	6519	17	#line 6519 "NXCDefs.h"
+5	6520	17		set __signed_stack_002PlaySound, 200
+5	6519	20	#line 6519 "NXCDefs.h"
+5	6519	20	#line 6519 "NXCDefs.h"
+5	6520	20		set __signed_stack_003PlaySound, 4
+5	6519	23	#line 6519 "NXCDefs.h"
+5	6519	23	#line 6519 "NXCDefs.h"
+5	6520	23		set __D0PlaySound, 0
+5	6520	26	#line 6520 "NXCDefs.h"
+5	6521	26		acquire __SPTArgsMutex
+5	6520	27	#line 6520 "NXCDefs.h"
+5	6521	27		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6520	30	#line 6520 "NXCDefs.h"
+5	6521	30		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6520	32	#line 6520 "NXCDefs.h"
+5	6521	32		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6520	35	#line 6520 "NXCDefs.h"
+5	6521	35		mov __SPTArgs.Loop, __D0PlaySound
+5	6520	37	#line 6520 "NXCDefs.h"
+5	6521	37		syscall 10, __SPTArgs
+5	6520	40	#line 6520 "NXCDefs.h"
+5	6521	40		mov __D0PlaySound, __SPTArgs.Result
+5	6520	42	#line 6520 "NXCDefs.h"
+5	6521	42		release __SPTArgsMutex
+5	6520	43	#line 6520 "NXCDefs.h"
+5	6520	43	#line 6520 "NXCDefs.h"
+5	6521	43		jmp __NXC_Label_65
+5	6520	45	#line 6520 "NXCDefs.h"
+5	6521	45		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6520	47	#line 6520 "NXCDefs.h"
+5	6521	47	#line 6521 "NXCDefs.h"
+5	6522	47		set __D0PlaySound, 1
+5	6521	50	#line 6521 "NXCDefs.h"
+5	6522	50		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6521	54	#line 6521 "NXCDefs.h"
+5	6522	54		mov __D0PlaySound, __zfPlaySound
+5	6522	56	#line 6522 "NXCDefs.h"
+5	6523	56		brtst 4, __NXC_Label_68, __zfPlaySound
+5	6522	59	#line 6522 "NXCDefs.h"
+5	6523	59		set __signed_stack_001PlaySound, 600
+5	6522	62	#line 6522 "NXCDefs.h"
+5	6522	62	#line 6522 "NXCDefs.h"
+5	6523	62		set __signed_stack_002PlaySound, 150
+5	6522	65	#line 6522 "NXCDefs.h"
+5	6522	65	#line 6522 "NXCDefs.h"
+5	6523	65		set __signed_stack_003PlaySound, 4
+5	6522	68	#line 6522 "NXCDefs.h"
+5	6522	68	#line 6522 "NXCDefs.h"
+5	6523	68		set __D0PlaySound, 0
+5	6523	71	#line 6523 "NXCDefs.h"
+5	6524	71		acquire __SPTArgsMutex
+5	6523	72	#line 6523 "NXCDefs.h"
+5	6524	72		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6523	75	#line 6523 "NXCDefs.h"
+5	6524	75		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6523	77	#line 6523 "NXCDefs.h"
+5	6524	77		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6523	80	#line 6523 "NXCDefs.h"
+5	6524	80		mov __SPTArgs.Loop, __D0PlaySound
+5	6523	82	#line 6523 "NXCDefs.h"
+5	6524	82		syscall 10, __SPTArgs
+5	6523	85	#line 6523 "NXCDefs.h"
+5	6524	85		mov __D0PlaySound, __SPTArgs.Result
+5	6523	87	#line 6523 "NXCDefs.h"
+5	6524	87		release __SPTArgsMutex
+5	6523	88	#line 6523 "NXCDefs.h"
+5	6523	88	#line 6523 "NXCDefs.h"
+5	6524	88		wait2 NA, __constVal200
+5	6523	91	#line 6523 "NXCDefs.h"
+5	6523	91	#line 6523 "NXCDefs.h"
+5	6524	91	#line 6524 "NXCDefs.h"
+5	6525	91		set __signed_stack_001PlaySound, 600
+5	6524	94	#line 6524 "NXCDefs.h"
+5	6524	94	#line 6524 "NXCDefs.h"
+5	6525	94		set __signed_stack_002PlaySound, 150
+5	6524	97	#line 6524 "NXCDefs.h"
+5	6524	97	#line 6524 "NXCDefs.h"
+5	6525	97		set __signed_stack_003PlaySound, 4
+5	6524	100	#line 6524 "NXCDefs.h"
+5	6524	100	#line 6524 "NXCDefs.h"
+5	6525	100		set __D0PlaySound, 0
+5	6525	103	#line 6525 "NXCDefs.h"
+5	6526	103		acquire __SPTArgsMutex
+5	6525	104	#line 6525 "NXCDefs.h"
+5	6526	104		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6525	107	#line 6525 "NXCDefs.h"
+5	6526	107		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6525	109	#line 6525 "NXCDefs.h"
+5	6526	109		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6525	112	#line 6525 "NXCDefs.h"
+5	6526	112		mov __SPTArgs.Loop, __D0PlaySound
+5	6525	114	#line 6525 "NXCDefs.h"
+5	6526	114		syscall 10, __SPTArgs
+5	6525	117	#line 6525 "NXCDefs.h"
+5	6526	117		mov __D0PlaySound, __SPTArgs.Result
+5	6525	119	#line 6525 "NXCDefs.h"
+5	6526	119		release __SPTArgsMutex
+5	6525	120	#line 6525 "NXCDefs.h"
+5	6525	120	#line 6525 "NXCDefs.h"
+5	6526	120		wait2 NA, __constVal150
+5	6525	123	#line 6525 "NXCDefs.h"
+5	6525	123	#line 6525 "NXCDefs.h"
+5	6527	123	#line 6527 "NXCDefs.h"
+5	6528	123		jmp __NXC_Label_85
+5	6527	125	#line 6527 "NXCDefs.h"
+5	6528	125		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6527	127	#line 6527 "NXCDefs.h"
+5	6528	127	#line 6528 "NXCDefs.h"
+5	6529	127		set __D0PlaySound, 3
+5	6528	130	#line 6528 "NXCDefs.h"
+5	6529	130		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6528	134	#line 6528 "NXCDefs.h"
+5	6529	134		mov __D0PlaySound, __zfPlaySound
+5	6528	136	#line 6528 "NXCDefs.h"
+5	6529	136		brtst 4, __NXC_Label_88, __zfPlaySound
+5	6528	139	#line 6528 "NXCDefs.h"
+5	6529	139		set __PlaySound_7qG2_i_7qG2_001, 4
+5	6528	142	#line 6528 "NXCDefs.h"
+5	6528	142	#line 6528 "NXCDefs.h"
+5	6529	142		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+5	6528	144	#line 6528 "NXCDefs.h"
+5	6528	144	#line 6528 "NXCDefs.h"
+5	6529	144		set __D0PlaySound, 8
+5	6528	147	#line 6528 "NXCDefs.h"
+5	6529	147		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6528	151	#line 6528 "NXCDefs.h"
+5	6529	151		mov __D0PlaySound, __zfPlaySound
+5	6528	153	#line 6528 "NXCDefs.h"
+5	6529	153		brtst 4, __NXC_Label_90, __zfPlaySound
+5	6528	156	#line 6528 "NXCDefs.h"
+5	6529	156		jmp __NXC_Label_91
+5	6529	158	#line 6529 "NXCDefs.h"
+5	6530	158		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+5	6530	162	#line 6530 "NXCDefs.h"
+5	6531	162		jmp __NXC_Label_89
+5	6530	164	#line 6530 "NXCDefs.h"
+5	6530	164	#line 6530 "NXCDefs.h"
+5	6530	164	#line 6530 "NXCDefs.h"
+5	6530	164	#line 6530 "NXCDefs.h"
+5	6531	164		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+5	6530	168	#line 6530 "NXCDefs.h"
+5	6530	168	#line 6530 "NXCDefs.h"
+5	6530	168	#line 6530 "NXCDefs.h"
+5	6531	168		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+5	6530	172	#line 6530 "NXCDefs.h"
+5	6530	172	#line 6530 "NXCDefs.h"
+5	6531	172		set __signed_stack_002PlaySound, 100
+5	6530	175	#line 6530 "NXCDefs.h"
+5	6530	175	#line 6530 "NXCDefs.h"
+5	6531	175		set __signed_stack_003PlaySound, 4
+5	6530	178	#line 6530 "NXCDefs.h"
+5	6530	178	#line 6530 "NXCDefs.h"
+5	6531	178		set __D0PlaySound, 0
+5	6531	181	#line 6531 "NXCDefs.h"
+5	6532	181		acquire __SPTArgsMutex
+5	6531	182	#line 6531 "NXCDefs.h"
+5	6532	182		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6531	185	#line 6531 "NXCDefs.h"
+5	6532	185		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6531	187	#line 6531 "NXCDefs.h"
+5	6532	187		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6531	190	#line 6531 "NXCDefs.h"
+5	6532	190		mov __SPTArgs.Loop, __D0PlaySound
+5	6531	192	#line 6531 "NXCDefs.h"
+5	6532	192		syscall 10, __SPTArgs
+5	6531	195	#line 6531 "NXCDefs.h"
+5	6532	195		mov __D0PlaySound, __SPTArgs.Result
+5	6531	197	#line 6531 "NXCDefs.h"
+5	6532	197		release __SPTArgsMutex
+5	6531	198	#line 6531 "NXCDefs.h"
+5	6531	198	#line 6531 "NXCDefs.h"
+5	6532	198		wait2 NA, __constVal100
+5	6531	201	#line 6531 "NXCDefs.h"
+5	6531	201	#line 6531 "NXCDefs.h"
+5	6533	201	#line 6533 "NXCDefs.h"
+5	6534	201		jmp __NXC_Label_92
+5	6533	203	#line 6533 "NXCDefs.h"
+5	6533	203	#line 6533 "NXCDefs.h"
+5	6534	203		jmp __NXC_Label_105
+5	6533	205	#line 6533 "NXCDefs.h"
+5	6534	205		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6533	207	#line 6533 "NXCDefs.h"
+5	6534	207	#line 6534 "NXCDefs.h"
+5	6535	207		set __D0PlaySound, 2
+5	6534	210	#line 6534 "NXCDefs.h"
+5	6535	210		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6534	214	#line 6534 "NXCDefs.h"
+5	6535	214		mov __D0PlaySound, __zfPlaySound
+5	6534	216	#line 6534 "NXCDefs.h"
+5	6535	216		brtst 4, __NXC_Label_108, __zfPlaySound
+5	6534	219	#line 6534 "NXCDefs.h"
+5	6535	219		set __PlaySound_7qG2_i_7qG2_001, 7
+5	6534	222	#line 6534 "NXCDefs.h"
+5	6534	222	#line 6534 "NXCDefs.h"
+5	6535	222		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+5	6534	224	#line 6534 "NXCDefs.h"
+5	6534	224	#line 6534 "NXCDefs.h"
+5	6535	224		set __D0PlaySound, 3
+5	6534	227	#line 6534 "NXCDefs.h"
+5	6535	227		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6534	231	#line 6534 "NXCDefs.h"
+5	6535	231		mov __D0PlaySound, __zfPlaySound
+5	6534	233	#line 6534 "NXCDefs.h"
+5	6535	233		brtst 4, __NXC_Label_110, __zfPlaySound
+5	6534	236	#line 6534 "NXCDefs.h"
+5	6535	236		jmp __NXC_Label_111
+5	6535	238	#line 6535 "NXCDefs.h"
+5	6536	238		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+5	6536	242	#line 6536 "NXCDefs.h"
+5	6537	242		jmp __NXC_Label_109
+5	6536	244	#line 6536 "NXCDefs.h"
+5	6536	244	#line 6536 "NXCDefs.h"
+5	6536	244	#line 6536 "NXCDefs.h"
+5	6536	244	#line 6536 "NXCDefs.h"
+5	6537	244		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+5	6536	248	#line 6536 "NXCDefs.h"
+5	6536	248	#line 6536 "NXCDefs.h"
+5	6536	248	#line 6536 "NXCDefs.h"
+5	6537	248		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+5	6536	252	#line 6536 "NXCDefs.h"
+5	6536	252	#line 6536 "NXCDefs.h"
+5	6537	252		set __signed_stack_002PlaySound, 100
+5	6536	255	#line 6536 "NXCDefs.h"
+5	6536	255	#line 6536 "NXCDefs.h"
+5	6537	255		set __signed_stack_003PlaySound, 4
+5	6536	258	#line 6536 "NXCDefs.h"
+5	6536	258	#line 6536 "NXCDefs.h"
+5	6537	258		set __D0PlaySound, 0
+5	6537	261	#line 6537 "NXCDefs.h"
+5	6538	261		acquire __SPTArgsMutex
+5	6537	262	#line 6537 "NXCDefs.h"
+5	6538	262		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6537	265	#line 6537 "NXCDefs.h"
+5	6538	265		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6537	267	#line 6537 "NXCDefs.h"
+5	6538	267		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6537	270	#line 6537 "NXCDefs.h"
+5	6538	270		mov __SPTArgs.Loop, __D0PlaySound
+5	6537	272	#line 6537 "NXCDefs.h"
+5	6538	272		syscall 10, __SPTArgs
+5	6537	275	#line 6537 "NXCDefs.h"
+5	6538	275		mov __D0PlaySound, __SPTArgs.Result
+5	6537	277	#line 6537 "NXCDefs.h"
+5	6538	277		release __SPTArgsMutex
+5	6537	278	#line 6537 "NXCDefs.h"
+5	6537	278	#line 6537 "NXCDefs.h"
+5	6538	278		wait2 NA, __constVal100
+5	6537	281	#line 6537 "NXCDefs.h"
+5	6537	281	#line 6537 "NXCDefs.h"
+5	6539	281	#line 6539 "NXCDefs.h"
+5	6540	281		jmp __NXC_Label_112
+5	6539	283	#line 6539 "NXCDefs.h"
+5	6539	283	#line 6539 "NXCDefs.h"
+5	6540	283		jmp __NXC_Label_125
+5	6539	285	#line 6539 "NXCDefs.h"
+5	6540	285		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6539	287	#line 6539 "NXCDefs.h"
+5	6540	287	#line 6540 "NXCDefs.h"
+5	6541	287		set __D0PlaySound, 4
+5	6540	290	#line 6540 "NXCDefs.h"
+5	6541	290		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6540	294	#line 6540 "NXCDefs.h"
+5	6541	294		mov __D0PlaySound, __zfPlaySound
+5	6541	296	#line 6541 "NXCDefs.h"
+5	6542	296		brtst 4, __NXC_Label_128, __zfPlaySound
+5	6541	299	#line 6541 "NXCDefs.h"
+5	6542	299		set __signed_stack_001PlaySound, 100
+5	6541	302	#line 6541 "NXCDefs.h"
+5	6541	302	#line 6541 "NXCDefs.h"
+5	6542	302		set __signed_stack_002PlaySound, 500
+5	6541	305	#line 6541 "NXCDefs.h"
+5	6541	305	#line 6541 "NXCDefs.h"
+5	6542	305		set __signed_stack_003PlaySound, 4
+5	6541	308	#line 6541 "NXCDefs.h"
+5	6541	308	#line 6541 "NXCDefs.h"
+5	6542	308		set __D0PlaySound, 0
+5	6542	311	#line 6542 "NXCDefs.h"
+5	6543	311		acquire __SPTArgsMutex
+5	6542	312	#line 6542 "NXCDefs.h"
+5	6543	312		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6542	315	#line 6542 "NXCDefs.h"
+5	6543	315		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6542	317	#line 6542 "NXCDefs.h"
+5	6543	317		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6542	320	#line 6542 "NXCDefs.h"
+5	6543	320		mov __SPTArgs.Loop, __D0PlaySound
+5	6542	322	#line 6542 "NXCDefs.h"
+5	6543	322		syscall 10, __SPTArgs
+5	6542	325	#line 6542 "NXCDefs.h"
+5	6543	325		mov __D0PlaySound, __SPTArgs.Result
+5	6542	327	#line 6542 "NXCDefs.h"
+5	6543	327		release __SPTArgsMutex
+5	6542	328	#line 6542 "NXCDefs.h"
+5	6542	328	#line 6542 "NXCDefs.h"
+5	6543	328		wait2 NA, __constVal500
+5	6542	331	#line 6542 "NXCDefs.h"
+5	6542	331	#line 6542 "NXCDefs.h"
+5	6544	331	#line 6544 "NXCDefs.h"
+5	6545	331		jmp __NXC_Label_137
+5	6544	333	#line 6544 "NXCDefs.h"
+5	6545	333		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+5	6544	335	#line 6544 "NXCDefs.h"
+5	6545	335	#line 6545 "NXCDefs.h"
+5	6546	335		set __D0PlaySound, 5
+5	6545	338	#line 6545 "NXCDefs.h"
+5	6546	338		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6545	342	#line 6545 "NXCDefs.h"
+5	6546	342		mov __D0PlaySound, __zfPlaySound
+5	6545	344	#line 6545 "NXCDefs.h"
+5	6546	344		brtst 4, __NXC_Label_140, __zfPlaySound
+5	6545	347	#line 6545 "NXCDefs.h"
+5	6546	347		set __PlaySound_7qG2_i_7qG2_001, 4
+5	6545	350	#line 6545 "NXCDefs.h"
+5	6545	350	#line 6545 "NXCDefs.h"
+5	6546	350		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+5	6545	352	#line 6545 "NXCDefs.h"
+5	6545	352	#line 6545 "NXCDefs.h"
+5	6546	352		set __D0PlaySound, 8
+5	6545	355	#line 6545 "NXCDefs.h"
+5	6546	355		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+5	6545	359	#line 6545 "NXCDefs.h"
+5	6546	359		mov __D0PlaySound, __zfPlaySound
+5	6545	361	#line 6545 "NXCDefs.h"
+5	6546	361		brtst 4, __NXC_Label_142, __zfPlaySound
+5	6545	364	#line 6545 "NXCDefs.h"
+5	6546	364		jmp __NXC_Label_143
+5	6546	366	#line 6546 "NXCDefs.h"
+5	6547	366		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+5	6547	370	#line 6547 "NXCDefs.h"
+5	6548	370		jmp __NXC_Label_141
+5	6547	372	#line 6547 "NXCDefs.h"
+5	6547	372	#line 6547 "NXCDefs.h"
+5	6547	372	#line 6547 "NXCDefs.h"
+5	6547	372	#line 6547 "NXCDefs.h"
+5	6548	372		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+5	6547	376	#line 6547 "NXCDefs.h"
+5	6547	376	#line 6547 "NXCDefs.h"
+5	6547	376	#line 6547 "NXCDefs.h"
+5	6548	376		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+5	6547	380	#line 6547 "NXCDefs.h"
+5	6547	380	#line 6547 "NXCDefs.h"
+5	6548	380		set __signed_stack_002PlaySound, 50
+5	6547	383	#line 6547 "NXCDefs.h"
+5	6547	383	#line 6547 "NXCDefs.h"
+5	6548	383		set __signed_stack_003PlaySound, 4
+5	6547	386	#line 6547 "NXCDefs.h"
+5	6547	386	#line 6547 "NXCDefs.h"
+5	6548	386		set __D0PlaySound, 0
+5	6548	389	#line 6548 "NXCDefs.h"
+5	6549	389		acquire __SPTArgsMutex
+5	6548	390	#line 6548 "NXCDefs.h"
+5	6549	390		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+5	6548	393	#line 6548 "NXCDefs.h"
+5	6549	393		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+5	6548	395	#line 6548 "NXCDefs.h"
+5	6549	395		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+5	6548	398	#line 6548 "NXCDefs.h"
+5	6549	398		mov __SPTArgs.Loop, __D0PlaySound
+5	6548	400	#line 6548 "NXCDefs.h"
+5	6549	400		syscall 10, __SPTArgs
+5	6548	403	#line 6548 "NXCDefs.h"
+5	6549	403		mov __D0PlaySound, __SPTArgs.Result
+5	6548	405	#line 6548 "NXCDefs.h"
+5	6549	405		release __SPTArgsMutex
+5	6548	406	#line 6548 "NXCDefs.h"
+5	6548	406	#line 6548 "NXCDefs.h"
+5	6549	406		wait2 NA, __constVal50
+5	6548	409	#line 6548 "NXCDefs.h"
+5	6548	409	#line 6548 "NXCDefs.h"
+5	6560	409	#line 6560 "NXCDefs.h"
+5	6561	409		jmp __NXC_Label_144
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6560	411	#line 6560 "NXCDefs.h"
+5	6561	411		subret __PlaySound_return
+6	195	0	#line 195 "C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc"
+6	196	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
 0	main	0	C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc
-1	__RotateMotor1	997	NXTDefs.h
-2	__ResetSensorSubroutine	1166	NXTDefs.h
-3	PlaySound	1179	NXCDefs.h
-4	__initialize_global_data	1578	C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc
+1	__RotateMotor0	1046	NXTDefs.h
+2	__RotateMotor1	1215	NXTDefs.h
+3	__RotateMotor2	1384	NXTDefs.h
+4	__ResetSensorSubroutine	1553	NXTDefs.h
+5	PlaySound	1566	NXCDefs.h
+6	__initialize_global_data	1979	C:\Users\Matthias Herrmann\Desktop\Studium 1. Semester\SysDp\Tests\Notfunktion2.1.nxc

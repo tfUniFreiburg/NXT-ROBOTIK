@@ -52,10 +52,10 @@ task main ()
     //OnFwd(OUT_AC, 100);
 
     int r[];
-    int d=10;
+    int d=150;
     int BFL=NULL, WFL=NULL, FL=NULL;
     int FRC=0, FLC=0, i=1000, MC=0, countR=0, countL=0, l=1, w=1;
-    int vc=50, va=vc;
+    int vc=80, va=vc;
     int BCR=0, BCL=0;
     BFL=WFL=NULL;
     bool state=FALSE;
@@ -164,14 +164,14 @@ task main ()
             //OnFwd(OUT_AC, 100);
             //Wait(w);
             //Off(OUT_AC);
-            if(Sensor(IN_1)>FL){
+            if(Sensor(IN_1)>=FL){
             OnFwd(OUT_C, va);
-            Wait(w);
+            RotateMotor(OUT_C, 100, 40);
             Off(OUT_C);
-            
+
             } else {
             OnFwd(OUT_A, va);
-            Wait(w);
+            RotateMotor(OUT_A, 100, 40);
             Off(OUT_A);
             }
             
@@ -185,6 +185,7 @@ task main ()
             } else if(state==1){
             // DROP
             RotateMotor(OUT_B, 50, -d);
+            state=0;
             } // else {noooooooooooooooooooooooooooo}
             
             }
