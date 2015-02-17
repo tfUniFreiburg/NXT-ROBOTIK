@@ -8,7 +8,7 @@ int degrees;
 
 mutex moveMutex;
 
-task movement()             // Die Konfiguration für das Vorwärtsfahren
+task movement()             // Die Konfiguration fÃ¼r das VorwÃ¤rtsfahren
 {
  while (true)
  {
@@ -19,21 +19,21 @@ task movement()             // Die Konfiguration für das Vorwärtsfahren
       OnFwdReg(OUT_AC,75,OUT_REGMODE_SPEED);Wait(500);
       Release(moveMutex);
       }
-      else               //Wenn nicht, dann Links, Rechts oder Wenden prüfen
+      else               //Wenn nicht, dann Links, Rechts oder Wenden prÃ¼fen
       {
           if (((SENSOR_1&&SENSOR_2 <= SW) && (SENSOR_3 >= SW))||((SENSOR_2&&SENSOR_3 >= SW) && (SENSOR_1 <= SW)))
-          //Wenn Sensor 1 und 2 auf Schwarz und Sensor 3 auf Weiß || Sensor 2 und 3 auf Weiß und Sensor 1 auf Schwarz
-          //dann fährt der Roboter nach links
+          //Wenn Sensor 1 und 2 auf Schwarz und Sensor 3 auf WeiÃŸ || Sensor 2 und 3 auf WeiÃŸ und Sensor 1 auf Schwarz
+          //dann fÃ¤hrt der Roboter nach links
           {
            Acquire(moveMutex);
            turn_left(75,200);          //links drehen
            Release(moveMutex);
           }
-          else               //Wenn nicht, dann rechts oder Wenden prüfen
+          else               //Wenn nicht, dann rechts oder Wenden prÃ¼fen
           {
             if (((SENSOR_2 && SENSOR_3 <= SW) && (SENSOR_1 >= SW))||((SENSOR_1&&SENSOR_2 >= SW ) && (SENSOR_3 <= SW)))
-            //Wenn Sensor 2 und 3 auf Schwarz und Sensor 1 auf Weiß || Sensor 1 und 2 auf Weiß und Sensor 3 auf Schwarz
-            //dann fährt der Roboter nach rechts
+            //Wenn Sensor 2 und 3 auf Schwarz und Sensor 1 auf WeiÃŸ || Sensor 1 und 2 auf WeiÃŸ und Sensor 3 auf Schwarz
+            //dann fÃ¤hrt der Roboter nach rechts
             {
             Acquire(moveMutex);
             turn_right(75,200);           //rechts drehen
@@ -44,11 +44,11 @@ task movement()             // Die Konfiguration für das Vorwärtsfahren
              Acquire(moveMutex);
              search_line(75,500);      // Linie suchen
              Release(moveMutex);
-             }                 // für das dritte else
-          }                    // für das zweite else
-      }                        // für das erste else
- }                             // für While
-}                              // für Task
+             }                 // fÃ¼r das dritte else
+          }                    // fÃ¼r das zweite else
+      }                        // fÃ¼r das erste else
+ }                             // fÃ¼r While
+}                              // fÃ¼r Task
 
 task grab_ball()
 {
@@ -75,6 +75,7 @@ task grab_ball()
 task music()
 {
 }
+
 task main ()
 {
  while(TRUE)
@@ -112,8 +113,9 @@ task main ()
  SetSensorLight(IN_2);
  SetSensorLight(IN_3);
  SetSensor(IN_4,SENSOR_TOUCH);         // Sensoren sind definiert
- Precedes (movement, grab_ball);       // Wir führen mehrere Tasks parallel aus
+ Precedes (movement, grab_ball);       // Wir fÃ¼hren mehrere Tasks parallel aus
 
 }
 
+}
 }
