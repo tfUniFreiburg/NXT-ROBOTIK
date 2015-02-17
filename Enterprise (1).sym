@@ -1,0 +1,842 @@
+#SYMBOLS
+Index	Identifier	Type	Flag	Data	Size	RefCount
+0	__Wait_7qG2_ms_7qG2_000_inline_grab_ball	5	1	0	4	6
+1	__signed_stack_001movement	6	1	4	4	18
+2	__signed_stack_003grab_ball	6	1	8	4	2
+3	__signed_stack_004grab_ball	6	1	12	4	2
+4	__Wait_7qG2_ms_7qG2_000_inline_movement	5	1	16	4	8
+5	moveMutex	9	0	20	4	10
+6	__rotate_theAngle1	5	1	24	4	2
+7	__signed_stack_002movement	6	1	28	4	20
+8	__signed_stack_003movement	6	1	32	4	8
+9	__signed_stack_002grab_ball	6	1	36	4	4
+10	__OnRevMutex	9	0	40	4	12
+11	__rotateMutex1	9	0	44	4	2
+12	__D0main	6	1	48	4	2
+13	__D0grab_ball	6	1	52	4	25
+14	__D0movement	6	1	56	4	94
+15	__DU0SetSensorLight_inline_main	5	1	60	4	6
+16	__signed_stack_001grab_ball	6	1	64	4	6
+17	__rotate_angle1	6	1	68	4	5
+18	__D0SetSensorLight_inline_main	6	1	72	4	9
+19	pwr	4	1	76	2	4
+20	SW	4	1	78	2	12
+21	degrees	4	1	80	2	2
+22	__rotate_OldRotCount1	4	1	82	2	2
+23	__rotate_RotCount1	4	1	84	2	4
+24	__zfmovement	1	1	86	1	68
+25	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	87	1	6
+26	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	88	1	6
+27	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	89	1	6
+28	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	90	1	4
+29	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	91	1	3
+30	__zfmain	1	1	92	1	2
+31	__zfSetSensorLight_inline_main	1	1	93	1	6
+32	__constValNeg1	2	0	94	1	1
+33	__constVal63	2	0	95	1	14
+34	__constVal96	2	0	96	1	15
+35	____initialize_global_data_return	1	1	97	1	3
+36	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	98	1	6
+37	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	99	1	6
+38	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	100	1	15
+39	__rotate_theRVP1	1	1	101	1	2
+40	__rotate_theRS1	1	1	102	1	3
+41	__rotate_theRM1	1	1	103	1	4
+42	__rotate_theRVI1	1	1	104	1	2
+43	__rotate_thePower1	2	1	105	1	4
+44	__rotate_rs1	1	1	106	1	2
+45	__rotate_theRVD1	1	1	107	1	2
+46	__rotate_theOM1	1	1	108	1	7
+47	__rotate_firstPort1	1	1	109	1	5
+48	__rotate_power1	1	1	110	1	4
+49	__OnRev_Tmp	2	1	111	1	12
+50	__rotate_sync1	1	1	112	1	2
+51	__rotate_theUF1	1	1	113	1	6
+52	__rotate_turnpct1	2	1	114	1	3
+53	__rotate_stop1	1	1	115	1	2
+54	____ResetSensorSubroutine_return	1	1	116	1	6
+55	__ResetSensorTmp	1	1	117	1	2
+56	__ResetSensorPort	1	1	118	1	6
+57	__constVal2	2	0	119	1	10
+58	__zfgrab_ball	1	1	120	1	12
+59	__constVal7	2	0	121	1	1
+60	__PFTmp	1	1	122	1	1
+61	__constVal3	2	0	123	1	14
+62	__constVal1	2	0	124	1	14
+63	__constVal32	2	0	125	1	47
+64	__rotate_theTurnPct1	2	1	126	1	4
+65	__constVal0	2	1	127	1	58
+66	____RotateMotor1_return	1	1	128	1	3
+67	____RotateMotor1_sign_tmp	2	1	129	1	4
+68	__constVal50	2	0	130	1	1
+69	__OUT_AC	7	0	132	4	4
+70	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+71	__rotate_ports1	7	0	134	4	6
+72	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+#SOURCES
+Clump	Line	PC	Source
+0	80	0	#line 80 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	81	0		subcall __initialize_global_data, ____initialize_global_data_return
+0	80	2	#line 80 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	86	2	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	2		set __D0main, 0
+0	86	5	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	5		tst 5, __zfmain, __D0main
+0	86	8	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	8		brtst 4, __NXC_Label_599, __zfmain
+0	86	11	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	11		jmp __NXC_Label_598
+0	86	13	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	13	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	88	13		set SW, 30
+0	87	16	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	87	16	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	88	16	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	89	16		set degrees, 110
+0	88	19	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	88	19	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	89	19	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	90	19		set pwr, 40
+0	89	22	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	89	22	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	89	22	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	90	22		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
+0	89	25	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	90	25	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	91	25		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	27	#line 3729 "NXCDefs.h"
+0	3730	27		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	29	#line 3729 "NXCDefs.h"
+0	3729	29	#line 3729 "NXCDefs.h"
+0	3730	29		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	31	#line 3729 "NXCDefs.h"
+0	3730	31		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	34	#line 3729 "NXCDefs.h"
+0	3730	34		brtst 4, __001__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	37	#line 3729 "NXCDefs.h"
+0	3730	37		set __D0SetSensorLight_inline_main, 5
+0	3729	40	#line 3729 "NXCDefs.h"
+0	3730	40		jmp __001__NXC_Label_5
+0	3729	42	#line 3729 "NXCDefs.h"
+0	3730	42		set __D0SetSensorLight_inline_main, 6
+0	3729	45	#line 3729 "NXCDefs.h"
+0	3730	45		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	47	#line 3663 "NXCDefs.h"
+0	3664	47		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	51	#line 3663 "NXCDefs.h"
+0	3730	51	#line 3730 "NXCDefs.h"
+0	3730	51	#line 3730 "NXCDefs.h"
+0	3731	51		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	53	#line 3730 "NXCDefs.h"
+0	3730	53	#line 3730 "NXCDefs.h"
+0	3731	53		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	56	#line 3730 "NXCDefs.h"
+0	3676	56	#line 3676 "NXCDefs.h"
+0	3677	56		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	60	#line 3676 "NXCDefs.h"
+0	3731	60	#line 3731 "NXCDefs.h"
+0	3731	60	#line 3731 "NXCDefs.h"
+0	3732	60		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	62	#line 3731 "NXCDefs.h"
+0	3694	62	#line 3694 "NXCDefs.h"
+0	3695	62	#pragma macro 4
+0	3695	62		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	64		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4871	66	#line 4871 "NXCDefs.h"
+0	3694	66	#line 3694 "NXCDefs.h"
+0	3732	66	#line 3732 "NXCDefs.h"
+0	90	66	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	90	66	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	91	66		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
+0	90	69	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	91	69	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	92	69		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	71	#line 3729 "NXCDefs.h"
+0	3730	71		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	73	#line 3729 "NXCDefs.h"
+0	3729	73	#line 3729 "NXCDefs.h"
+0	3730	73		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	75	#line 3729 "NXCDefs.h"
+0	3730	75		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	78	#line 3729 "NXCDefs.h"
+0	3730	78		brtst 4, __002__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	81	#line 3729 "NXCDefs.h"
+0	3730	81		set __D0SetSensorLight_inline_main, 5
+0	3729	84	#line 3729 "NXCDefs.h"
+0	3730	84		jmp __002__NXC_Label_5
+0	3729	86	#line 3729 "NXCDefs.h"
+0	3730	86		set __D0SetSensorLight_inline_main, 6
+0	3729	89	#line 3729 "NXCDefs.h"
+0	3730	89		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	91	#line 3663 "NXCDefs.h"
+0	3664	91		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	95	#line 3663 "NXCDefs.h"
+0	3730	95	#line 3730 "NXCDefs.h"
+0	3730	95	#line 3730 "NXCDefs.h"
+0	3731	95		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	97	#line 3730 "NXCDefs.h"
+0	3730	97	#line 3730 "NXCDefs.h"
+0	3731	97		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	100	#line 3730 "NXCDefs.h"
+0	3676	100	#line 3676 "NXCDefs.h"
+0	3677	100		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	104	#line 3676 "NXCDefs.h"
+0	3731	104	#line 3731 "NXCDefs.h"
+0	3731	104	#line 3731 "NXCDefs.h"
+0	3732	104		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	106	#line 3731 "NXCDefs.h"
+0	3694	106	#line 3694 "NXCDefs.h"
+0	3695	106	#pragma macro 4
+0	3695	106		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	108		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	4938	110	#line 4938 "NXCDefs.h"
+0	3694	110	#line 3694 "NXCDefs.h"
+0	3732	110	#line 3732 "NXCDefs.h"
+0	91	110	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	91	110	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	92	110		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
+0	91	113	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	92	113	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	93	113		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
+0	3729	115	#line 3729 "NXCDefs.h"
+0	3730	115		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3729	117	#line 3729 "NXCDefs.h"
+0	3729	117	#line 3729 "NXCDefs.h"
+0	3730	117		mov __DU0SetSensorLight_inline_main, __SetSensorLight_7qG2_bActive_7qG2_000_inline_main
+0	3729	119	#line 3729 "NXCDefs.h"
+0	3730	119		tst 5, __zfSetSensorLight_inline_main, __DU0SetSensorLight_inline_main
+0	3729	122	#line 3729 "NXCDefs.h"
+0	3730	122		brtst 4, __003__NXC_Label_4, __zfSetSensorLight_inline_main
+0	3729	125	#line 3729 "NXCDefs.h"
+0	3730	125		set __D0SetSensorLight_inline_main, 5
+0	3729	128	#line 3729 "NXCDefs.h"
+0	3730	128		jmp __003__NXC_Label_5
+0	3729	130	#line 3729 "NXCDefs.h"
+0	3730	130		set __D0SetSensorLight_inline_main, 6
+0	3729	133	#line 3729 "NXCDefs.h"
+0	3730	133		mov __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __D0SetSensorLight_inline_main
+0	3663	135	#line 3663 "NXCDefs.h"
+0	3664	135		setin __SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 0
+0	3663	139	#line 3663 "NXCDefs.h"
+0	3730	139	#line 3730 "NXCDefs.h"
+0	3730	139	#line 3730 "NXCDefs.h"
+0	3731	139		mov __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3730	141	#line 3730 "NXCDefs.h"
+0	3730	141	#line 3730 "NXCDefs.h"
+0	3731	141		set __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, 128
+0	3730	144	#line 3730 "NXCDefs.h"
+0	3676	144	#line 3676 "NXCDefs.h"
+0	3677	144		setin __SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, 1
+0	3676	148	#line 3676 "NXCDefs.h"
+0	3731	148	#line 3731 "NXCDefs.h"
+0	3731	148	#line 3731 "NXCDefs.h"
+0	3732	148		mov __ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3731	150	#line 3731 "NXCDefs.h"
+0	3694	150	#line 3694 "NXCDefs.h"
+0	3695	150	#pragma macro 4
+0	3695	150		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
+0	3695	152		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5005	154	#line 5005 "NXCDefs.h"
+0	3694	154	#line 3694 "NXCDefs.h"
+0	3732	154	#line 3732 "NXCDefs.h"
+0	92	154	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	92	154	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	93	154		set __SetSensor_7qG2_port_7qG2_000_inline_main, 3
+0	92	157	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	92	157	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	3707	157	#line 3707 "NXCDefs.h"
+0	3708	157		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
+0	3709	161		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
+0	3710	165	#pragma macro 4
+0	3710	165		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
+0	3710	167		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
+0	5028	169	#line 5028 "NXCDefs.h"
+0	3711	169	#line 3711 "NXCDefs.h"
+0	93	169	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	94	169	#line 94 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	94	169	#line 94 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+0	95	169		exit 0, 1
+1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
+1	4530	3		set ____RotateMotor1_sign_tmp, 0
+1	4530	6		brtst EQ, __sign_1, __rotate_angle1
+1	4530	9		set ____RotateMotor1_sign_tmp, -1
+1	4530	12		brtst LT, __sign_1, __rotate_angle1
+1	4530	15		set ____RotateMotor1_sign_tmp, 1
+1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+1	4531	20		abs __rotate_theAngle1, __rotate_angle1
+1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	27		set __rotate_theUF1, 23
+1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	33		set __rotate_theOM1, 7
+1	4537	36		set __rotate_theRM1, 2
+1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	48		jmp __rotate_Start1
+1	4543	50		set __rotate_theOM1, 3
+1	4544	53		set __rotate_theRM1, 0
+1	4545	56		set __rotate_theTurnPct1, 0
+1	4547	59		set __rotate_theRS1, 32
+1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	107		set __rotate_theOM1, 7
+1	4561	110		set __rotate_theUF1, 7
+1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	134		wait2 NA, __constVal50
+1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	145		set __rotate_theOM1, 4
+1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	162		setout __rotate_ports1, 0, __constVal32
+1	4578	167		subret ____RotateMotor1_return
+2	4885	0		setin __constVal1, __ResetSensorPort, 5
+2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
+2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
+2	4889	11		subret ____ResetSensorSubroutine_return
+3	12	0	#line 12 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	13	0		set __D0movement, 1
+3	13	3	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	3		tst 5, __zfmovement, __D0movement
+3	13	6	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	6		brtst 4, __NXC_Label_490, __zfmovement
+3	13	9	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	9		getin __D0movement, __constVal0, 4
+3	13	13	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	13		tst 5, __zfmovement, __D0movement
+3	13	16	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	16		mov __D0movement, __zfmovement
+3	13	18	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	18		brtst 4, __NXC_Label_496, __zfmovement
+3	13	21	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	21		mov __signed_stack_001movement, __D0movement
+3	13	23	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	23		getin __signed_stack_002movement, __constVal2, 4
+3	13	27	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	13	27	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	27		mov __D0movement, SW
+3	13	29	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	29		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
+3	13	33	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	13	33	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	33		and __D0movement, __signed_stack_001movement, __zfmovement
+3	13	37	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	37		tst 5, __zfmovement, __D0movement
+3	13	40	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	40		mov __D0movement, __zfmovement
+3	13	42	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	42		brtst 4, __NXC_Label_494, __zfmovement
+3	13	45	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	45		mov __signed_stack_001movement, __D0movement
+3	13	47	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	47		getin __signed_stack_002movement, __constVal1, 4
+3	13	51	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	13	51	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	51		mov __D0movement, SW
+3	13	53	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	14	53		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
+3	13	57	#line 13 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	15	57	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	16	57		and __D0movement, __signed_stack_001movement, __zfmovement
+3	16	61	#line 16 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	61		tst 5, __zfmovement, __D0movement
+3	16	64	#line 16 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	64		brtst 4, __NXC_Label_499, __zfmovement
+3	17	67	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	18	67		acquire moveMutex
+3	17	68	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	68	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	18	68		set __signed_stack_001movement, 75
+3	17	71	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	71	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	18	71		set __D0movement, 1
+3	17	74	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	18	74	#pragma macro 7
+3	18	74		setout __OUT_AC, 2, __signed_stack_001movement, 1, __constVal7, 8, __D0movement, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4185	97	#line 4185 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	97	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	17	97	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	18	97		set __Wait_7qG2_ms_7qG2_000_inline_movement, 10
+3	17	100	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	7921	100	#line 7921 "NXCDefs.h"
+3	7922	100		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+3	7921	103	#line 7921 "NXCDefs.h"
+3	18	103	#line 18 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	19	103	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	20	103		release moveMutex
+3	19	104	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	104	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	104		jmp __NXC_Label_506
+3	22	106	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	106		getin __D0movement, __constVal0, 4
+3	22	110	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	110		tst 5, __zfmovement, __D0movement
+3	22	113	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	113		mov __D0movement, __zfmovement
+3	22	115	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	115		brtst 4, __NXC_Label_512, __zfmovement
+3	22	118	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	118		mov __signed_stack_001movement, __D0movement
+3	22	120	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	120		getin __signed_stack_002movement, __constVal1, 4
+3	22	124	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	124	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	124		mov __D0movement, SW
+3	22	126	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	126		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
+3	22	130	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	130	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	130		and __D0movement, __signed_stack_001movement, __zfmovement
+3	22	134	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	134		tst 5, __zfmovement, __D0movement
+3	22	137	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	137		mov __D0movement, __zfmovement
+3	22	139	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	139		brtst 4, __NXC_Label_510, __zfmovement
+3	22	142	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	142		mov __signed_stack_001movement, __D0movement
+3	22	144	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	144		getin __signed_stack_002movement, __constVal2, 4
+3	22	148	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	148	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	148		mov __D0movement, SW
+3	22	150	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	150		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
+3	22	154	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	154	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	154		and __D0movement, __signed_stack_001movement, __zfmovement
+3	22	158	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	158		tst 5, __zfmovement, __D0movement
+3	22	161	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	161		mov __D0movement, __zfmovement
+3	22	163	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	163		brtst 5, __NXC_Label_507, __zfmovement
+3	22	166	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	166		mov __signed_stack_001movement, __D0movement
+3	22	168	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	168		getin __D0movement, __constVal1, 4
+3	22	172	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	172		tst 5, __zfmovement, __D0movement
+3	22	175	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	175		mov __D0movement, __zfmovement
+3	22	177	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	177		brtst 4, __NXC_Label_519, __zfmovement
+3	22	180	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	180		mov __signed_stack_002movement, __D0movement
+3	22	182	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	182		getin __signed_stack_003movement, __constVal2, 4
+3	22	186	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	186	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	186		mov __D0movement, SW
+3	22	188	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	188		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
+3	22	192	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	192	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	192		and __D0movement, __signed_stack_002movement, __zfmovement
+3	22	196	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	196		tst 5, __zfmovement, __D0movement
+3	22	199	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	199		mov __D0movement, __zfmovement
+3	22	201	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	201		brtst 4, __NXC_Label_517, __zfmovement
+3	22	204	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	204		mov __signed_stack_002movement, __D0movement
+3	22	206	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	206		getin __signed_stack_003movement, __constVal0, 4
+3	22	210	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	210	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	210		mov __D0movement, SW
+3	22	212	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	212		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
+3	22	216	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	22	216	#line 22 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	23	216		and __D0movement, __signed_stack_002movement, __zfmovement
+3	25	220	#line 25 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	26	220		tst 5, __zfmovement, __D0movement
+3	25	223	#line 25 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	25	223	#line 25 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	26	223		or __D0movement, __signed_stack_001movement, __zfmovement
+3	26	227	#line 26 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	227		tst 5, __zfmovement, __D0movement
+3	26	230	#line 26 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	230		brtst 4, __NXC_Label_522, __zfmovement
+3	27	233	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	233		acquire moveMutex
+3	27	234	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	234	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	234		set __D0movement, 75
+3	27	237	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	237	#pragma macro 10
+3	28	237		acquire __OnRevMutex
+3	28	238		neg __OnRev_Tmp, __D0movement
+3	28	241		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	28	264		release __OnRevMutex
+3	4332	265	#line 4332 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	265	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	265	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	265		set __D0movement, 75
+3	27	268	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	268	#pragma macro 7
+3	28	268		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4339	291	#line 4339 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	291	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	27	291	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	291		set __Wait_7qG2_ms_7qG2_000_inline_movement, 10
+3	27	294	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	7921	294	#line 7921 "NXCDefs.h"
+3	7922	294		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+3	7921	297	#line 7921 "NXCDefs.h"
+3	27	297	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	28	297	#line 28 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	29	297	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	30	297		release moveMutex
+3	29	298	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	298	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	298		jmp __NXC_Label_529
+3	32	300	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	300		getin __D0movement, __constVal1, 4
+3	32	304	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	304		tst 5, __zfmovement, __D0movement
+3	32	307	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	307		mov __D0movement, __zfmovement
+3	32	309	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	309		brtst 4, __NXC_Label_535, __zfmovement
+3	32	312	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	312		mov __signed_stack_001movement, __D0movement
+3	32	314	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	314		getin __signed_stack_002movement, __constVal2, 4
+3	32	318	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	318	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	318		mov __D0movement, SW
+3	32	320	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	320		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
+3	32	324	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	324	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	324		and __D0movement, __signed_stack_001movement, __zfmovement
+3	32	328	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	328		tst 5, __zfmovement, __D0movement
+3	32	331	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	331		mov __D0movement, __zfmovement
+3	32	333	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	333		brtst 4, __NXC_Label_533, __zfmovement
+3	32	336	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	336		mov __signed_stack_001movement, __D0movement
+3	32	338	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	338		getin __signed_stack_002movement, __constVal0, 4
+3	32	342	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	342	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	342		mov __D0movement, SW
+3	32	344	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	344		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
+3	32	348	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	348	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	348		and __D0movement, __signed_stack_001movement, __zfmovement
+3	32	352	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	352		tst 5, __zfmovement, __D0movement
+3	32	355	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	355		mov __D0movement, __zfmovement
+3	32	357	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	357		brtst 5, __NXC_Label_530, __zfmovement
+3	32	360	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	360		mov __signed_stack_001movement, __D0movement
+3	32	362	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	362		getin __D0movement, __constVal0, 4
+3	32	366	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	366		tst 5, __zfmovement, __D0movement
+3	32	369	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	369		mov __D0movement, __zfmovement
+3	32	371	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	371		brtst 4, __NXC_Label_542, __zfmovement
+3	32	374	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	374		mov __signed_stack_002movement, __D0movement
+3	32	376	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	376		getin __signed_stack_003movement, __constVal1, 4
+3	32	380	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	380	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	380		mov __D0movement, SW
+3	32	382	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	382		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
+3	32	386	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	386	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	386		and __D0movement, __signed_stack_002movement, __zfmovement
+3	32	390	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	390		tst 5, __zfmovement, __D0movement
+3	32	393	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	393		mov __D0movement, __zfmovement
+3	32	395	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	395		brtst 4, __NXC_Label_540, __zfmovement
+3	32	398	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	398		mov __signed_stack_002movement, __D0movement
+3	32	400	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	400		getin __signed_stack_003movement, __constVal2, 4
+3	32	404	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	404	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	404		mov __D0movement, SW
+3	32	406	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	406		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
+3	32	410	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	32	410	#line 32 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	33	410		and __D0movement, __signed_stack_002movement, __zfmovement
+3	35	414	#line 35 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	36	414		tst 5, __zfmovement, __D0movement
+3	35	417	#line 35 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	35	417	#line 35 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	36	417		or __D0movement, __signed_stack_001movement, __zfmovement
+3	36	421	#line 36 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	421		tst 5, __zfmovement, __D0movement
+3	36	424	#line 36 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	424		brtst 4, __NXC_Label_545, __zfmovement
+3	37	427	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	427		acquire moveMutex
+3	37	428	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	428	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	428		set __D0movement, 75
+3	37	431	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	431	#pragma macro 7
+3	38	431		setout __constVal0, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4483	454	#line 4483 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	454	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	454	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	454		set __D0movement, 75
+3	37	457	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	457	#pragma macro 10
+3	38	457		acquire __OnRevMutex
+3	38	458		neg __OnRev_Tmp, __D0movement
+3	38	461		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	38	484		release __OnRevMutex
+3	4490	485	#line 4490 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	485	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	37	485	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	485		set __Wait_7qG2_ms_7qG2_000_inline_movement, 10
+3	37	488	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	7921	488	#line 7921 "NXCDefs.h"
+3	7922	488		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+3	7921	491	#line 7921 "NXCDefs.h"
+3	37	491	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	38	491	#line 38 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	39	491	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	40	491		release moveMutex
+3	39	492	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	42	492	#line 42 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	492		jmp __NXC_Label_552
+3	43	494	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	494		acquire moveMutex
+3	43	495	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	495	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	495		set __D0movement, 75
+3	43	498	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	498	#pragma macro 10
+3	44	498		acquire __OnRevMutex
+3	44	499		neg __OnRev_Tmp, __D0movement
+3	44	502		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	44	525		release __OnRevMutex
+3	4517	526	#line 4517 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	526	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	526	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	526		set __D0movement, 75
+3	43	529	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	529	#pragma macro 7
+3	44	529		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+3	4524	552	#line 4524 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	552	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	43	552	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	552		set __Wait_7qG2_ms_7qG2_000_inline_movement, 10
+3	43	555	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	7921	555	#line 7921 "NXCDefs.h"
+3	7922	555		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+3	7921	558	#line 7921 "NXCDefs.h"
+3	43	558	#line 43 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	44	558	#line 44 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	45	558	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	46	558		release moveMutex
+3	45	559	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	47	559	#line 47 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	48	559	#line 48 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	49	559	#line 49 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	51	559	#line 51 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	52	559		jmp __NXC_Label_489
+3	51	561	#line 51 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+3	52	561		exit -1, -1
+4	54	0	#line 54 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	55	0		set __D0grab_ball, 1
+4	55	3	#line 55 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	56	3		tst 5, __zfgrab_ball, __D0grab_ball
+4	55	6	#line 55 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	56	6		brtst 4, __NXC_Label_560, __zfgrab_ball
+4	55	9	#line 55 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	56	9		getin __signed_stack_001grab_ball, __constVal3, 4
+4	55	13	#line 55 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	56	13	#line 56 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	57	13		set __D0grab_ball, 1
+4	56	16	#line 56 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	57	16		cmp 4, __zfgrab_ball, __signed_stack_001grab_ball, __D0grab_ball
+4	56	20	#line 56 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	57	20		mov __D0grab_ball, __zfgrab_ball
+4	57	22	#line 57 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	58	22		brtst 4, __NXC_Label_565, __zfgrab_ball
+4	58	25	#line 58 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	25		acquire moveMutex
+4	58	26	#line 58 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	26	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	26	#pragma macro 7
+4	60	26		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4580	49	#line 4580 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	49	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	49	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	49		mov __signed_stack_001grab_ball, pwr
+4	59	51	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	51	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	51		mov __signed_stack_002grab_ball, degrees
+4	59	53	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	53	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	53		set __signed_stack_003grab_ball, 0
+4	59	56	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	56	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	56		set __signed_stack_004grab_ball, 0
+4	59	59	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	59	59	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	59		set __D0grab_ball, 1
+4	60	62	#line 60 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	62	#pragma macro 33
+4	61	62		acquire __rotateMutex1
+4	61	63		arrbuild __rotate_ports1, __constVal1
+4	61	67		mov __rotate_power1, __signed_stack_001grab_ball
+4	61	69		mov __rotate_angle1, __signed_stack_002grab_ball
+4	61	71		mov __rotate_turnpct1, __signed_stack_003grab_ball
+4	61	73		mov __rotate_sync1, __signed_stack_004grab_ball
+4	61	75		mov __rotate_stop1, __D0grab_ball
+4	61	77		mov __rotate_theRVP1, __constVal32
+4	61	79		mov __rotate_theRVI1, __constVal0
+4	61	81		mov __rotate_theRVD1, __constVal96
+4	61	83		subcall __RotateMotor1, ____RotateMotor1_return
+4	61	85		release __rotateMutex1
+4	4611	86	#line 4611 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	60	86	#line 60 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	86	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	86	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	86		mul pwr, pwr, __constValNeg1
+4	61	90	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	90	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	90		set __D0grab_ball, 75
+4	61	93	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	93	#pragma macro 10
+4	62	93		acquire __OnRevMutex
+4	62	94		neg __OnRev_Tmp, __D0grab_ball
+4	62	97		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	62	120		release __OnRevMutex
+4	4625	121	#line 4625 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	121	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	61	121	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	121		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 1500
+4	61	124	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	7921	124	#line 7921 "NXCDefs.h"
+4	7922	124		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+4	7921	127	#line 7921 "NXCDefs.h"
+4	62	127	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	127	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	127		set __D0grab_ball, 75
+4	62	130	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	130	#pragma macro 10
+4	63	130		acquire __OnRevMutex
+4	63	131		neg __OnRev_Tmp, __D0grab_ball
+4	63	134		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	63	157		release __OnRevMutex
+4	4646	158	#line 4646 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	158	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	158	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	158		set __D0grab_ball, 75
+4	62	161	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	161	#pragma macro 7
+4	63	161		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4653	184	#line 4653 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	184	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	62	184	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	184		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 500
+4	62	187	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	7921	187	#line 7921 "NXCDefs.h"
+4	7922	187		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+4	7921	190	#line 7921 "NXCDefs.h"
+4	62	190	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	190	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	63	190	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	190		getin __D0grab_ball, __constVal0, 4
+4	63	194	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	194		tst 5, __zfgrab_ball, __D0grab_ball
+4	63	197	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	197		mov __D0grab_ball, __zfgrab_ball
+4	63	199	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	199		brtst 4, __NXC_Label_591, __zfgrab_ball
+4	63	202	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	202		mov __signed_stack_001grab_ball, __D0grab_ball
+4	63	204	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	204		getin __signed_stack_002grab_ball, __constVal1, 4
+4	63	208	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	208	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	208		mov __D0grab_ball, SW
+4	64	210	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	210		cmp 3, __zfgrab_ball, __signed_stack_002grab_ball, __D0grab_ball
+4	64	214	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	64	214	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	214		and __D0grab_ball, __signed_stack_001grab_ball, __zfgrab_ball
+4	65	218	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	218		tst 5, __zfgrab_ball, __D0grab_ball
+4	65	221	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	221		brtst 4, __NXC_Label_589, __zfgrab_ball
+4	65	224	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	224		set __D0grab_ball, 75
+4	65	227	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	227	#pragma macro 10
+4	66	227		acquire __OnRevMutex
+4	66	228		neg __OnRev_Tmp, __D0grab_ball
+4	66	231		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	66	254		release __OnRevMutex
+4	4700	255	#line 4700 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	255	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	255	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	255		set __D0grab_ball, 75
+4	65	258	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	258	#pragma macro 7
+4	66	258		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4707	281	#line 4707 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	281	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	65	281	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	281		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 100
+4	65	284	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	7921	284	#line 7921 "NXCDefs.h"
+4	7922	284		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+4	7921	287	#line 7921 "NXCDefs.h"
+4	65	287	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	66	287	#line 66 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	67	287	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	68	287		jmp __NXC_Label_588
+4	67	289	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	68	289	#line 68 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	69	289	#pragma macro 7
+4	69	289		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4725	312	#line 4725 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	68	312	#line 68 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	69	312	#line 69 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	70	312		release moveMutex
+4	69	313	#line 69 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	71	313	#line 71 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	73	313	#line 73 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	74	313		jmp __NXC_Label_559
+4	73	315	#line 73 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+4	74	315		exit -1, -1
+5	97	0	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc"
+5	98	0		subret ____initialize_global_data_return
+#CLUMPS
+Clump	Name	Offset	File
+0	main	0	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc
+1	__RotateMotor1	172	NXTDefs.h
+2	__ResetSensorSubroutine	341	NXTDefs.h
+3	movement	354	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc
+4	grab_ball	918	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc
+5	__initialize_global_data	1236	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise (1).nxc

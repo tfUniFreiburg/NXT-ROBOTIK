@@ -1,6 +1,4 @@
-int BFL, WFL, FLC, FL;
 int SW;
-bool state=false;
 int pwr;
 int degrees;
 #define turn_right(s,t)       OnFwd (OUT_A, s); OnRev (OUT_C, s); Wait (t);
@@ -9,7 +7,7 @@ int degrees;
 
 mutex moveMutex;
 
-task movement()             // Die Konfiguration f√ºr das Vorw√§rtsfahren
+task movement()             // Die Konfiguration f¸r das Vorw‰rtsfahren
 {
  while (true)
  {
@@ -20,21 +18,21 @@ task movement()             // Die Konfiguration f√ºr das Vorw√§rtsfahren
       OnFwdReg(OUT_AC,75,OUT_REGMODE_SPEED);Wait(50);
       Release(moveMutex);
       }
-      else               //Wenn nicht, dann Links, Rechts oder Wenden pr√ºfen
+      else               //Wenn nicht, dann Links, Rechts oder Wenden pr¸fen
       {
           if (((SENSOR_1&&SENSOR_2 <= SW) && (SENSOR_3 >= SW))||((SENSOR_2&&SENSOR_3 >= SW) && (SENSOR_1 <= SW)))
-          //Wenn Sensor 1 und 2 auf Schwarz und Sensor 3 auf Wei√ü || Sensor 2 und 3 auf Wei√ü und Sensor 1 auf Schwarz
-          //dann f√§hrt der Roboter nach links
+          //Wenn Sensor 1 und 2 auf Schwarz und Sensor 3 auf Weiﬂ || Sensor 2 und 3 auf Weiﬂ und Sensor 1 auf Schwarz
+          //dann f‰hrt der Roboter nach links
           {
            Acquire(moveMutex);
            turn_left(75,50);          //links drehen
            Release(moveMutex);
           }
-          else               //Wenn nicht, dann rechts oder Wenden pr√ºfen
+          else               //Wenn nicht, dann rechts oder Wenden pr¸fen
           {
             if (((SENSOR_2 && SENSOR_3 <= SW) && (SENSOR_1 >= SW))||((SENSOR_1&&SENSOR_2 >= SW ) && (SENSOR_3 <= SW)))
-            //Wenn Sensor 2 und 3 auf Schwarz und Sensor 1 auf Wei√ü || Sensor 1 und 2 auf Wei√ü und Sensor 3 auf Schwarz
-            //dann f√§hrt der Roboter nach rechts
+            //Wenn Sensor 2 und 3 auf Schwarz und Sensor 1 auf Weiﬂ || Sensor 1 und 2 auf Weiﬂ und Sensor 3 auf Schwarz
+            //dann f‰hrt der Roboter nach rechts
             {
             Acquire(moveMutex);
             turn_right(75,50);           //rechts drehen
@@ -45,11 +43,11 @@ task movement()             // Die Konfiguration f√ºr das Vorw√§rtsfahren
              Acquire(moveMutex);
              search_line(75,50);      // Linie suchen
              Release(moveMutex);
-             }                 // f√ºr das dritte else
-          }                    // f√ºr das zweite else
-      }                        // f√ºr das erste else
- }                             // f√ºr While
-}                              // f√ºr Task
+             }                 // f¸r das dritte else
+          }                    // f¸r das zweite else
+      }                        // f¸r das erste else
+ }                             // f¸r While
+}                              // f¸r Task
 
 task grab_ball()
 {
@@ -76,47 +74,22 @@ task grab_ball()
 task music()
 {
 }
-
 task main ()
 {
- while(TRUE)
-    {
-        while(state==false){
-            if(BFL&&WFL!=NULL){
-            state=true;
-            }
-        TextOut(10,LCD_LINE4, "SVL:");
-        TextOut(10,LCD_LINE5, "WVL:");
-        NumOut(60,LCD_LINE4, Sensor(IN_4));
-        NumOut(60,LCD_LINE5, Sensor(IN_4));
-        if(ButtonState(BTNRIGHT)){
-            if(FLC==0){
-                BFL=Sensor(IN_2);
-                FLC++;
-                //Wait(1000);
-                PlaySound("Click");
-            }else if(FLC==1){
-                WFL=Sensor(IN_2);
-                FLC++;
-                //Wait(1000);
-                PlaySound("Click");
-                PlaySound("Click");
-            }
-        }
-        }
-        if(ButtonState(BTNCENTER)){
-        PlaySound("Click");
-           FL=((BFL+WFL)/2);
-        while(TRUE){
+// F¸r Chandran
+do
+{
+
+}
+while (false)
+
+// bis hier
+ SW = 30;
  degrees = 110;
  pwr = 40;
  SetSensorLight(IN_1);
  SetSensorLight(IN_2);
  SetSensorLight(IN_3);
  SetSensor(IN_4,SENSOR_TOUCH);         // Sensoren sind definiert
- Precedes (movement, grab_ball);       // Wir f√ºhren mehrere Tasks parallel aus
-
-}
-}
-}
+ Precedes (movement, grab_ball);       // Wir f¸hren mehrere Tasks parallel aus
 }

@@ -1,409 +1,418 @@
 #SYMBOLS
 Index	Identifier	Type	Flag	Data	Size	RefCount
-0	__signed_stack_002grab_ball	6	1	0	4	4
-1	__signed_stack_001grab_ball	6	1	4	4	6
-2	__DU0SetSensorLight_inline_main	5	1	8	4	6
-3	__signed_stack_001main	6	1	12	4	15
-4	__signed_stack_004grab_ball	6	1	16	4	2
-5	__signed_stack_003grab_ball	6	1	20	4	2
-6	__D0main	6	1	24	4	30
-7	__D0grab_ball	6	1	28	4	25
-8	__SPTArgsMutex	9	0	32	4	14
-9	__D0SetSensorLight_inline_main	6	1	36	4	9
-10	__D0PlaySound	6	1	40	4	48
-11	__D0movement	6	1	44	4	94
-12	moveMutex	9	0	48	4	10
-13	__signed_stack_003PlaySound	6	1	52	4	14
-14	__signed_stack_002PlaySound	6	1	56	4	14
-15	__constVal262145	6	0	60	4	2
-16	__Wait_7qG2_ms_7qG2_000_inline_grab_ball	5	1	64	4	3
-17	__Wait_7qG2_ms_7qG2_000_inline_movement	5	1	68	4	4
-18	__signed_stack_001movement	6	1	72	4	18
-19	__unsigned_stack_001main	5	1	76	4	2
-20	__signed_stack_002main	6	1	80	4	10
-21	__signed_stack_001PlaySound	6	1	84	4	38
-22	__signed_stack_003movement	6	1	88	4	8
-23	__signed_stack_002movement	6	1	92	4	20
-24	__rotate_theAngle1	5	1	96	4	2
-25	__OnRevMutex	9	0	100	4	12
-26	__rotate_angle1	6	1	104	4	4
-27	__rotateMutex1	9	0	108	4	2
-28	SW	4	1	112	2	11
-29	__rotate_RotCount1	4	1	114	2	4
-30	pwr	4	1	116	2	4
-31	__constVal523	4	0	118	2	3
-32	degrees	4	1	120	2	2
-33	FLC	4	1	122	2	6
-34	__PlaySound_7qG2_i_7qG2_001	4	1	124	2	15
-35	__PlaySound_7qG2_aCode_7qG2_000	4	1	126	2	10
-36	BFL	4	1	128	2	3
-37	__rotate_OldRotCount1	4	1	130	2	2
-38	WFL	4	1	132	2	3
-39	__PlaySound_return	1	1	134	1	6
-40	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	135	1	6
-41	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	136	1	6
-42	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	137	1	6
-43	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	138	1	6
-44	__rotate_sync1	1	1	139	1	2
-45	__rotate_stop1	1	1	140	1	2
+0	__signed_stack_001grab_ball	6	1	0	4	6
+1	__DU0SetSensorLight_inline_main	5	1	4	4	6
+2	__signed_stack_002grab_ball	6	1	8	4	4
+3	__signed_stack_004grab_ball	6	1	12	4	2
+4	__signed_stack_003grab_ball	6	1	16	4	2
+5	__D0SetSensorLight_inline_main	6	1	20	4	9
+6	__D0grab_ball	6	1	24	4	25
+7	__SPTArgsMutex	9	0	28	4	14
+8	__D0main	6	1	32	4	30
+9	__D0PlaySound	6	1	36	4	48
+10	__D0movement	6	1	40	4	94
+11	__signed_stack_001main	6	1	44	4	15
+12	__signed_stack_003PlaySound	6	1	48	4	14
+13	__signed_stack_002PlaySound	6	1	52	4	14
+14	moveMutex	9	0	56	4	10
+15	__Wait_7qG2_ms_7qG2_000_inline_grab_ball	5	1	60	4	6
+16	__Wait_7qG2_ms_7qG2_000_inline_movement	5	1	64	4	8
+17	__signed_stack_001PlaySound	6	1	68	4	38
+18	__unsigned_stack_001main	5	1	72	4	2
+19	__signed_stack_002main	6	1	76	4	10
+20	__signed_stack_001movement	6	1	80	4	18
+21	__signed_stack_003movement	6	1	84	4	8
+22	__signed_stack_002movement	6	1	88	4	20
+23	__OnRevMutex	9	0	92	4	12
+24	__rotate_angle1	6	1	96	4	5
+25	__rotateMutex1	9	0	100	4	2
+26	__rotate_theAngle1	5	1	104	4	2
+27	degrees	4	1	108	2	2
+28	__constVal500	4	0	110	2	1
+29	__rotate_RotCount1	4	1	112	2	4
+30	BFL	4	1	114	2	3
+31	SW	4	1	116	2	11
+32	FLC	4	1	118	2	6
+33	__constVal200	4	0	120	2	1
+34	pwr	4	1	122	2	4
+35	WFL	4	1	124	2	3
+36	__constVal523	4	0	126	2	3
+37	__PlaySound_7qG2_aCode_7qG2_000	4	1	128	2	10
+38	__constVal150	4	0	130	2	1
+39	__PlaySound_7qG2_i_7qG2_001	4	1	132	2	15
+40	__rotate_OldRotCount1	4	1	134	2	2
+41	__rotate_stop1	1	1	136	1	2
+42	__rotate_turnpct1	2	1	137	1	3
+43	__rotate_sync1	1	1	138	1	2
+44	__PlaySound_return	1	1	139	1	6
+45	__rotate_power1	1	1	140	1	4
 46	__rotate_firstPort1	1	1	141	1	5
-47	__rotate_power1	1	1	142	1	4
-48	__constValNeg1	2	0	143	1	1
-49	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	144	1	6
-50	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	145	1	3
-51	__OnRev_Tmp	2	1	146	1	12
+47	__SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	142	1	6
+48	__SetSensorType_7qG2_type_7qG2_000_inline_SetSensorLight_inline_main	1	1	143	1	6
+49	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	144	1	15
+50	__SetSensorLight_7qG2_bActive_7qG2_000_inline_main	1	1	145	1	6
+51	__ResetSensor_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	146	1	3
 52	__SetSensor_7qG2_port_7qG2_000_inline_main	1	1	147	1	4
-53	__constVal63	2	0	148	1	14
-54	__constVal96	2	0	149	1	15
-55	__constVal35	2	0	150	1	1
-56	__SetSensorLight_7qG2_port_7qG2_000_inline_main	1	1	151	1	15
-57	__constVal33	2	0	152	1	1
-58	____initialize_global_data_return	1	1	153	1	3
-59	state	1	1	154	1	2
-60	__rotate_turnpct1	2	1	155	1	3
-61	__constVal0	2	1	156	1	58
-62	__constVal7	2	0	157	1	1
-63	____RotateMotor1_return	1	1	158	1	3
-64	__rotate_theTurnPct1	2	1	159	1	4
-65	__rotate_thePower1	2	1	160	1	4
-66	__tmpsbytemain	2	1	161	1	6
-67	__zfgrab_ball	1	1	162	1	12
-68	__IOMRUnflattenErr	1	1	163	1	2
-69	____ResetSensorSubroutine_return	1	1	164	1	6
-70	__constVal2	2	0	165	1	10
-71	__ResetSensorTmp	1	1	166	1	2
-72	__constVal3	2	0	167	1	18
-73	__constVal4	2	0	168	1	3
-74	__ResetSensorPort	1	1	169	1	6
-75	__rotate_theRS1	1	1	170	1	3
-76	__rotate_theRVP1	1	1	171	1	2
-77	__rotate_theRVI1	1	1	172	1	2
-78	__constVal32	2	0	173	1	47
-79	__rotate_theUF1	1	1	174	1	6
-80	__rotate_theOM1	1	1	175	1	7
-81	__rotate_theRM1	1	1	176	1	4
-82	__zfmovement	1	1	177	1	68
-83	__constVal1	2	0	178	1	19
-84	__zfmain	1	1	179	1	24
-85	__zfPlaySound	1	1	180	1	27
-86	__zfSetSensorLight_inline_main	1	1	181	1	6
+53	__SetSensorMode_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main	1	1	148	1	6
+54	__SetSensorMode_7qG2_mode_7qG2_000_inline_SetSensorLight_inline_main	1	1	149	1	6
+55	__constVal63	2	0	150	1	14
+56	__OnRev_Tmp	2	1	151	1	12
+57	state	1	1	152	1	2
+58	__constVal96	2	0	153	1	15
+59	__constVal33	2	0	154	1	1
+60	__constVal35	2	0	155	1	1
+61	__constValNeg1	2	0	156	1	1
+62	____initialize_global_data_return	1	1	157	1	3
+63	__rotate_theUF1	1	1	158	1	6
+64	__constVal1	2	0	159	1	19
+65	__IOMRUnflattenErr	1	1	160	1	2
+66	__ResetSensorPort	1	1	161	1	6
+67	__constVal100	2	0	162	1	2
+68	__constVal4	2	0	163	1	3
+69	__constVal7	2	0	164	1	1
+70	__PFTmp	1	1	165	1	1
+71	__constVal2	2	0	166	1	10
+72	____RotateMotor1_return	1	1	167	1	3
+73	____RotateMotor1_sign_tmp	2	1	168	1	4
+74	__ResetSensorTmp	1	1	169	1	2
+75	__constVal50	2	0	170	1	2
+76	__constVal3	2	0	171	1	18
+77	__constVal0	2	1	172	1	58
+78	____ResetSensorSubroutine_return	1	1	173	1	6
+79	__rotate_thePower1	2	1	174	1	4
+80	__rotate_theTurnPct1	2	1	175	1	4
+81	__zfSetSensorLight_inline_main	1	1	176	1	6
+82	__rotate_theRVI1	1	1	177	1	2
+83	__rotate_theRVP1	1	1	178	1	2
+84	__rotate_theOM1	1	1	179	1	7
+85	__rotate_theRM1	1	1	180	1	4
+86	__rotate_theRS1	1	1	181	1	3
 87	__rotate_theRVD1	1	1	182	1	2
-88	__rotate_rs1	1	1	183	1	2
-89	__TextOutArgs	8	0	4	16	21
-90	__TextOutArgs.Result	2	1	184	1	21
-91	__TextOutArgs.Location	8	0	2	4	21
-92	__TextOutArgs.Location.X	4	1	188	2	21
-93	__TextOutArgs.Location.Y	4	1	190	2	21
-94	__TextOutArgs.Text	7	0	192	4	21
-95	__TextOutArgs.Text.Text_type	1	0	0	1	0
-96	__TextOutArgs.Options	5	1	196	4	21
-97	__SPTArgs	8	0	5	8	42
-98	__SPTArgs.Result	2	1	200	1	42
-99	__SPTArgs.Frequency	3	1	202	2	42
-100	__SPTArgs.Duration	3	1	204	2	42
-101	__SPTArgs.Loop	1	1	206	1	42
-102	__SPTArgs.Volume	1	1	207	1	42
-103	__IOMRBIArgs	8	0	5	16	10
-104	__IOMRBIArgs.Result	2	1	208	1	10
-105	__IOMRBIArgs.ModuleID	5	1	212	4	10
-106	__IOMRBIArgs.Offset	3	1	216	2	10
-107	__IOMRBIArgs.Count	3	1	218	2	10
-108	__IOMRBIArgs.Buffer	7	0	220	4	10
-109	__IOMRBIArgs.Buffer.Buffer_type	1	0	0	1	0
-110	__rotate_ports1	7	0	222	4	6
-111	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
-112	__strbufmain	7	0	224	4	8
-113	__strbufmain.__strbufmain_type	1	0	0	1	0
-114	__IOMRUnflattenBuf	7	0	226	4	4
-115	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
-116	__OUT_AC	7	0	228	4	4
-117	__OUT_AC.__OUT_AC_type	1	0	0	1	0
-118	__constStr0011	7	0	230	4	4
-119	__constStr0011.__constStr0011_type	1	1	0	1	0
-120	__constStr0009	7	0	232	4	1
-121	__constStr0009.__constStr0009_type	1	1	0	1	0
-122	__constStr0010	7	0	234	4	1
-123	__constStr0010.__constStr0010_type	1	1	0	1	0
+88	__zfmain	1	1	183	1	24
+89	__tmpsbytemain	2	1	184	1	6
+90	__zfgrab_ball	1	1	185	1	12
+91	__constVal32	2	0	186	1	47
+92	__zfPlaySound	1	1	187	1	27
+93	__rotate_rs1	1	1	188	1	2
+94	__zfmovement	1	1	189	1	68
+95	__SPTArgs	8	0	5	8	42
+96	__SPTArgs.Result	2	1	192	1	42
+97	__SPTArgs.Frequency	3	1	194	2	42
+98	__SPTArgs.Duration	3	1	196	2	42
+99	__SPTArgs.Loop	1	1	198	1	42
+100	__SPTArgs.Volume	1	1	199	1	42
+101	__IOMRArgs	8	0	5	16	10
+102	__IOMRArgs.Result	2	1	200	1	10
+103	__IOMRArgs.ModuleName	7	0	202	4	10
+104	__IOMRArgs.ModuleName.ModuleName_type	1	0	0	1	0
+105	__IOMRArgs.Offset	3	1	204	2	10
+106	__IOMRArgs.Count	3	1	206	2	10
+107	__IOMRArgs.Buffer	7	0	208	4	10
+108	__IOMRArgs.Buffer.Buffer_type	1	0	0	1	0
+109	__TextOutArgs	8	0	4	16	21
+110	__TextOutArgs.Result	2	1	212	1	21
+111	__TextOutArgs.Location	8	0	2	4	21
+112	__TextOutArgs.Location.X	4	1	216	2	21
+113	__TextOutArgs.Location.Y	4	1	218	2	21
+114	__TextOutArgs.Text	7	0	220	4	21
+115	__TextOutArgs.Text.Text_type	1	0	0	1	0
+116	__TextOutArgs.Options	5	1	224	4	21
+117	__IOMRUnflattenBuf	7	0	228	4	4
+118	__IOMRUnflattenBuf.__IOMRUnflattenBuf_type	1	0	0	1	0
+119	__OUT_AC	7	0	230	4	4
+120	__OUT_AC.__OUT_AC_type	1	0	0	1	0
+121	__rotate_ports1	7	0	232	4	6
+122	__rotate_ports1.__rotate_ports1_type	1	0	0	1	0
+123	__strbufmain	7	0	234	4	8
+124	__strbufmain.__strbufmain_type	1	0	0	1	0
+125	__constStr0011	7	0	236	4	2
+126	__constStr0011.__constStr0011_type	1	1	0	1	0
+127	__constStr0012	7	0	238	4	4
+128	__constStr0012.__constStr0012_type	1	1	0	1	0
+129	__constStr0009	7	0	240	4	1
+130	__constStr0009.__constStr0009_type	1	1	0	1	0
+131	__constStr0010	7	0	242	4	1
+132	__constStr0010.__constStr0010_type	1	1	0	1	0
 #SOURCES
 Clump	Line	PC	Source
-0	81	0	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	0	#line 81 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	82	0		subcall __initialize_global_data, ____initialize_global_data_return
-0	81	2	#line 81 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	82	2	#line 82 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	81	2	#line 81 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	82	2	#line 82 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	83	2		set __D0main, 1
-0	83	5	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	83	5	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	84	5		tst 5, __zfmain, __D0main
-0	83	8	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	84	8		brtst 4, __NXC_Label_714, __zfmain
-0	83	11	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	83	8	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	84	8		brtst 4, __NXC_Label_599, __zfmain
+0	83	11	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	84	11		mov __unsigned_stack_001main, state
-0	83	13	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	83	13	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	83	13	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	83	13	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	84	13		set __D0main, 0
-0	83	16	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	83	16	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	84	16		cmp 4, __zfmain, __unsigned_stack_001main, __D0main
-0	83	20	#line 83 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	83	20	#line 83 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	84	20		mov __D0main, __zfmain
-0	84	22	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	85	22		brtst 4, __NXC_Label_718, __zfmain
-0	84	25	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	22	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	85	22		brtst 4, __NXC_Label_603, __zfmain
+0	84	25	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	25		mov __D0main, BFL
-0	84	27	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	27	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	27		tst 5, __zfmain, __D0main
-0	84	30	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	30	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	30		mov __D0main, __zfmain
-0	84	32	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	85	32		brtst 4, __NXC_Label_722, __zfmain
-0	84	35	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	32	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	85	32		brtst 4, __NXC_Label_607, __zfmain
+0	84	35	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	35		mov __signed_stack_001main, __D0main
-0	84	37	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	37	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	37		mov __signed_stack_002main, WFL
-0	84	39	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	84	39	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	39	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	84	39	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	39		set __D0main, 0
-0	84	42	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	42	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	42		cmp 5, __zfmain, __signed_stack_002main, __D0main
-0	84	46	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	84	46	#line 84 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	84	46	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	84	46	#line 84 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	85	46		and __D0main, __signed_stack_001main, __zfmain
-0	85	50	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	50	#line 85 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	86	50		tst 5, __zfmain, __D0main
-0	85	53	#line 85 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	86	53		brtst 4, __NXC_Label_723, __zfmain
-0	86	56	#line 86 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	85	53	#line 85 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	86	53		brtst 4, __NXC_Label_608, __zfmain
+0	86	56	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	87	56		set state, 1
-0	86	59	#line 86 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	86	59	#line 86 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	87	59	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	87	59	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	86	59	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	86	59	#line 86 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	87	59	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	87	59	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	88	59		set __signed_stack_001main, 10
-0	87	62	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	87	62	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	87	62	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	87	62	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	88	62		set __signed_stack_002main, 32
-0	87	65	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	87	65	#line 87 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	87	65	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	87	65	#line 87 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	88	65		strcat __strbufmain, __constStr0009
-0	88	69	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	69	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	69	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	69	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	69		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	88	71	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	71	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	71		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	88	73	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	73	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	73		set __TextOutArgs.Options, 0
-0	88	76	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	76	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	76		mov __TextOutArgs.Text, __strbufmain
-0	88	78	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	78	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	78		syscall 13, __TextOutArgs
-0	88	81	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	81	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	81	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	81	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	81	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	81	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	81	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	81	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	81		set __signed_stack_001main, 10
-0	88	84	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	84	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	84	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	84	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	84		set __signed_stack_002main, 24
-0	88	87	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	88	87	#line 88 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	88	87	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	88	87	#line 88 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	89	87		strcat __strbufmain, __constStr0010
-0	89	91	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	91	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	91	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	91	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	91		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	89	93	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	93	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	93		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	89	95	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	95	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	95		set __TextOutArgs.Options, 0
-0	89	98	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	98	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	98		mov __TextOutArgs.Text, __strbufmain
-0	89	100	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	100	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	100		syscall 13, __TextOutArgs
-0	89	103	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	103	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	103	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	103	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	103	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	103	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	103	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	103	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	103		set __signed_stack_001main, 60
-0	89	106	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	106	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	106	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	106	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	106		set __signed_stack_002main, 32
-0	89	109	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	89	109	#line 89 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	89	109	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	89	109	#line 89 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	90	109		getin __D0main, __constVal3, 4
-0	90	113	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	113	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	113	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	113	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	113		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	90	115	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	115	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	115		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	90	117	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	117	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	117		set __TextOutArgs.Options, 0
-0	90	120	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	120	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	120		numtostr __TextOutArgs.Text, __D0main
-0	90	123	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	123	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	123		syscall 13, __TextOutArgs
-0	90	126	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	126	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	126	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	126	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	126	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	126	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	126	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	126	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	126	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	126	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	126		set __signed_stack_001main, 60
-0	90	129	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	129	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	129	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	129	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	129		set __signed_stack_002main, 24
-0	90	132	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	90	132	#line 90 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	90	132	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	90	132	#line 90 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	91	132		getin __D0main, __constVal3, 4
-0	91	136	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	91	136	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	136	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	91	136	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	136		mov __TextOutArgs.Location.X, __signed_stack_001main
-0	91	138	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	138	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	138		mov __TextOutArgs.Location.Y, __signed_stack_002main
-0	91	140	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	140	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	140		set __TextOutArgs.Options, 0
-0	91	143	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	143	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	143		numtostr __TextOutArgs.Text, __D0main
-0	91	146	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	146	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	146		syscall 13, __TextOutArgs
-0	91	149	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	149	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	149		mov __D0main, __TextOutArgs.Result
-0	91	151	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	91	151	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	91	151	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	91	151	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	91	151	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	91	151	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	91	151	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	91	151	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	92	151	#pragma macro 2
 0	92	151	#pragma macro 25
-0	92	151		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	92	153		mov __IOMRBIArgs.Offset, __constVal33
-0	92	155		set __IOMRBIArgs.Count, 1
-0	92	158		syscall 78, __IOMRBIArgs
-0	92	161		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	92	151		mov __IOMRArgs.ModuleName, __constStr0011
+0	92	153		mov __IOMRArgs.Offset, __constVal33
+0	92	155		set __IOMRArgs.Count, 1
+0	92	158		syscall 32, __IOMRArgs
+0	92	161		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
 0	92	164		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	7114	169	#line 7114 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	7115	169		mov __D0main, __tmpsbytemain
-0	91	171	#line 91 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	92	171	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	4959	169	#line 4959 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	4960	169		mov __D0main, __tmpsbytemain
+0	91	171	#line 91 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	92	171	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	93	171		tst 5, __zfmain, __D0main
-0	92	174	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	93	174		brtst 4, __NXC_Label_748, __zfmain
-0	92	177	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	174	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	93	174		brtst 4, __NXC_Label_633, __zfmain
+0	92	177	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	93	177		mov __signed_stack_001main, FLC
-0	92	179	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	92	179	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	179	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	92	179	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	93	179		set __D0main, 0
-0	92	182	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	182	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	93	182		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	92	186	#line 92 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	92	186	#line 92 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	93	186		mov __D0main, __zfmain
-0	93	188	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	94	188		brtst 4, __NXC_Label_751, __zfmain
-0	93	191	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	188	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	94	188		brtst 4, __NXC_Label_636, __zfmain
+0	93	191	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	94	191		getin BFL, __constVal3, 4
-0	93	195	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	93	195	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	93	195	#line 93 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	96	195	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	93	195	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	93	195	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	93	195	#line 93 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	96	195	#line 96 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	97	195		add FLC, FLC, __constVal1
-0	96	199	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	96	199	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	97	199		strcat __strbufmain, __constStr0011
-0	96	203	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	199	#line 96 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	96	199	#line 96 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	97	199		strcat __strbufmain, __constStr0012
+0	96	203	#line 96 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	97	203		set __PlaySound_7qG2_aCode_7qG2_000, 1
-0	96	206	#line 96 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	97	206	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	96	206	#line 96 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	97	206	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	98	206		subcall PlaySound, __PlaySound_return
-0	97	208	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	97	208	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	98	208		jmp __NXC_Label_756
-0	97	210	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	208	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	97	208	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	98	208		jmp __NXC_Label_641
+0	97	210	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	98	210		mov __signed_stack_001main, FLC
-0	97	212	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	97	212	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	212	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	97	212	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	98	212		set __D0main, 1
-0	97	215	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	215	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	98	215		cmp 4, __zfmain, __signed_stack_001main, __D0main
-0	97	219	#line 97 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	97	219	#line 97 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	98	219		mov __D0main, __zfmain
-0	98	221	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	99	221		brtst 4, __NXC_Label_759, __zfmain
-0	98	224	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	221	#line 98 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	99	221		brtst 4, __NXC_Label_644, __zfmain
+0	98	224	#line 98 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	99	224		getin WFL, __constVal3, 4
-0	98	228	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	98	228	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	98	228	#line 98 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	101	228	#line 101 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	98	228	#line 98 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	98	228	#line 98 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	98	228	#line 98 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	101	228	#line 101 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	102	228		add FLC, FLC, __constVal1
-0	101	232	#line 101 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	101	232	#line 101 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	102	232		strcat __strbufmain, __constStr0011
-0	101	236	#line 101 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	101	232	#line 101 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	101	232	#line 101 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	102	232		strcat __strbufmain, __constStr0012
+0	101	236	#line 101 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	102	236		set __PlaySound_7qG2_aCode_7qG2_000, 1
-0	101	239	#line 101 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	102	239	#line 102 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	101	239	#line 101 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	102	239	#line 102 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	103	239		subcall PlaySound, __PlaySound_return
-0	102	241	#line 102 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	102	241	#line 102 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	103	241		strcat __strbufmain, __constStr0011
-0	102	245	#line 102 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	102	241	#line 102 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	102	241	#line 102 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	103	241		strcat __strbufmain, __constStr0012
+0	102	245	#line 102 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	103	245		set __PlaySound_7qG2_aCode_7qG2_000, 1
-0	102	248	#line 102 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	103	248	#line 103 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	102	248	#line 102 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	103	248	#line 103 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	104	248		subcall PlaySound, __PlaySound_return
-0	103	250	#line 103 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	105	250	#line 105 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	105	250	#line 105 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	106	250	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	106	250	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	107	250		jmp __NXC_Label_717
-0	106	252	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	106	252	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	103	250	#line 103 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	105	250	#line 105 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	105	250	#line 105 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	106	250	#line 106 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	106	250	#line 106 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	107	250		jmp __NXC_Label_602
+0	106	252	#line 106 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	106	252	#line 106 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	107	252	#pragma macro 2
 0	107	252	#pragma macro 25
-0	107	252		mov __IOMRBIArgs.ModuleID, __constVal262145
-0	107	254		mov __IOMRBIArgs.Offset, __constVal35
-0	107	256		set __IOMRBIArgs.Count, 1
-0	107	259		syscall 78, __IOMRBIArgs
-0	107	262		arrtostr __IOMRUnflattenBuf, __IOMRBIArgs.Buffer
+0	107	252		mov __IOMRArgs.ModuleName, __constStr0011
+0	107	254		mov __IOMRArgs.Offset, __constVal35
+0	107	256		set __IOMRArgs.Count, 1
+0	107	259		syscall 32, __IOMRArgs
+0	107	262		arrtostr __IOMRUnflattenBuf, __IOMRArgs.Buffer
 0	107	265		unflatten __tmpsbytemain, __IOMRUnflattenErr, __IOMRUnflattenBuf, __tmpsbytemain
-0	7221	270	#line 7221 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	7222	270		mov __D0main, __tmpsbytemain
-0	106	272	#line 106 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	107	272	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	5066	270	#line 5066 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	5067	270		mov __D0main, __tmpsbytemain
+0	106	272	#line 106 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	107	272	#line 107 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	108	272		tst 5, __zfmain, __D0main
-0	107	275	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	275		brtst 4, __NXC_Label_768, __zfmain
-0	107	278	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	278		strcat __strbufmain, __constStr0011
-0	107	282	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	275	#line 107 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	275		brtst 4, __NXC_Label_653, __zfmain
+0	107	278	#line 107 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	278		strcat __strbufmain, __constStr0012
+0	107	282	#line 107 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	108	282		set __PlaySound_7qG2_aCode_7qG2_000, 1
-0	107	285	#line 107 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	285	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	107	285	#line 107 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	285	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	109	285		subcall PlaySound, __PlaySound_return
-0	108	287	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	287	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	287	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	287	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	287	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	108	287	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	287	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	287	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	287	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	287	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	109	287		add __signed_stack_001main, BFL, WFL
-0	108	291	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	291	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	108	291	#line 108 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	109	291	#line 109 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	109	291	#line 109 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	109	291	#line 109 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	108	291	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	291	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	108	291	#line 108 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	109	291	#line 109 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	109	291	#line 109 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	109	291	#line 109 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	110	291		set __D0main, 1
-0	110	294	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	110	294	#line 110 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	111	294		tst 5, __zfmain, __D0main
-0	110	297	#line 110 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	111	297		brtst 4, __NXC_Label_778, __zfmain
-0	111	300	#line 111 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	110	297	#line 110 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	111	297		brtst 4, __NXC_Label_663, __zfmain
+0	111	300	#line 111 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	112	300		set degrees, 110
-0	111	303	#line 111 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	111	303	#line 111 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	112	303	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	111	303	#line 111 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	111	303	#line 111 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	112	303	#line 112 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	113	303		set pwr, 40
-0	112	306	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	112	306	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	112	306	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	112	306	#line 112 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	112	306	#line 112 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	112	306	#line 112 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	113	306		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 0
-0	112	309	#line 112 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	113	309	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	112	309	#line 112 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	113	309	#line 113 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	114	309		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	311	#line 3729 "NXCDefs.h"
 0	3730	311		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
@@ -443,14 +452,14 @@ Clump	Line	PC	Source
 0	3695	346	#pragma macro 4
 0	3695	346		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	348		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7378	350	#line 7378 "NXCDefs.h"
+0	5223	350	#line 5223 "NXCDefs.h"
 0	3694	350	#line 3694 "NXCDefs.h"
 0	3732	350	#line 3732 "NXCDefs.h"
-0	113	350	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	113	350	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	350	#line 113 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	113	350	#line 113 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	114	350		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 1
-0	113	353	#line 113 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	114	353	#line 114 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	113	353	#line 113 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	114	353	#line 114 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	115	353		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	355	#line 3729 "NXCDefs.h"
 0	3730	355		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
@@ -490,14 +499,14 @@ Clump	Line	PC	Source
 0	3695	390	#pragma macro 4
 0	3695	390		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	392		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7445	394	#line 7445 "NXCDefs.h"
+0	5290	394	#line 5290 "NXCDefs.h"
 0	3694	394	#line 3694 "NXCDefs.h"
 0	3732	394	#line 3732 "NXCDefs.h"
-0	114	394	#line 114 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	114	394	#line 114 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	114	394	#line 114 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	114	394	#line 114 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	115	394		set __SetSensorLight_7qG2_port_7qG2_000_inline_main, 2
-0	114	397	#line 114 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	115	397	#line 115 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	114	397	#line 114 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	115	397	#line 115 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	116	397		mov __SetSensorLight_7qG2_bActive_7qG2_000_inline_main, __constVal1
 0	3729	399	#line 3729 "NXCDefs.h"
 0	3730	399		mov __SetSensorType_7qG2_port_7qG2_000_inline_SetSensorLight_inline_main, __SetSensorLight_7qG2_port_7qG2_000_inline_main
@@ -537,69 +546,74 @@ Clump	Line	PC	Source
 0	3695	434	#pragma macro 4
 0	3695	434		mov __ResetSensorPort, __SetSensorLight_7qG2_port_7qG2_000_inline_main
 0	3695	436		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7512	438	#line 7512 "NXCDefs.h"
+0	5357	438	#line 5357 "NXCDefs.h"
 0	3694	438	#line 3694 "NXCDefs.h"
 0	3732	438	#line 3732 "NXCDefs.h"
-0	115	438	#line 115 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	115	438	#line 115 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	115	438	#line 115 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	115	438	#line 115 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	116	438		set __SetSensor_7qG2_port_7qG2_000_inline_main, 3
-0	115	441	#line 115 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	115	441	#line 115 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	115	441	#line 115 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	115	441	#line 115 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	3707	441	#line 3707 "NXCDefs.h"
 0	3708	441		setin __constVal1, __SetSensor_7qG2_port_7qG2_000_inline_main, 0
 0	3709	445		setin __constVal32, __SetSensor_7qG2_port_7qG2_000_inline_main, 1
 0	3710	449	#pragma macro 4
 0	3710	449		mov __ResetSensorPort, __SetSensor_7qG2_port_7qG2_000_inline_main
 0	3710	451		subcall __ResetSensorSubroutine, ____ResetSensorSubroutine_return
-0	7535	453	#line 7535 "NXCDefs.h"
+0	5380	453	#line 5380 "NXCDefs.h"
 0	3711	453	#line 3711 "NXCDefs.h"
-0	116	453	#line 116 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	118	453	#line 118 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	118	453	#line 118 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	120	453	#line 120 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	121	453		jmp __NXC_Label_777
-0	120	455	#line 120 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	121	455	#line 121 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	123	455	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-0	124	455		jmp __NXC_Label_713
-0	123	457	#line 123 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+0	116	453	#line 116 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	118	453	#line 118 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	118	453	#line 118 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	120	453	#line 120 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	121	453		jmp __NXC_Label_662
+0	120	455	#line 120 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	121	455	#line 121 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	123	455	#line 123 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+0	124	455		jmp __NXC_Label_598
+0	123	457	#line 123 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 0	124	457		exit 0, 1
 1	4529	0		brtst 4, __rotate_Done1, __rotate_angle1
-1	4530	3		sign __rotate_thePower1, __rotate_angle1
-1	4531	6		abs __rotate_theAngle1, __rotate_angle1
-1	4532	9		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
-1	4534	13		set __rotate_theUF1, 23
-1	4535	16		brtst 4, __rotate_NoSync1, __rotate_sync1
-1	4536	19		set __rotate_theOM1, 7
-1	4537	22		set __rotate_theRM1, 2
-1	4538	25		mov __rotate_theTurnPct1, __rotate_turnpct1
-1	4539	27		brtst 4, __rotate_Start1, __rotate_theTurnPct1
-1	4540	30		add __rotate_theUF1, __rotate_theUF1, __constVal32
-1	4541	34		jmp __rotate_Start1
-1	4543	36		set __rotate_theOM1, 3
-1	4544	39		set __rotate_theRM1, 0
-1	4545	42		set __rotate_theTurnPct1, 0
-1	4547	45		set __rotate_theRS1, 32
-1	4548	48		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
-1	4551	71		index __rotate_firstPort1, __rotate_ports1, 65535
-1	4553	75		getout __rotate_power1, __rotate_firstPort1, 2
-1	4554	79		brtst 4, __rotate_doneRunning1, __rotate_power1
-1	4555	82		getout __rotate_rs1, __rotate_firstPort1, 6
-1	4556	86		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
-1	4558	90		brtst 4, __rotate_Reset1, __rotate_stop1
-1	4560	93		set __rotate_theOM1, 7
-1	4561	96		set __rotate_theUF1, 7
-1	4562	99		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
-1	4564	114		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4566	118		mov __rotate_OldRotCount1, __rotate_RotCount1
-1	4567	120		wait 50
-1	4569	122		getout __rotate_RotCount1, __rotate_firstPort1, 14
-1	4570	126		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
-1	4571	130		set __rotate_theOM1, 4
-1	4572	133		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
-1	4575	144		brtst 4, __rotate_Done1, __rotate_theTurnPct1
-1	4576	147		setout __rotate_ports1, 0, __constVal32
-1	4578	152		subret ____RotateMotor1_return
+1	4530	3		set ____RotateMotor1_sign_tmp, 0
+1	4530	6		brtst EQ, __sign_1, __rotate_angle1
+1	4530	9		set ____RotateMotor1_sign_tmp, -1
+1	4530	12		brtst LT, __sign_1, __rotate_angle1
+1	4530	15		set ____RotateMotor1_sign_tmp, 1
+1	4530	18	__sign_1:	mov __rotate_thePower1, ____RotateMotor1_sign_tmp
+1	4531	20		abs __rotate_theAngle1, __rotate_angle1
+1	4532	23		mul __rotate_thePower1, __rotate_thePower1, __rotate_power1
+1	4534	27		set __rotate_theUF1, 23
+1	4535	30		brtst 4, __rotate_NoSync1, __rotate_sync1
+1	4536	33		set __rotate_theOM1, 7
+1	4537	36		set __rotate_theRM1, 2
+1	4538	39		mov __rotate_theTurnPct1, __rotate_turnpct1
+1	4539	41		brtst 4, __rotate_Start1, __rotate_theTurnPct1
+1	4540	44		add __rotate_theUF1, __rotate_theUF1, __constVal32
+1	4541	48		jmp __rotate_Start1
+1	4543	50		set __rotate_theOM1, 3
+1	4544	53		set __rotate_theRM1, 0
+1	4545	56		set __rotate_theTurnPct1, 0
+1	4547	59		set __rotate_theRS1, 32
+1	4548	62		setout __rotate_ports1, 1, __rotate_theOM1, 8, __rotate_theRM1, 5, __rotate_theAngle1, 6, __rotate_theRS1, 10, __rotate_theRVP1, 11, __rotate_theRVI1, 12, __rotate_theRVD1, 2, __rotate_thePower1, 7, __rotate_turnpct1, 0, __rotate_theUF1
+1	4551	85		index __rotate_firstPort1, __rotate_ports1, 65535
+1	4553	89		getout __rotate_power1, __rotate_firstPort1, 2
+1	4554	93		brtst 4, __rotate_doneRunning1, __rotate_power1
+1	4555	96		getout __rotate_rs1, __rotate_firstPort1, 6
+1	4556	100		brcmp 4, __rotate_Running1, __rotate_rs1, __constVal32
+1	4558	104		brtst 4, __rotate_Reset1, __rotate_stop1
+1	4560	107		set __rotate_theOM1, 7
+1	4561	110		set __rotate_theUF1, 7
+1	4562	113		setout __rotate_ports1, 1, __rotate_theOM1, 8, __constVal1, 6, __rotate_theRS1, 2, __constVal0, 5, __constVal0, 0, __rotate_theUF1
+1	4564	128		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4566	132		mov __rotate_OldRotCount1, __rotate_RotCount1
+1	4567	134		wait2 NA, __constVal50
+1	4569	137		getout __rotate_RotCount1, __rotate_firstPort1, 14
+1	4570	141		brcmp 5, __rotate_Stabilize1, __rotate_OldRotCount1, __rotate_RotCount1
+1	4571	145		set __rotate_theOM1, 4
+1	4572	148		setout __rotate_ports1, 8, __rotate_theRM1, 6, __constVal0, 1, __rotate_theOM1, 0, __constVal1
+1	4575	159		brtst 4, __rotate_Done1, __rotate_theTurnPct1
+1	4576	162		setout __rotate_ports1, 0, __constVal32
+1	4578	167		subret ____RotateMotor1_return
 2	4885	0		setin __constVal1, __ResetSensorPort, 5
 2	4887	4		getin __ResetSensorTmp, __ResetSensorPort, 5
 2	4888	8		brtst 5, __SensorStillInvalid, __ResetSensorTmp
@@ -685,722 +699,722 @@ Clump	Line	PC	Source
 3	6524	83		release __SPTArgsMutex
 3	6523	84	#line 6523 "NXCDefs.h"
 3	6523	84	#line 6523 "NXCDefs.h"
-3	6524	84		wait 200
-3	6523	86	#line 6523 "NXCDefs.h"
-3	6523	86	#line 6523 "NXCDefs.h"
-3	6524	86	#line 6524 "NXCDefs.h"
-3	6525	86		set __signed_stack_001PlaySound, 600
-3	6524	89	#line 6524 "NXCDefs.h"
-3	6524	89	#line 6524 "NXCDefs.h"
-3	6525	89		set __signed_stack_002PlaySound, 150
-3	6524	92	#line 6524 "NXCDefs.h"
-3	6524	92	#line 6524 "NXCDefs.h"
-3	6525	92		set __signed_stack_003PlaySound, 4
-3	6524	95	#line 6524 "NXCDefs.h"
-3	6524	95	#line 6524 "NXCDefs.h"
-3	6525	95		set __D0PlaySound, 0
-3	6525	98	#line 6525 "NXCDefs.h"
-3	6526	98		acquire __SPTArgsMutex
+3	6524	84		wait2 NA, __constVal200
+3	6523	87	#line 6523 "NXCDefs.h"
+3	6523	87	#line 6523 "NXCDefs.h"
+3	6524	87	#line 6524 "NXCDefs.h"
+3	6525	87		set __signed_stack_001PlaySound, 600
+3	6524	90	#line 6524 "NXCDefs.h"
+3	6524	90	#line 6524 "NXCDefs.h"
+3	6525	90		set __signed_stack_002PlaySound, 150
+3	6524	93	#line 6524 "NXCDefs.h"
+3	6524	93	#line 6524 "NXCDefs.h"
+3	6525	93		set __signed_stack_003PlaySound, 4
+3	6524	96	#line 6524 "NXCDefs.h"
+3	6524	96	#line 6524 "NXCDefs.h"
+3	6525	96		set __D0PlaySound, 0
 3	6525	99	#line 6525 "NXCDefs.h"
-3	6526	99		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6525	101	#line 6525 "NXCDefs.h"
-3	6526	101		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6525	103	#line 6525 "NXCDefs.h"
-3	6526	103		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6525	105	#line 6525 "NXCDefs.h"
-3	6526	105		mov __SPTArgs.Loop, __D0PlaySound
-3	6525	107	#line 6525 "NXCDefs.h"
-3	6526	107		syscall 10, __SPTArgs
-3	6525	110	#line 6525 "NXCDefs.h"
-3	6526	110		mov __D0PlaySound, __SPTArgs.Result
-3	6525	112	#line 6525 "NXCDefs.h"
-3	6526	112		release __SPTArgsMutex
+3	6526	99		acquire __SPTArgsMutex
+3	6525	100	#line 6525 "NXCDefs.h"
+3	6526	100		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6525	102	#line 6525 "NXCDefs.h"
+3	6526	102		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6525	104	#line 6525 "NXCDefs.h"
+3	6526	104		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6525	106	#line 6525 "NXCDefs.h"
+3	6526	106		mov __SPTArgs.Loop, __D0PlaySound
+3	6525	108	#line 6525 "NXCDefs.h"
+3	6526	108		syscall 10, __SPTArgs
+3	6525	111	#line 6525 "NXCDefs.h"
+3	6526	111		mov __D0PlaySound, __SPTArgs.Result
 3	6525	113	#line 6525 "NXCDefs.h"
-3	6525	113	#line 6525 "NXCDefs.h"
-3	6526	113		wait 150
-3	6525	115	#line 6525 "NXCDefs.h"
-3	6525	115	#line 6525 "NXCDefs.h"
-3	6527	115	#line 6527 "NXCDefs.h"
-3	6528	115		jmp __NXC_Label_85
+3	6526	113		release __SPTArgsMutex
+3	6525	114	#line 6525 "NXCDefs.h"
+3	6525	114	#line 6525 "NXCDefs.h"
+3	6526	114		wait2 NA, __constVal150
+3	6525	117	#line 6525 "NXCDefs.h"
+3	6525	117	#line 6525 "NXCDefs.h"
 3	6527	117	#line 6527 "NXCDefs.h"
-3	6528	117		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6528	117		jmp __NXC_Label_85
 3	6527	119	#line 6527 "NXCDefs.h"
-3	6528	119	#line 6528 "NXCDefs.h"
-3	6529	119		set __D0PlaySound, 3
-3	6528	122	#line 6528 "NXCDefs.h"
-3	6529	122		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6528	126	#line 6528 "NXCDefs.h"
-3	6529	126		mov __D0PlaySound, __zfPlaySound
+3	6528	119		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6527	121	#line 6527 "NXCDefs.h"
+3	6528	121	#line 6528 "NXCDefs.h"
+3	6529	121		set __D0PlaySound, 3
+3	6528	124	#line 6528 "NXCDefs.h"
+3	6529	124		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
 3	6528	128	#line 6528 "NXCDefs.h"
-3	6529	128		brtst 4, __NXC_Label_88, __zfPlaySound
-3	6528	131	#line 6528 "NXCDefs.h"
-3	6529	131		set __PlaySound_7qG2_i_7qG2_001, 4
-3	6528	134	#line 6528 "NXCDefs.h"
-3	6528	134	#line 6528 "NXCDefs.h"
-3	6529	134		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6529	128		mov __D0PlaySound, __zfPlaySound
+3	6528	130	#line 6528 "NXCDefs.h"
+3	6529	130		brtst 4, __NXC_Label_88, __zfPlaySound
+3	6528	133	#line 6528 "NXCDefs.h"
+3	6529	133		set __PlaySound_7qG2_i_7qG2_001, 4
 3	6528	136	#line 6528 "NXCDefs.h"
 3	6528	136	#line 6528 "NXCDefs.h"
-3	6529	136		set __D0PlaySound, 8
-3	6528	139	#line 6528 "NXCDefs.h"
-3	6529	139		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6528	143	#line 6528 "NXCDefs.h"
-3	6529	143		mov __D0PlaySound, __zfPlaySound
+3	6529	136		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6528	138	#line 6528 "NXCDefs.h"
+3	6528	138	#line 6528 "NXCDefs.h"
+3	6529	138		set __D0PlaySound, 8
+3	6528	141	#line 6528 "NXCDefs.h"
+3	6529	141		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
 3	6528	145	#line 6528 "NXCDefs.h"
-3	6529	145		brtst 4, __NXC_Label_90, __zfPlaySound
-3	6528	148	#line 6528 "NXCDefs.h"
-3	6529	148		jmp __NXC_Label_91
-3	6529	150	#line 6529 "NXCDefs.h"
-3	6530	150		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6530	154	#line 6530 "NXCDefs.h"
-3	6531	154		jmp __NXC_Label_89
+3	6529	145		mov __D0PlaySound, __zfPlaySound
+3	6528	147	#line 6528 "NXCDefs.h"
+3	6529	147		brtst 4, __NXC_Label_90, __zfPlaySound
+3	6528	150	#line 6528 "NXCDefs.h"
+3	6529	150		jmp __NXC_Label_91
+3	6529	152	#line 6529 "NXCDefs.h"
+3	6530	152		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
 3	6530	156	#line 6530 "NXCDefs.h"
-3	6530	156	#line 6530 "NXCDefs.h"
-3	6530	156	#line 6530 "NXCDefs.h"
-3	6530	156	#line 6530 "NXCDefs.h"
-3	6531	156		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6530	160	#line 6530 "NXCDefs.h"
-3	6530	160	#line 6530 "NXCDefs.h"
-3	6530	160	#line 6530 "NXCDefs.h"
-3	6531	160		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6530	164	#line 6530 "NXCDefs.h"
-3	6530	164	#line 6530 "NXCDefs.h"
-3	6531	164		set __signed_stack_002PlaySound, 100
-3	6530	167	#line 6530 "NXCDefs.h"
-3	6530	167	#line 6530 "NXCDefs.h"
-3	6531	167		set __signed_stack_003PlaySound, 4
-3	6530	170	#line 6530 "NXCDefs.h"
-3	6530	170	#line 6530 "NXCDefs.h"
-3	6531	170		set __D0PlaySound, 0
-3	6531	173	#line 6531 "NXCDefs.h"
-3	6532	173		acquire __SPTArgsMutex
-3	6531	174	#line 6531 "NXCDefs.h"
-3	6532	174		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6531	156		jmp __NXC_Label_89
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6530	158	#line 6530 "NXCDefs.h"
+3	6531	158		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6530	162	#line 6530 "NXCDefs.h"
+3	6531	162		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6530	166	#line 6530 "NXCDefs.h"
+3	6530	166	#line 6530 "NXCDefs.h"
+3	6531	166		set __signed_stack_002PlaySound, 100
+3	6530	169	#line 6530 "NXCDefs.h"
+3	6530	169	#line 6530 "NXCDefs.h"
+3	6531	169		set __signed_stack_003PlaySound, 4
+3	6530	172	#line 6530 "NXCDefs.h"
+3	6530	172	#line 6530 "NXCDefs.h"
+3	6531	172		set __D0PlaySound, 0
+3	6531	175	#line 6531 "NXCDefs.h"
+3	6532	175		acquire __SPTArgsMutex
 3	6531	176	#line 6531 "NXCDefs.h"
-3	6532	176		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6532	176		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
 3	6531	178	#line 6531 "NXCDefs.h"
-3	6532	178		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6532	178		mov __SPTArgs.Duration, __signed_stack_002PlaySound
 3	6531	180	#line 6531 "NXCDefs.h"
-3	6532	180		mov __SPTArgs.Loop, __D0PlaySound
+3	6532	180		mov __SPTArgs.Volume, __signed_stack_003PlaySound
 3	6531	182	#line 6531 "NXCDefs.h"
-3	6532	182		syscall 10, __SPTArgs
-3	6531	185	#line 6531 "NXCDefs.h"
-3	6532	185		mov __D0PlaySound, __SPTArgs.Result
+3	6532	182		mov __SPTArgs.Loop, __D0PlaySound
+3	6531	184	#line 6531 "NXCDefs.h"
+3	6532	184		syscall 10, __SPTArgs
 3	6531	187	#line 6531 "NXCDefs.h"
-3	6532	187		release __SPTArgsMutex
-3	6531	188	#line 6531 "NXCDefs.h"
-3	6531	188	#line 6531 "NXCDefs.h"
-3	6532	188		wait 100
+3	6532	187		mov __D0PlaySound, __SPTArgs.Result
+3	6531	189	#line 6531 "NXCDefs.h"
+3	6532	189		release __SPTArgsMutex
 3	6531	190	#line 6531 "NXCDefs.h"
 3	6531	190	#line 6531 "NXCDefs.h"
-3	6533	190	#line 6533 "NXCDefs.h"
-3	6534	190		jmp __NXC_Label_92
-3	6533	192	#line 6533 "NXCDefs.h"
-3	6533	192	#line 6533 "NXCDefs.h"
-3	6534	192		jmp __NXC_Label_105
-3	6533	194	#line 6533 "NXCDefs.h"
-3	6534	194		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6533	196	#line 6533 "NXCDefs.h"
-3	6534	196	#line 6534 "NXCDefs.h"
-3	6535	196		set __D0PlaySound, 2
+3	6532	190		wait2 NA, __constVal100
+3	6531	193	#line 6531 "NXCDefs.h"
+3	6531	193	#line 6531 "NXCDefs.h"
+3	6533	193	#line 6533 "NXCDefs.h"
+3	6534	193		jmp __NXC_Label_92
+3	6533	195	#line 6533 "NXCDefs.h"
+3	6533	195	#line 6533 "NXCDefs.h"
+3	6534	195		jmp __NXC_Label_105
+3	6533	197	#line 6533 "NXCDefs.h"
+3	6534	197		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6533	199	#line 6533 "NXCDefs.h"
 3	6534	199	#line 6534 "NXCDefs.h"
-3	6535	199		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6534	203	#line 6534 "NXCDefs.h"
-3	6535	203		mov __D0PlaySound, __zfPlaySound
-3	6534	205	#line 6534 "NXCDefs.h"
-3	6535	205		brtst 4, __NXC_Label_108, __zfPlaySound
+3	6535	199		set __D0PlaySound, 2
+3	6534	202	#line 6534 "NXCDefs.h"
+3	6535	202		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	206	#line 6534 "NXCDefs.h"
+3	6535	206		mov __D0PlaySound, __zfPlaySound
 3	6534	208	#line 6534 "NXCDefs.h"
-3	6535	208		set __PlaySound_7qG2_i_7qG2_001, 7
+3	6535	208		brtst 4, __NXC_Label_108, __zfPlaySound
 3	6534	211	#line 6534 "NXCDefs.h"
-3	6534	211	#line 6534 "NXCDefs.h"
-3	6535	211		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
-3	6534	213	#line 6534 "NXCDefs.h"
-3	6534	213	#line 6534 "NXCDefs.h"
-3	6535	213		set __D0PlaySound, 3
+3	6535	211		set __PlaySound_7qG2_i_7qG2_001, 7
+3	6534	214	#line 6534 "NXCDefs.h"
+3	6534	214	#line 6534 "NXCDefs.h"
+3	6535	214		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
 3	6534	216	#line 6534 "NXCDefs.h"
-3	6535	216		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6534	220	#line 6534 "NXCDefs.h"
-3	6535	220		mov __D0PlaySound, __zfPlaySound
-3	6534	222	#line 6534 "NXCDefs.h"
-3	6535	222		brtst 4, __NXC_Label_110, __zfPlaySound
+3	6534	216	#line 6534 "NXCDefs.h"
+3	6535	216		set __D0PlaySound, 3
+3	6534	219	#line 6534 "NXCDefs.h"
+3	6535	219		cmp 1, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6534	223	#line 6534 "NXCDefs.h"
+3	6535	223		mov __D0PlaySound, __zfPlaySound
 3	6534	225	#line 6534 "NXCDefs.h"
-3	6535	225		jmp __NXC_Label_111
-3	6535	227	#line 6535 "NXCDefs.h"
-3	6536	227		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6536	231	#line 6536 "NXCDefs.h"
-3	6537	231		jmp __NXC_Label_109
-3	6536	233	#line 6536 "NXCDefs.h"
-3	6536	233	#line 6536 "NXCDefs.h"
-3	6536	233	#line 6536 "NXCDefs.h"
-3	6536	233	#line 6536 "NXCDefs.h"
-3	6537	233		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6536	237	#line 6536 "NXCDefs.h"
-3	6536	237	#line 6536 "NXCDefs.h"
-3	6536	237	#line 6536 "NXCDefs.h"
-3	6537	237		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6536	241	#line 6536 "NXCDefs.h"
-3	6536	241	#line 6536 "NXCDefs.h"
-3	6537	241		set __signed_stack_002PlaySound, 100
+3	6535	225		brtst 4, __NXC_Label_110, __zfPlaySound
+3	6534	228	#line 6534 "NXCDefs.h"
+3	6535	228		jmp __NXC_Label_111
+3	6535	230	#line 6535 "NXCDefs.h"
+3	6536	230		sub __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6536	234	#line 6536 "NXCDefs.h"
+3	6537	234		jmp __NXC_Label_109
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6536	236	#line 6536 "NXCDefs.h"
+3	6537	236		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6536	240	#line 6536 "NXCDefs.h"
+3	6537	240		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
 3	6536	244	#line 6536 "NXCDefs.h"
 3	6536	244	#line 6536 "NXCDefs.h"
-3	6537	244		set __signed_stack_003PlaySound, 4
+3	6537	244		set __signed_stack_002PlaySound, 100
 3	6536	247	#line 6536 "NXCDefs.h"
 3	6536	247	#line 6536 "NXCDefs.h"
-3	6537	247		set __D0PlaySound, 0
-3	6537	250	#line 6537 "NXCDefs.h"
-3	6538	250		acquire __SPTArgsMutex
-3	6537	251	#line 6537 "NXCDefs.h"
-3	6538	251		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6537	247		set __signed_stack_003PlaySound, 4
+3	6536	250	#line 6536 "NXCDefs.h"
+3	6536	250	#line 6536 "NXCDefs.h"
+3	6537	250		set __D0PlaySound, 0
 3	6537	253	#line 6537 "NXCDefs.h"
-3	6538	253		mov __SPTArgs.Duration, __signed_stack_002PlaySound
-3	6537	255	#line 6537 "NXCDefs.h"
-3	6538	255		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6537	257	#line 6537 "NXCDefs.h"
-3	6538	257		mov __SPTArgs.Loop, __D0PlaySound
-3	6537	259	#line 6537 "NXCDefs.h"
-3	6538	259		syscall 10, __SPTArgs
+3	6538	253		acquire __SPTArgsMutex
+3	6537	254	#line 6537 "NXCDefs.h"
+3	6538	254		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6537	256	#line 6537 "NXCDefs.h"
+3	6538	256		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6537	258	#line 6537 "NXCDefs.h"
+3	6538	258		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6537	260	#line 6537 "NXCDefs.h"
+3	6538	260		mov __SPTArgs.Loop, __D0PlaySound
 3	6537	262	#line 6537 "NXCDefs.h"
-3	6538	262		mov __D0PlaySound, __SPTArgs.Result
-3	6537	264	#line 6537 "NXCDefs.h"
-3	6538	264		release __SPTArgsMutex
+3	6538	262		syscall 10, __SPTArgs
 3	6537	265	#line 6537 "NXCDefs.h"
-3	6537	265	#line 6537 "NXCDefs.h"
-3	6538	265		wait 100
+3	6538	265		mov __D0PlaySound, __SPTArgs.Result
 3	6537	267	#line 6537 "NXCDefs.h"
-3	6537	267	#line 6537 "NXCDefs.h"
-3	6539	267	#line 6539 "NXCDefs.h"
-3	6540	267		jmp __NXC_Label_112
-3	6539	269	#line 6539 "NXCDefs.h"
-3	6539	269	#line 6539 "NXCDefs.h"
-3	6540	269		jmp __NXC_Label_125
+3	6538	267		release __SPTArgsMutex
+3	6537	268	#line 6537 "NXCDefs.h"
+3	6537	268	#line 6537 "NXCDefs.h"
+3	6538	268		wait2 NA, __constVal100
+3	6537	271	#line 6537 "NXCDefs.h"
+3	6537	271	#line 6537 "NXCDefs.h"
 3	6539	271	#line 6539 "NXCDefs.h"
-3	6540	271		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6540	271		jmp __NXC_Label_112
 3	6539	273	#line 6539 "NXCDefs.h"
-3	6540	273	#line 6540 "NXCDefs.h"
-3	6541	273		set __D0PlaySound, 4
-3	6540	276	#line 6540 "NXCDefs.h"
-3	6541	276		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6539	273	#line 6539 "NXCDefs.h"
+3	6540	273		jmp __NXC_Label_125
+3	6539	275	#line 6539 "NXCDefs.h"
+3	6540	275		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6539	277	#line 6539 "NXCDefs.h"
+3	6540	277	#line 6540 "NXCDefs.h"
+3	6541	277		set __D0PlaySound, 4
 3	6540	280	#line 6540 "NXCDefs.h"
-3	6541	280		mov __D0PlaySound, __zfPlaySound
-3	6541	282	#line 6541 "NXCDefs.h"
-3	6542	282		brtst 4, __NXC_Label_128, __zfPlaySound
-3	6541	285	#line 6541 "NXCDefs.h"
-3	6542	285		set __signed_stack_001PlaySound, 100
-3	6541	288	#line 6541 "NXCDefs.h"
-3	6541	288	#line 6541 "NXCDefs.h"
-3	6542	288		set __signed_stack_002PlaySound, 500
-3	6541	291	#line 6541 "NXCDefs.h"
-3	6541	291	#line 6541 "NXCDefs.h"
-3	6542	291		set __signed_stack_003PlaySound, 4
-3	6541	294	#line 6541 "NXCDefs.h"
-3	6541	294	#line 6541 "NXCDefs.h"
-3	6542	294		set __D0PlaySound, 0
-3	6542	297	#line 6542 "NXCDefs.h"
-3	6543	297		acquire __SPTArgsMutex
-3	6542	298	#line 6542 "NXCDefs.h"
-3	6543	298		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6542	300	#line 6542 "NXCDefs.h"
-3	6543	300		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6541	280		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
+3	6540	284	#line 6540 "NXCDefs.h"
+3	6541	284		mov __D0PlaySound, __zfPlaySound
+3	6541	286	#line 6541 "NXCDefs.h"
+3	6542	286		brtst 4, __NXC_Label_128, __zfPlaySound
+3	6541	289	#line 6541 "NXCDefs.h"
+3	6542	289		set __signed_stack_001PlaySound, 100
+3	6541	292	#line 6541 "NXCDefs.h"
+3	6541	292	#line 6541 "NXCDefs.h"
+3	6542	292		set __signed_stack_002PlaySound, 500
+3	6541	295	#line 6541 "NXCDefs.h"
+3	6541	295	#line 6541 "NXCDefs.h"
+3	6542	295		set __signed_stack_003PlaySound, 4
+3	6541	298	#line 6541 "NXCDefs.h"
+3	6541	298	#line 6541 "NXCDefs.h"
+3	6542	298		set __D0PlaySound, 0
+3	6542	301	#line 6542 "NXCDefs.h"
+3	6543	301		acquire __SPTArgsMutex
 3	6542	302	#line 6542 "NXCDefs.h"
-3	6543	302		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6543	302		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
 3	6542	304	#line 6542 "NXCDefs.h"
-3	6543	304		mov __SPTArgs.Loop, __D0PlaySound
+3	6543	304		mov __SPTArgs.Duration, __signed_stack_002PlaySound
 3	6542	306	#line 6542 "NXCDefs.h"
-3	6543	306		syscall 10, __SPTArgs
-3	6542	309	#line 6542 "NXCDefs.h"
-3	6543	309		mov __D0PlaySound, __SPTArgs.Result
-3	6542	311	#line 6542 "NXCDefs.h"
-3	6543	311		release __SPTArgsMutex
-3	6542	312	#line 6542 "NXCDefs.h"
-3	6542	312	#line 6542 "NXCDefs.h"
-3	6543	312		wait 500
-3	6542	314	#line 6542 "NXCDefs.h"
-3	6542	314	#line 6542 "NXCDefs.h"
-3	6544	314	#line 6544 "NXCDefs.h"
-3	6545	314		jmp __NXC_Label_137
-3	6544	316	#line 6544 "NXCDefs.h"
-3	6545	316		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
-3	6544	318	#line 6544 "NXCDefs.h"
-3	6545	318	#line 6545 "NXCDefs.h"
-3	6546	318		set __D0PlaySound, 5
-3	6545	321	#line 6545 "NXCDefs.h"
-3	6546	321		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6545	325	#line 6545 "NXCDefs.h"
-3	6546	325		mov __D0PlaySound, __zfPlaySound
-3	6545	327	#line 6545 "NXCDefs.h"
-3	6546	327		brtst 4, __NXC_Label_140, __zfPlaySound
+3	6543	306		mov __SPTArgs.Volume, __signed_stack_003PlaySound
+3	6542	308	#line 6542 "NXCDefs.h"
+3	6543	308		mov __SPTArgs.Loop, __D0PlaySound
+3	6542	310	#line 6542 "NXCDefs.h"
+3	6543	310		syscall 10, __SPTArgs
+3	6542	313	#line 6542 "NXCDefs.h"
+3	6543	313		mov __D0PlaySound, __SPTArgs.Result
+3	6542	315	#line 6542 "NXCDefs.h"
+3	6543	315		release __SPTArgsMutex
+3	6542	316	#line 6542 "NXCDefs.h"
+3	6542	316	#line 6542 "NXCDefs.h"
+3	6543	316		wait2 NA, __constVal500
+3	6542	319	#line 6542 "NXCDefs.h"
+3	6542	319	#line 6542 "NXCDefs.h"
+3	6544	319	#line 6544 "NXCDefs.h"
+3	6545	319		jmp __NXC_Label_137
+3	6544	321	#line 6544 "NXCDefs.h"
+3	6545	321		mov __signed_stack_001PlaySound, __PlaySound_7qG2_aCode_7qG2_000
+3	6544	323	#line 6544 "NXCDefs.h"
+3	6545	323	#line 6545 "NXCDefs.h"
+3	6546	323		set __D0PlaySound, 5
+3	6545	326	#line 6545 "NXCDefs.h"
+3	6546	326		cmp 4, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
 3	6545	330	#line 6545 "NXCDefs.h"
-3	6546	330		set __PlaySound_7qG2_i_7qG2_001, 4
-3	6545	333	#line 6545 "NXCDefs.h"
-3	6545	333	#line 6545 "NXCDefs.h"
-3	6546	333		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6546	330		mov __D0PlaySound, __zfPlaySound
+3	6545	332	#line 6545 "NXCDefs.h"
+3	6546	332		brtst 4, __NXC_Label_140, __zfPlaySound
 3	6545	335	#line 6545 "NXCDefs.h"
-3	6545	335	#line 6545 "NXCDefs.h"
-3	6546	335		set __D0PlaySound, 8
+3	6546	335		set __PlaySound_7qG2_i_7qG2_001, 4
 3	6545	338	#line 6545 "NXCDefs.h"
-3	6546	338		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
-3	6545	342	#line 6545 "NXCDefs.h"
-3	6546	342		mov __D0PlaySound, __zfPlaySound
-3	6545	344	#line 6545 "NXCDefs.h"
-3	6546	344		brtst 4, __NXC_Label_142, __zfPlaySound
+3	6545	338	#line 6545 "NXCDefs.h"
+3	6546	338		mov __signed_stack_001PlaySound, __PlaySound_7qG2_i_7qG2_001
+3	6545	340	#line 6545 "NXCDefs.h"
+3	6545	340	#line 6545 "NXCDefs.h"
+3	6546	340		set __D0PlaySound, 8
+3	6545	343	#line 6545 "NXCDefs.h"
+3	6546	343		cmp 0, __zfPlaySound, __signed_stack_001PlaySound, __D0PlaySound
 3	6545	347	#line 6545 "NXCDefs.h"
-3	6546	347		jmp __NXC_Label_143
-3	6546	349	#line 6546 "NXCDefs.h"
-3	6547	349		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
-3	6547	353	#line 6547 "NXCDefs.h"
-3	6548	353		jmp __NXC_Label_141
-3	6547	355	#line 6547 "NXCDefs.h"
-3	6547	355	#line 6547 "NXCDefs.h"
-3	6547	355	#line 6547 "NXCDefs.h"
-3	6547	355	#line 6547 "NXCDefs.h"
-3	6548	355		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
-3	6547	359	#line 6547 "NXCDefs.h"
-3	6547	359	#line 6547 "NXCDefs.h"
-3	6547	359	#line 6547 "NXCDefs.h"
-3	6548	359		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
-3	6547	363	#line 6547 "NXCDefs.h"
-3	6547	363	#line 6547 "NXCDefs.h"
-3	6548	363		set __signed_stack_002PlaySound, 50
-3	6547	366	#line 6547 "NXCDefs.h"
-3	6547	366	#line 6547 "NXCDefs.h"
-3	6548	366		set __signed_stack_003PlaySound, 4
-3	6547	369	#line 6547 "NXCDefs.h"
-3	6547	369	#line 6547 "NXCDefs.h"
-3	6548	369		set __D0PlaySound, 0
-3	6548	372	#line 6548 "NXCDefs.h"
-3	6549	372		acquire __SPTArgsMutex
-3	6548	373	#line 6548 "NXCDefs.h"
-3	6549	373		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
-3	6548	375	#line 6548 "NXCDefs.h"
-3	6549	375		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6546	347		mov __D0PlaySound, __zfPlaySound
+3	6545	349	#line 6545 "NXCDefs.h"
+3	6546	349		brtst 4, __NXC_Label_142, __zfPlaySound
+3	6545	352	#line 6545 "NXCDefs.h"
+3	6546	352		jmp __NXC_Label_143
+3	6546	354	#line 6546 "NXCDefs.h"
+3	6547	354		add __PlaySound_7qG2_i_7qG2_001, __PlaySound_7qG2_i_7qG2_001, __constVal1
+3	6547	358	#line 6547 "NXCDefs.h"
+3	6548	358		jmp __NXC_Label_141
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6547	360	#line 6547 "NXCDefs.h"
+3	6548	360		mul __signed_stack_001PlaySound, __constVal523, __PlaySound_7qG2_i_7qG2_001
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6547	364	#line 6547 "NXCDefs.h"
+3	6548	364		div __signed_stack_001PlaySound, __signed_stack_001PlaySound, __constVal4
+3	6547	368	#line 6547 "NXCDefs.h"
+3	6547	368	#line 6547 "NXCDefs.h"
+3	6548	368		set __signed_stack_002PlaySound, 50
+3	6547	371	#line 6547 "NXCDefs.h"
+3	6547	371	#line 6547 "NXCDefs.h"
+3	6548	371		set __signed_stack_003PlaySound, 4
+3	6547	374	#line 6547 "NXCDefs.h"
+3	6547	374	#line 6547 "NXCDefs.h"
+3	6548	374		set __D0PlaySound, 0
 3	6548	377	#line 6548 "NXCDefs.h"
-3	6549	377		mov __SPTArgs.Volume, __signed_stack_003PlaySound
-3	6548	379	#line 6548 "NXCDefs.h"
-3	6549	379		mov __SPTArgs.Loop, __D0PlaySound
-3	6548	381	#line 6548 "NXCDefs.h"
-3	6549	381		syscall 10, __SPTArgs
+3	6549	377		acquire __SPTArgsMutex
+3	6548	378	#line 6548 "NXCDefs.h"
+3	6549	378		mov __SPTArgs.Frequency, __signed_stack_001PlaySound
+3	6548	380	#line 6548 "NXCDefs.h"
+3	6549	380		mov __SPTArgs.Duration, __signed_stack_002PlaySound
+3	6548	382	#line 6548 "NXCDefs.h"
+3	6549	382		mov __SPTArgs.Volume, __signed_stack_003PlaySound
 3	6548	384	#line 6548 "NXCDefs.h"
-3	6549	384		mov __D0PlaySound, __SPTArgs.Result
+3	6549	384		mov __SPTArgs.Loop, __D0PlaySound
 3	6548	386	#line 6548 "NXCDefs.h"
-3	6549	386		release __SPTArgsMutex
-3	6548	387	#line 6548 "NXCDefs.h"
-3	6548	387	#line 6548 "NXCDefs.h"
-3	6549	387		wait 50
+3	6549	386		syscall 10, __SPTArgs
 3	6548	389	#line 6548 "NXCDefs.h"
-3	6548	389	#line 6548 "NXCDefs.h"
-3	6560	389	#line 6560 "NXCDefs.h"
-3	6561	389		jmp __NXC_Label_144
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6560	391	#line 6560 "NXCDefs.h"
-3	6561	391		subret __PlaySound_return
-4	14	0	#line 14 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+3	6549	389		mov __D0PlaySound, __SPTArgs.Result
+3	6548	391	#line 6548 "NXCDefs.h"
+3	6549	391		release __SPTArgsMutex
+3	6548	392	#line 6548 "NXCDefs.h"
+3	6548	392	#line 6548 "NXCDefs.h"
+3	6549	392		wait2 NA, __constVal50
+3	6548	395	#line 6548 "NXCDefs.h"
+3	6548	395	#line 6548 "NXCDefs.h"
+3	6560	395	#line 6560 "NXCDefs.h"
+3	6561	395		jmp __NXC_Label_144
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6560	397	#line 6560 "NXCDefs.h"
+3	6561	397		subret __PlaySound_return
+4	14	0	#line 14 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	15	0		set __D0movement, 1
-4	15	3	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	3	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	3		tst 5, __zfmovement, __D0movement
-4	15	6	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	16	6		brtst 4, __NXC_Label_605, __zfmovement
-4	15	9	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	6	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	16	6		brtst 4, __NXC_Label_490, __zfmovement
+4	15	9	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	9		getin __D0movement, __constVal0, 4
-4	15	13	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	13	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	13		tst 5, __zfmovement, __D0movement
-4	15	16	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	16	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	16		mov __D0movement, __zfmovement
-4	15	18	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	16	18		brtst 4, __NXC_Label_611, __zfmovement
-4	15	21	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	18	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	16	18		brtst 4, __NXC_Label_496, __zfmovement
+4	15	21	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	21		mov __signed_stack_001movement, __D0movement
-4	15	23	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	23	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	23		getin __signed_stack_002movement, __constVal2, 4
-4	15	27	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	15	27	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	27	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	15	27	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	27		mov __D0movement, SW
-4	15	29	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	29	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	29		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
-4	15	33	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	15	33	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	33	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	15	33	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	33		and __D0movement, __signed_stack_001movement, __zfmovement
-4	15	37	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	37	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	37		tst 5, __zfmovement, __D0movement
-4	15	40	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	40	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	40		mov __D0movement, __zfmovement
-4	15	42	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	16	42		brtst 4, __NXC_Label_609, __zfmovement
-4	15	45	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	42	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	16	42		brtst 4, __NXC_Label_494, __zfmovement
+4	15	45	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	45		mov __signed_stack_001movement, __D0movement
-4	15	47	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	47	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	47		getin __signed_stack_002movement, __constVal1, 4
-4	15	51	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	15	51	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	51	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	15	51	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	51		mov __D0movement, SW
-4	15	53	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	53	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	16	53		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
-4	15	57	#line 15 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	17	57	#line 17 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	15	57	#line 15 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	17	57	#line 17 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	18	57		and __D0movement, __signed_stack_001movement, __zfmovement
-4	18	61	#line 18 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	18	61	#line 18 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	19	61		tst 5, __zfmovement, __D0movement
-4	18	64	#line 18 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	19	64		brtst 4, __NXC_Label_614, __zfmovement
-4	19	67	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	18	64	#line 18 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	19	64		brtst 4, __NXC_Label_499, __zfmovement
+4	19	67	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	20	67		acquire moveMutex
-4	19	68	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	19	68	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	19	68	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	19	68	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	20	68		set __signed_stack_001movement, 75
-4	19	71	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	19	71	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	19	71	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	19	71	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	20	71		set __D0movement, 1
-4	19	74	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	19	74	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	20	74	#pragma macro 7
 4	20	74		setout __OUT_AC, 2, __signed_stack_001movement, 1, __constVal7, 8, __D0movement, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6360	97	#line 6360 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	19	97	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	19	97	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	20	97		set __Wait_7qG2_ms_7qG2_000_inline_movement, 500
-4	19	100	#line 19 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	4205	97	#line 4205 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	19	97	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	19	97	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	20	97		set __Wait_7qG2_ms_7qG2_000_inline_movement, 50
+4	19	100	#line 19 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	7921	100	#line 7921 "NXCDefs.h"
-4	7922	100		wait 500
-4	7921	102	#line 7921 "NXCDefs.h"
-4	20	102	#line 20 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	21	102	#line 21 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	22	102		release moveMutex
-4	21	103	#line 21 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	103	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	103		jmp __NXC_Label_621
-4	24	105	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	105		getin __D0movement, __constVal0, 4
-4	24	109	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	109		tst 5, __zfmovement, __D0movement
-4	24	112	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	112		mov __D0movement, __zfmovement
-4	24	114	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	114		brtst 4, __NXC_Label_627, __zfmovement
-4	24	117	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	117		mov __signed_stack_001movement, __D0movement
-4	24	119	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	119		getin __signed_stack_002movement, __constVal1, 4
-4	24	123	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	123	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	123		mov __D0movement, SW
-4	24	125	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	125		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
-4	24	129	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	129	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	129		and __D0movement, __signed_stack_001movement, __zfmovement
-4	24	133	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	133		tst 5, __zfmovement, __D0movement
-4	24	136	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	136		mov __D0movement, __zfmovement
-4	24	138	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	138		brtst 4, __NXC_Label_625, __zfmovement
-4	24	141	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	141		mov __signed_stack_001movement, __D0movement
-4	24	143	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	143		getin __signed_stack_002movement, __constVal2, 4
-4	24	147	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	147	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	147		mov __D0movement, SW
-4	24	149	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	149		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
-4	24	153	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	153	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	153		and __D0movement, __signed_stack_001movement, __zfmovement
-4	24	157	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	157		tst 5, __zfmovement, __D0movement
-4	24	160	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	160		mov __D0movement, __zfmovement
-4	24	162	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	162		brtst 5, __NXC_Label_622, __zfmovement
-4	24	165	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	165		mov __signed_stack_001movement, __D0movement
-4	24	167	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	167		getin __D0movement, __constVal1, 4
-4	24	171	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	171		tst 5, __zfmovement, __D0movement
-4	24	174	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	174		mov __D0movement, __zfmovement
-4	24	176	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	176		brtst 4, __NXC_Label_634, __zfmovement
-4	24	179	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	179		mov __signed_stack_002movement, __D0movement
-4	24	181	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	181		getin __signed_stack_003movement, __constVal2, 4
-4	24	185	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	185	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	185		mov __D0movement, SW
-4	24	187	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	187		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
-4	24	191	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	191	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	191		and __D0movement, __signed_stack_002movement, __zfmovement
-4	24	195	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	195		tst 5, __zfmovement, __D0movement
-4	24	198	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	198		mov __D0movement, __zfmovement
-4	24	200	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	200		brtst 4, __NXC_Label_632, __zfmovement
-4	24	203	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	203		mov __signed_stack_002movement, __D0movement
-4	24	205	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	205		getin __signed_stack_003movement, __constVal0, 4
-4	24	209	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	209	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	209		mov __D0movement, SW
-4	24	211	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	211		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
-4	24	215	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	24	215	#line 24 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	25	215		and __D0movement, __signed_stack_002movement, __zfmovement
-4	27	219	#line 27 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	28	219		tst 5, __zfmovement, __D0movement
-4	27	222	#line 27 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	27	222	#line 27 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	28	222		or __D0movement, __signed_stack_001movement, __zfmovement
-4	28	226	#line 28 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	226		tst 5, __zfmovement, __D0movement
-4	28	229	#line 28 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	229		brtst 4, __NXC_Label_637, __zfmovement
-4	29	232	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	232		acquire moveMutex
-4	29	233	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	233	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	233		set __D0movement, 75
-4	29	236	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	236	#pragma macro 10
-4	30	236		acquire __OnRevMutex
-4	30	237		neg __OnRev_Tmp, __D0movement
-4	30	240		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	30	263		release __OnRevMutex
-4	6507	264	#line 6507 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	264	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	264	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	264		set __D0movement, 75
-4	29	267	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	267	#pragma macro 7
-4	30	267		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6514	290	#line 6514 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	290	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	29	290	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	290		set __Wait_7qG2_ms_7qG2_000_inline_movement, 200
-4	29	293	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	7921	293	#line 7921 "NXCDefs.h"
-4	7922	293		wait 200
-4	7921	295	#line 7921 "NXCDefs.h"
-4	29	295	#line 29 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	30	295	#line 30 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	31	295	#line 31 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	32	295		release moveMutex
-4	31	296	#line 31 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	296	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	296		jmp __NXC_Label_644
-4	34	298	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	298		getin __D0movement, __constVal1, 4
-4	34	302	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	302		tst 5, __zfmovement, __D0movement
-4	34	305	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	305		mov __D0movement, __zfmovement
-4	34	307	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	307		brtst 4, __NXC_Label_650, __zfmovement
-4	34	310	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	310		mov __signed_stack_001movement, __D0movement
-4	34	312	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	312		getin __signed_stack_002movement, __constVal2, 4
-4	34	316	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	316	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	316		mov __D0movement, SW
-4	34	318	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	318		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
-4	34	322	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	322	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	322		and __D0movement, __signed_stack_001movement, __zfmovement
-4	34	326	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	326		tst 5, __zfmovement, __D0movement
-4	34	329	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	329		mov __D0movement, __zfmovement
-4	34	331	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	331		brtst 4, __NXC_Label_648, __zfmovement
-4	34	334	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	334		mov __signed_stack_001movement, __D0movement
-4	34	336	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	336		getin __signed_stack_002movement, __constVal0, 4
-4	34	340	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	340	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	340		mov __D0movement, SW
-4	34	342	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	342		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
-4	34	346	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	346	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	346		and __D0movement, __signed_stack_001movement, __zfmovement
-4	34	350	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	350		tst 5, __zfmovement, __D0movement
-4	34	353	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	353		mov __D0movement, __zfmovement
-4	34	355	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	355		brtst 5, __NXC_Label_645, __zfmovement
-4	34	358	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	358		mov __signed_stack_001movement, __D0movement
-4	34	360	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	360		getin __D0movement, __constVal0, 4
-4	34	364	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	364		tst 5, __zfmovement, __D0movement
-4	34	367	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	367		mov __D0movement, __zfmovement
-4	34	369	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	369		brtst 4, __NXC_Label_657, __zfmovement
-4	34	372	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	372		mov __signed_stack_002movement, __D0movement
-4	34	374	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	374		getin __signed_stack_003movement, __constVal1, 4
-4	34	378	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	378	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	378		mov __D0movement, SW
-4	34	380	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	380		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
-4	34	384	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	384	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	384		and __D0movement, __signed_stack_002movement, __zfmovement
-4	34	388	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	388		tst 5, __zfmovement, __D0movement
-4	34	391	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	391		mov __D0movement, __zfmovement
-4	34	393	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	393		brtst 4, __NXC_Label_655, __zfmovement
-4	34	396	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	396		mov __signed_stack_002movement, __D0movement
-4	34	398	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	398		getin __signed_stack_003movement, __constVal2, 4
-4	34	402	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	402	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	402		mov __D0movement, SW
-4	34	404	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	404		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
-4	34	408	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	34	408	#line 34 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	35	408		and __D0movement, __signed_stack_002movement, __zfmovement
-4	37	412	#line 37 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	38	412		tst 5, __zfmovement, __D0movement
-4	37	415	#line 37 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	37	415	#line 37 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	38	415		or __D0movement, __signed_stack_001movement, __zfmovement
-4	38	419	#line 38 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	419		tst 5, __zfmovement, __D0movement
-4	38	422	#line 38 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	422		brtst 4, __NXC_Label_660, __zfmovement
-4	39	425	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	425		acquire moveMutex
-4	39	426	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	426	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	426		set __D0movement, 75
-4	39	429	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	429	#pragma macro 7
-4	40	429		setout __constVal0, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6658	452	#line 6658 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	452	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	452	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	452		set __D0movement, 75
-4	39	455	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	455	#pragma macro 10
-4	40	455		acquire __OnRevMutex
-4	40	456		neg __OnRev_Tmp, __D0movement
-4	40	459		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	40	482		release __OnRevMutex
-4	6665	483	#line 6665 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	483	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	39	483	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	483		set __Wait_7qG2_ms_7qG2_000_inline_movement, 200
-4	39	486	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	7921	486	#line 7921 "NXCDefs.h"
-4	7922	486		wait 200
+4	7922	100		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+4	7921	103	#line 7921 "NXCDefs.h"
+4	20	103	#line 20 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	21	103	#line 21 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	22	103		release moveMutex
+4	21	104	#line 21 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	104	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	104		jmp __NXC_Label_506
+4	24	106	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	106		getin __D0movement, __constVal0, 4
+4	24	110	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	110		tst 5, __zfmovement, __D0movement
+4	24	113	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	113		mov __D0movement, __zfmovement
+4	24	115	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	115		brtst 4, __NXC_Label_512, __zfmovement
+4	24	118	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	118		mov __signed_stack_001movement, __D0movement
+4	24	120	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	120		getin __signed_stack_002movement, __constVal1, 4
+4	24	124	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	124	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	124		mov __D0movement, SW
+4	24	126	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	126		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
+4	24	130	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	130	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	130		and __D0movement, __signed_stack_001movement, __zfmovement
+4	24	134	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	134		tst 5, __zfmovement, __D0movement
+4	24	137	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	137		mov __D0movement, __zfmovement
+4	24	139	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	139		brtst 4, __NXC_Label_510, __zfmovement
+4	24	142	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	142		mov __signed_stack_001movement, __D0movement
+4	24	144	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	144		getin __signed_stack_002movement, __constVal2, 4
+4	24	148	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	148	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	148		mov __D0movement, SW
+4	24	150	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	150		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
+4	24	154	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	154	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	154		and __D0movement, __signed_stack_001movement, __zfmovement
+4	24	158	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	158		tst 5, __zfmovement, __D0movement
+4	24	161	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	161		mov __D0movement, __zfmovement
+4	24	163	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	163		brtst 5, __NXC_Label_507, __zfmovement
+4	24	166	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	166		mov __signed_stack_001movement, __D0movement
+4	24	168	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	168		getin __D0movement, __constVal1, 4
+4	24	172	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	172		tst 5, __zfmovement, __D0movement
+4	24	175	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	175		mov __D0movement, __zfmovement
+4	24	177	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	177		brtst 4, __NXC_Label_519, __zfmovement
+4	24	180	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	180		mov __signed_stack_002movement, __D0movement
+4	24	182	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	182		getin __signed_stack_003movement, __constVal2, 4
+4	24	186	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	186	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	186		mov __D0movement, SW
+4	24	188	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	188		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
+4	24	192	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	192	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	192		and __D0movement, __signed_stack_002movement, __zfmovement
+4	24	196	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	196		tst 5, __zfmovement, __D0movement
+4	24	199	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	199		mov __D0movement, __zfmovement
+4	24	201	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	201		brtst 4, __NXC_Label_517, __zfmovement
+4	24	204	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	204		mov __signed_stack_002movement, __D0movement
+4	24	206	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	206		getin __signed_stack_003movement, __constVal0, 4
+4	24	210	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	210	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	210		mov __D0movement, SW
+4	24	212	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	212		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
+4	24	216	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	24	216	#line 24 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	25	216		and __D0movement, __signed_stack_002movement, __zfmovement
+4	27	220	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	28	220		tst 5, __zfmovement, __D0movement
+4	27	223	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	27	223	#line 27 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	28	223		or __D0movement, __signed_stack_001movement, __zfmovement
+4	28	227	#line 28 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	227		tst 5, __zfmovement, __D0movement
+4	28	230	#line 28 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	230		brtst 4, __NXC_Label_522, __zfmovement
+4	29	233	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	233		acquire moveMutex
+4	29	234	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	234	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	234		set __D0movement, 75
+4	29	237	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	237	#pragma macro 10
+4	30	237		acquire __OnRevMutex
+4	30	238		neg __OnRev_Tmp, __D0movement
+4	30	241		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	30	264		release __OnRevMutex
+4	4352	265	#line 4352 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	265	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	265	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	265		set __D0movement, 75
+4	29	268	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	268	#pragma macro 7
+4	30	268		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4359	291	#line 4359 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	291	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	29	291	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	291		set __Wait_7qG2_ms_7qG2_000_inline_movement, 50
+4	29	294	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	7921	294	#line 7921 "NXCDefs.h"
+4	7922	294		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+4	7921	297	#line 7921 "NXCDefs.h"
+4	29	297	#line 29 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	30	297	#line 30 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	31	297	#line 31 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	32	297		release moveMutex
+4	31	298	#line 31 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	298	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	298		jmp __NXC_Label_529
+4	34	300	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	300		getin __D0movement, __constVal1, 4
+4	34	304	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	304		tst 5, __zfmovement, __D0movement
+4	34	307	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	307		mov __D0movement, __zfmovement
+4	34	309	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	309		brtst 4, __NXC_Label_535, __zfmovement
+4	34	312	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	312		mov __signed_stack_001movement, __D0movement
+4	34	314	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	314		getin __signed_stack_002movement, __constVal2, 4
+4	34	318	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	318	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	318		mov __D0movement, SW
+4	34	320	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	320		cmp 2, __zfmovement, __signed_stack_002movement, __D0movement
+4	34	324	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	324	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	324		and __D0movement, __signed_stack_001movement, __zfmovement
+4	34	328	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	328		tst 5, __zfmovement, __D0movement
+4	34	331	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	331		mov __D0movement, __zfmovement
+4	34	333	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	333		brtst 4, __NXC_Label_533, __zfmovement
+4	34	336	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	336		mov __signed_stack_001movement, __D0movement
+4	34	338	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	338		getin __signed_stack_002movement, __constVal0, 4
+4	34	342	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	342	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	342		mov __D0movement, SW
+4	34	344	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	344		cmp 3, __zfmovement, __signed_stack_002movement, __D0movement
+4	34	348	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	348	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	348		and __D0movement, __signed_stack_001movement, __zfmovement
+4	34	352	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	352		tst 5, __zfmovement, __D0movement
+4	34	355	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	355		mov __D0movement, __zfmovement
+4	34	357	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	357		brtst 5, __NXC_Label_530, __zfmovement
+4	34	360	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	360		mov __signed_stack_001movement, __D0movement
+4	34	362	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	362		getin __D0movement, __constVal0, 4
+4	34	366	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	366		tst 5, __zfmovement, __D0movement
+4	34	369	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	369		mov __D0movement, __zfmovement
+4	34	371	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	371		brtst 4, __NXC_Label_542, __zfmovement
+4	34	374	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	374		mov __signed_stack_002movement, __D0movement
+4	34	376	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	376		getin __signed_stack_003movement, __constVal1, 4
+4	34	380	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	380	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	380		mov __D0movement, SW
+4	34	382	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	382		cmp 3, __zfmovement, __signed_stack_003movement, __D0movement
+4	34	386	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	386	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	386		and __D0movement, __signed_stack_002movement, __zfmovement
+4	34	390	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	390		tst 5, __zfmovement, __D0movement
+4	34	393	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	393		mov __D0movement, __zfmovement
+4	34	395	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	395		brtst 4, __NXC_Label_540, __zfmovement
+4	34	398	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	398		mov __signed_stack_002movement, __D0movement
+4	34	400	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	400		getin __signed_stack_003movement, __constVal2, 4
+4	34	404	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	404	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	404		mov __D0movement, SW
+4	34	406	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	406		cmp 2, __zfmovement, __signed_stack_003movement, __D0movement
+4	34	410	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	34	410	#line 34 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	35	410		and __D0movement, __signed_stack_002movement, __zfmovement
+4	37	414	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	38	414		tst 5, __zfmovement, __D0movement
+4	37	417	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	37	417	#line 37 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	38	417		or __D0movement, __signed_stack_001movement, __zfmovement
+4	38	421	#line 38 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	421		tst 5, __zfmovement, __D0movement
+4	38	424	#line 38 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	424		brtst 4, __NXC_Label_545, __zfmovement
+4	39	427	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	427		acquire moveMutex
+4	39	428	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	428	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	428		set __D0movement, 75
+4	39	431	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	431	#pragma macro 7
+4	40	431		setout __constVal0, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4503	454	#line 4503 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	454	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	454	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	454		set __D0movement, 75
+4	39	457	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	457	#pragma macro 10
+4	40	457		acquire __OnRevMutex
+4	40	458		neg __OnRev_Tmp, __D0movement
+4	40	461		setout __constVal2, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	40	484		release __OnRevMutex
+4	4510	485	#line 4510 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	485	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	39	485	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	485		set __Wait_7qG2_ms_7qG2_000_inline_movement, 50
+4	39	488	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 4	7921	488	#line 7921 "NXCDefs.h"
-4	39	488	#line 39 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	40	488	#line 40 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	41	488	#line 41 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	42	488		release moveMutex
-4	41	489	#line 41 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	44	489	#line 44 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	489		jmp __NXC_Label_667
-4	45	491	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	491		acquire moveMutex
-4	45	492	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	492	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	492		set __D0movement, 75
-4	45	495	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	495	#pragma macro 10
-4	46	495		acquire __OnRevMutex
-4	46	496		neg __OnRev_Tmp, __D0movement
-4	46	499		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	46	522		release __OnRevMutex
-4	6692	523	#line 6692 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	523	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	523	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	523		set __D0movement, 75
-4	45	526	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	526	#pragma macro 7
-4	46	526		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-4	6699	549	#line 6699 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	549	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	45	549	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	549		set __Wait_7qG2_ms_7qG2_000_inline_movement, 500
-4	45	552	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	7921	552	#line 7921 "NXCDefs.h"
-4	7922	552		wait 500
-4	7921	554	#line 7921 "NXCDefs.h"
-4	45	554	#line 45 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	46	554	#line 46 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	47	554	#line 47 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	48	554		release moveMutex
-4	47	555	#line 47 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	49	555	#line 49 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	50	555	#line 50 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	51	555	#line 51 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	53	555	#line 53 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	54	555		jmp __NXC_Label_604
-4	53	557	#line 53 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-4	54	557		exit -1, -1
-5	56	0	#line 56 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+4	7922	488		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+4	7921	491	#line 7921 "NXCDefs.h"
+4	39	491	#line 39 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	40	491	#line 40 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	41	491	#line 41 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	42	491		release moveMutex
+4	41	492	#line 41 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	44	492	#line 44 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	492		jmp __NXC_Label_552
+4	45	494	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	494		acquire moveMutex
+4	45	495	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	495	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	495		set __D0movement, 75
+4	45	498	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	498	#pragma macro 10
+4	46	498		acquire __OnRevMutex
+4	46	499		neg __OnRev_Tmp, __D0movement
+4	46	502		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	46	525		release __OnRevMutex
+4	4537	526	#line 4537 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	526	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	526	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	526		set __D0movement, 75
+4	45	529	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	529	#pragma macro 7
+4	46	529		setout __constVal2, 2, __D0movement, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+4	4544	552	#line 4544 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	552	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	45	552	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	552		set __Wait_7qG2_ms_7qG2_000_inline_movement, 50
+4	45	555	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	7921	555	#line 7921 "NXCDefs.h"
+4	7922	555		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_movement
+4	7921	558	#line 7921 "NXCDefs.h"
+4	45	558	#line 45 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	46	558	#line 46 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	47	558	#line 47 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	48	558		release moveMutex
+4	47	559	#line 47 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	49	559	#line 49 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	50	559	#line 50 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	51	559	#line 51 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	53	559	#line 53 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	54	559		jmp __NXC_Label_489
+4	53	561	#line 53 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+4	54	561		exit -1, -1
+5	56	0	#line 56 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	57	0		set __D0grab_ball, 1
-5	57	3	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	57	3	#line 57 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	58	3		tst 5, __zfgrab_ball, __D0grab_ball
-5	57	6	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	58	6		brtst 4, __NXC_Label_675, __zfgrab_ball
-5	57	9	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	57	6	#line 57 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	58	6		brtst 4, __NXC_Label_560, __zfgrab_ball
+5	57	9	#line 57 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	58	9		getin __signed_stack_001grab_ball, __constVal3, 4
-5	57	13	#line 57 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	58	13	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	57	13	#line 57 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	58	13	#line 58 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	59	13		set __D0grab_ball, 1
-5	58	16	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	58	16	#line 58 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	59	16		cmp 4, __zfgrab_ball, __signed_stack_001grab_ball, __D0grab_ball
-5	58	20	#line 58 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	58	20	#line 58 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	59	20		mov __D0grab_ball, __zfgrab_ball
-5	59	22	#line 59 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	60	22		brtst 4, __NXC_Label_680, __zfgrab_ball
-5	60	25	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	59	22	#line 59 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	60	22		brtst 4, __NXC_Label_565, __zfgrab_ball
+5	60	25	#line 60 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	61	25		acquire moveMutex
-5	60	26	#line 60 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	26	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	60	26	#line 60 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	26	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	26	#pragma macro 7
 5	62	26		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6755	49	#line 6755 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	49	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	49	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	4600	49	#line 4600 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	49	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	49	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	49		mov __signed_stack_001grab_ball, pwr
-5	61	51	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	51	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	61	51	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	51	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	51		mov __signed_stack_002grab_ball, degrees
-5	61	53	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	53	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	61	53	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	53	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	53		set __signed_stack_003grab_ball, 0
-5	61	56	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	56	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	61	56	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	56	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	56		set __signed_stack_004grab_ball, 0
-5	61	59	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	61	59	#line 61 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	61	59	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	61	59	#line 61 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	62	59		set __D0grab_ball, 1
-5	62	62	#line 62 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	62	62	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	63	62	#pragma macro 33
 5	63	62		acquire __rotateMutex1
 5	63	63		arrbuild __rotate_ports1, __constVal1
@@ -1414,127 +1428,127 @@ Clump	Line	PC	Source
 5	63	81		mov __rotate_theRVD1, __constVal96
 5	63	83		subcall __RotateMotor1, ____RotateMotor1_return
 5	63	85		release __rotateMutex1
-5	6786	86	#line 6786 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	62	86	#line 62 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	63	86	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	63	86	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	4631	86	#line 4631 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	62	86	#line 62 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	63	86	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	63	86	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	64	86		mul pwr, pwr, __constValNeg1
-5	63	90	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	63	90	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	63	90	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	63	90	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	64	90		set __D0grab_ball, 75
-5	63	93	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	63	93	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	64	93	#pragma macro 10
 5	64	93		acquire __OnRevMutex
 5	64	94		neg __OnRev_Tmp, __D0grab_ball
 5	64	97		setout __OUT_AC, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
 5	64	120		release __OnRevMutex
-5	6800	121	#line 6800 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	63	121	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	63	121	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	4645	121	#line 4645 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	63	121	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	63	121	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	64	121		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 1500
-5	63	124	#line 63 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	63	124	#line 63 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	7921	124	#line 7921 "NXCDefs.h"
-5	7922	124		wait 1500
-5	7921	126	#line 7921 "NXCDefs.h"
-5	64	126	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	64	126	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	126		set __D0grab_ball, 75
-5	64	129	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	129	#pragma macro 10
-5	65	129		acquire __OnRevMutex
-5	65	130		neg __OnRev_Tmp, __D0grab_ball
-5	65	133		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	65	156		release __OnRevMutex
-5	6821	157	#line 6821 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	64	157	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	64	157	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	157		set __D0grab_ball, 75
-5	64	160	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	160	#pragma macro 7
-5	65	160		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6828	183	#line 6828 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	64	183	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	64	183	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	183		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 500
-5	64	186	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	7921	186	#line 7921 "NXCDefs.h"
-5	7922	186		wait 500
-5	7921	188	#line 7921 "NXCDefs.h"
-5	64	188	#line 64 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	188	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	65	188	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	188		getin __D0grab_ball, __constVal0, 4
-5	65	192	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	192		tst 5, __zfgrab_ball, __D0grab_ball
-5	65	195	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	195		mov __D0grab_ball, __zfgrab_ball
-5	65	197	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	197		brtst 4, __NXC_Label_706, __zfgrab_ball
-5	65	200	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	200		mov __signed_stack_001grab_ball, __D0grab_ball
-5	65	202	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	202		getin __signed_stack_002grab_ball, __constVal1, 4
-5	65	206	#line 65 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	206	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	206		mov __D0grab_ball, SW
-5	66	208	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	208		cmp 3, __zfgrab_ball, __signed_stack_002grab_ball, __D0grab_ball
-5	66	212	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	66	212	#line 66 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	212		and __D0grab_ball, __signed_stack_001grab_ball, __zfgrab_ball
-5	67	216	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	216		tst 5, __zfgrab_ball, __D0grab_ball
-5	67	219	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	219		brtst 4, __NXC_Label_704, __zfgrab_ball
-5	67	222	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	222		set __D0grab_ball, 75
-5	67	225	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	225	#pragma macro 10
-5	68	225		acquire __OnRevMutex
-5	68	226		neg __OnRev_Tmp, __D0grab_ball
-5	68	229		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	68	252		release __OnRevMutex
-5	6875	253	#line 6875 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	253	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	253	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	253		set __D0grab_ball, 75
-5	67	256	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	256	#pragma macro 7
-5	68	256		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6882	279	#line 6882 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	279	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	67	279	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	279		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 100
-5	67	282	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	7921	282	#line 7921 "NXCDefs.h"
-5	7922	282		wait 100
+5	7922	124		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+5	7921	127	#line 7921 "NXCDefs.h"
+5	64	127	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	64	127	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	127		set __D0grab_ball, 75
+5	64	130	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	130	#pragma macro 10
+5	65	130		acquire __OnRevMutex
+5	65	131		neg __OnRev_Tmp, __D0grab_ball
+5	65	134		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	65	157		release __OnRevMutex
+5	4666	158	#line 4666 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	64	158	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	64	158	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	158		set __D0grab_ball, 75
+5	64	161	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	161	#pragma macro 7
+5	65	161		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4673	184	#line 4673 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	64	184	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	64	184	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	184		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 500
+5	64	187	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	7921	187	#line 7921 "NXCDefs.h"
+5	7922	187		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+5	7921	190	#line 7921 "NXCDefs.h"
+5	64	190	#line 64 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	190	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	65	190	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	190		getin __D0grab_ball, __constVal0, 4
+5	65	194	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	194		tst 5, __zfgrab_ball, __D0grab_ball
+5	65	197	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	197		mov __D0grab_ball, __zfgrab_ball
+5	65	199	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	199		brtst 4, __NXC_Label_591, __zfgrab_ball
+5	65	202	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	202		mov __signed_stack_001grab_ball, __D0grab_ball
+5	65	204	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	204		getin __signed_stack_002grab_ball, __constVal1, 4
+5	65	208	#line 65 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	208	#line 66 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	208		mov __D0grab_ball, SW
+5	66	210	#line 66 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	210		cmp 3, __zfgrab_ball, __signed_stack_002grab_ball, __D0grab_ball
+5	66	214	#line 66 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	66	214	#line 66 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	214		and __D0grab_ball, __signed_stack_001grab_ball, __zfgrab_ball
+5	67	218	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	218		tst 5, __zfgrab_ball, __D0grab_ball
+5	67	221	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	221		brtst 4, __NXC_Label_589, __zfgrab_ball
+5	67	224	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	224		set __D0grab_ball, 75
+5	67	227	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	227	#pragma macro 10
+5	68	227		acquire __OnRevMutex
+5	68	228		neg __OnRev_Tmp, __D0grab_ball
+5	68	231		setout __constVal0, 2, __OnRev_Tmp, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	68	254		release __OnRevMutex
+5	4720	255	#line 4720 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	255	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	255	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	255		set __D0grab_ball, 75
+5	67	258	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	258	#pragma macro 7
+5	68	258		setout __constVal2, 2, __D0grab_ball, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4727	281	#line 4727 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	281	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	67	281	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	281		set __Wait_7qG2_ms_7qG2_000_inline_grab_ball, 100
+5	67	284	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 5	7921	284	#line 7921 "NXCDefs.h"
-5	67	284	#line 67 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	68	284	#line 68 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	69	284	#line 69 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	70	284		jmp __NXC_Label_703
-5	69	286	#line 69 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	70	286	#line 70 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	71	286	#pragma macro 7
-5	71	286		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
-5	6900	309	#line 6900 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	70	309	#line 70 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	71	309	#line 71 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	72	309		release moveMutex
-5	71	310	#line 71 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	73	310	#line 73 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	75	310	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	76	310		jmp __NXC_Label_674
-5	75	312	#line 75 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
-5	76	312		exit -1, -1
-6	124	0	#line 124 "C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc"
+5	7922	284		wait2 NA, __Wait_7qG2_ms_7qG2_000_inline_grab_ball
+5	7921	287	#line 7921 "NXCDefs.h"
+5	67	287	#line 67 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	68	287	#line 68 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	69	287	#line 69 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	70	287		jmp __NXC_Label_588
+5	69	289	#line 69 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	70	289	#line 70 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	71	289	#pragma macro 7
+5	71	289		setout __OUT_AC, 2, __constVal0, 1, __constVal3, 8, __constVal0, 6, __constVal32, 7, __constVal0, 5, __constVal0, 10, __constVal96, 11, __constVal32, 12, __constVal32, 0, __constVal63
+5	4745	312	#line 4745 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	70	312	#line 70 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	71	312	#line 71 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	72	312		release moveMutex
+5	71	313	#line 71 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	73	313	#line 73 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	75	313	#line 75 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	76	313		jmp __NXC_Label_559
+5	75	315	#line 75 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
+5	76	315		exit -1, -1
+6	124	0	#line 124 "C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc"
 6	125	0		subret ____initialize_global_data_return
 #CLUMPS
 Clump	Name	Offset	File
-0	main	0	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc
+0	main	0	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc
 1	__RotateMotor1	460	NXTDefs.h
-2	__ResetSensorSubroutine	614	NXTDefs.h
-3	PlaySound	627	NXCDefs.h
-4	movement	1020	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc
-5	grab_ball	1580	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc
-6	__initialize_global_data	1895	C:\Users\MATTHI~1\AppData\Local\Temp\temp.nxc
+2	__ResetSensorSubroutine	629	NXTDefs.h
+3	PlaySound	642	NXCDefs.h
+4	movement	1041	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc
+5	grab_ball	1605	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc
+6	__initialize_global_data	1923	C:\Users\Matthias Herrmann\NXT-ROBOTIK\Enterprise1.nxc

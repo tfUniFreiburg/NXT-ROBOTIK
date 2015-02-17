@@ -1,0 +1,95 @@
+int SW;
+int pwr;
+int degrees;
+#define turn_right(s,t)       OnFwd (OUT_A, s); OnRev (OUT_C, s); Wait (t);
+#define turn_left(s,t)        OnRev (OUT_A, s); OnFwd (OUT_C, s); Wait (t);
+#define search_line(s,t)      OnRev (OUT_A, s); OnFwd (OUT_C, s); Wait (t);
+
+mutex moveMutex;
+
+task movement()             // Die Konfiguration für das Vorwärtsfahren
+{
+ while (true)
+ {
+      if ((SENSOR_1&&SENSOR_3 >= SW)&&(SENSOR_2 <= SW))
+      // das geradeausfahren
+      {
+      Acquire(moveMutex);
+      OnFwdReg(OUT_AC,75,OUT_REGMODE_SPEED);Wait(10);
+      Release(moveMutex);
+      }
+      else               //Wenn nicht, dann Links, Rechts oder Wenden prüfen
+      {
+          if (((SENSOR_1&&SENSOR_2 <= SW) && (SENSOR_3 >= SW))||((SENSOR_2&&SENSOR_3 >= SW) && (SENSOR_1 <= SW)))
+          //Wenn Sensor 1 und 2 auf Schwarz und Sensor 3 auf Weiß || Sensor 2 und 3 auf Weiß und Sensor 1 auf Schwarz
+          //dann fährt der Roboter nach links
+          {
+           Acquire(moveMutex);
+           turn_left(75,10);          //links drehen
+           Release(moveMutex);
+          }
+          else               //Wenn nicht, dann rechts oder Wenden prüfen
+          {
+            if (((SENSOR_2 && SENSOR_3 <= SW) && (SENSOR_1 >= SW))||((SENSOR_1&&SENSOR_2 >= SW ) && (SENSOR_3 <= SW)))
+            //Wenn Sensor 2 und 3 auf Schwarz und Sensor 1 auf Weiß || Sensor 1 und 2 auf Weiß und Sensor 3 auf Schwarz
+            //dann fährt der Roboter nach rechts
+            {
+            Acquire(moveMutex);
+            turn_right(75,10);           //rechts drehen
+            Release(moveMutex);
+            }
+            else
+            {
+             Acquire(moveMutex);
+             search_line(75,10);      // Linie suchen
+             Release(moveMutex);
+             }                 // für das dritte else
+          }                    // für das zweite else
+      }                        // für das erste else
+ }                             // für While
+}                              // für Task
+
+task grab_ball()
+{
+     while(true)
+     {
+      if (SENSOR_4 == 1)
+      {
+       Acquire(moveMutex);
+       Off(OUT_AC);
+       RotateMotorEx(OUT_B, pwr, degrees,0,false,true);
+       pwr *= -1;
+       OnRev(OUT_AC,75);Wait(1500);
+       turn_left(75,500);
+       while(SENSOR_1 && SENSOR_2 >= SW)
+       {
+       turn_left(75,100);
+       }
+       Off(OUT_AC);
+       Release(moveMutex);
+      }
+     }
+}
+
+task music()
+{
+}
+task main ()
+{
+// Für Chandran
+do
+{
+
+}
+while (false)
+
+// bis hier
+ SW = 30;
+ degrees = 110;
+ pwr = 40;
+ SetSensorLight(IN_1);
+ SetSensorLight(IN_2);
+ SetSensorLight(IN_3);
+ SetSensor(IN_4,SENSOR_TOUCH);         // Sensoren sind definiert
+ Precedes (movement, grab_ball);       // Wir führen mehrere Tasks parallel aus
+}
