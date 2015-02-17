@@ -27,7 +27,7 @@ task movement()             // Die Konfiguration für das Vorwärtsfahren
           //dann fährt der Roboter nach links
           {
            Acquire(moveMutex);
-           turn_left(75,200);          //links drehen
+           turn_left(75,50);          //links drehen
            Release(moveMutex);
           }
           else               //Wenn nicht, dann rechts oder Wenden prüfen
@@ -37,7 +37,7 @@ task movement()             // Die Konfiguration für das Vorwärtsfahren
             //dann fährt der Roboter nach rechts
             {
             Acquire(moveMutex);
-            turn_right(75,200);           //rechts drehen
+            turn_right(75,50);           //rechts drehen
             Release(moveMutex);
             }
             else
