@@ -1,3 +1,4 @@
+int BFL, WFL, FLC, FL;
 int SW;
 bool state=false;
 int pwr;
